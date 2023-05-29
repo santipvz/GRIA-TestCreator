@@ -9,9 +9,28 @@
       "correct_option": 1
     },
     {
-      "question": "Which planet is known as the Red Planet?",
-      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "question": "¿Qué no es una empresa?",
+      "options": ["Unidad de decisión",
+           "Unidad de producción",
+           "Unidad técnico-económica",
+           "Unidad socio-política"],
       "correct_option": 1
+    },
+    {
+      "question": "Señale la respuesta correcta",
+      "options": ["Las organizaciones son un tipo específico de empresas",
+           "Las organizaciones no tienen un propósito o finalidad específicos",
+           "Todas las organizaciones tienen un fin lucrativo",
+           "Las organizaciones no empresariales tienen beneficios"],
+      "correct_option": 3
+    },
+    {
+      "question": "¿Qué característica no identifica a una organización",
+      "options": ["Los objetivos",
+           "Las personas",
+           "Los procesos",
+           "Una estructura"],
+      "correct_option": 2
     }
   ]
 }
