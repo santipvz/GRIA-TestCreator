@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "question": "Señale la respuesta correcta",
+      "options": ["Eficiencia y eficacia se diferencian sólo por los resultados",
+      		 "En general, una mayor eficiencia implica una mejor productividad",
+      		 "Una empresa no eficiente en ningún caso puede ser eficaz",
+      		 "Eficacia es obtener el máximo rendimiento con el mínimo de recursos"],
+      "correct_option": 1
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "correct_option": 1
+    }
+  ]
+}

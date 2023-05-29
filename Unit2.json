@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "question": "¿Cuáles son las cuatro funciones básicas de gestión en el trabajo directivo?",
+      "options": ["Planificar, gestionar, controlar y administrar",
+      		 "Gestionar, liderar, negociar y organizar",
+      		 "Planificar, organizar, liderar y controlar",
+      		 "Organizar, gestionar, controlar y liderar"],
+      "correct_option": 2
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Fe", "Hg"],
+      "correct_option": 0
+    }
+  ]
+}

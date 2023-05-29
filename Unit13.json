@@ -1,0 +1,19 @@
+{
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["London", "Paris", "Berlin", "Madrid"],
+      "correct_option": 1
+    },
+    {
+      "question": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Saturn"],
+      "correct_option": 1
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Fe", "Hg"],
+      "correct_option": 0
+    }
+  ]
+}

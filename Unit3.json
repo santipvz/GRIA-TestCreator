@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué diferencias hay entre la descripción y la especificación del puesto de trabajo?",
+      "options": ["La DPT establece las competencias que idealmente debería tener un candidato",
+      		 "La EPT es lo mismo que el registro de trabajo",
+      		 "La DPT describe lo que debe hacer el titular de un puesto de trabajo",
+      		 "EPT y DPT son lo mismo, pero adoptan nombres diferentes según la empresa"],
+      "correct_option": 2
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Fe", "Hg"],
+      "correct_option": 0
+    }
+  ]
+}

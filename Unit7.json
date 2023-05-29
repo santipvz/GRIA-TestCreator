@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "question": "Siendo r el tipo de rendimiento interno y k el coste del capital, una inversión es realizable según el criterio de TIR",
+      "options": ["cuando TIR >= 0",
+      		 "cuando  TIR >  0",
+      		 "cuando  r   >= k",
+      		 "cuando  r   >  k"],
+      "correct_option": 3
+    },
+    {
+      "question": "What is the chemical symbol for gold?",
+      "options": ["Au", "Ag", "Fe", "Hg"],
+      "correct_option": 0
+    }
+  ]
+}
