@@ -9,8 +9,11 @@
       "correct_option": 3
     },
     {
-      "question": "What is the chemical symbol for gold?",
-      "options": ["Au", "Ag", "Fe", "Hg"],
+      "question": "¿Cómo no se calcula el fondo de maniobra?",
+      "options": ["Pasivo no corriente – Patrimonio neto",
+                  "Es igual al capital circulante", 
+                  "Activo corriente – Pasivo corriente",
+                  "Patrimonio neto + Pasivo no corriente – Activo no corriente"],
       "correct_option": 0
     }
   ]
