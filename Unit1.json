@@ -25,12 +25,44 @@
       "correct_option": 3
     },
     {
-      "question": "¿Qué característica no identifica a una organización",
+      "question": "¿Qué característica no identifica a una organización?",
       "options": ["Los objetivos",
            "Las personas",
            "Los procesos",
            "Una estructura"],
       "correct_option": 2
+    },
+    {
+      "question": "¿Qué es la gestión de organizaciones?",
+      "options": ["El proceso de dirigir y controlar las empresas",
+           "El proceso de lograr metas y objetivos",
+           "La forma de trabajar en diferentes áreas",
+           "La forma de gestionar el tamaño de la organización"],
+      "correct_option": 0
+    },
+    {
+      "question": "¿Cuál de los siguientes factores puede influir en el modo y ámbito de la gestión?",
+      "options": ["El nivel jerárquico del directivo",
+           "El área de trabajo del directivo",
+           "El tamaño de la organización",
+           "Todas son correctas"],
+      "correct_option": 3
+    },
+    {
+      "question": "Es posible que existan diferentes enfoques de gestión en diferentes culturas y sectores?",
+      "options": ["Solo los sectores tienen diferentes enfoques de gestión",
+           "No, todas las culturas y sectores gestionan de la misma manera",
+           "Sí, ya que las culturas y los sectores pueden tener diferentes formas de gestionar",
+           "Solo las culturas tienen diferentes enfoques de gestión"],
+      "correct_option": 2
+    },
+    {
+      "question": "¿Cuál es uno de los beneficios de la IA para empresas y organizaciones?",
+      "options": ["Incrementar los costos operativos",
+           "Optimizar los procesos empresariales y mejorar la eficiencia",
+           "Reducir la productividad de los empleados",
+           "Limitar la toma de decisiones"],
+      "correct_option": 1
     }
   ]
 }
