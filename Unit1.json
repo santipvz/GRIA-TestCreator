@@ -63,6 +63,62 @@
            "Reducir la productividad de los empleados",
            "Limitar la toma de decisiones"],
       "correct_option": 1
+    },
+    {
+      "question": "¿En qué estado se encuentra la economía?",
+      "options": ["Semiglobalización",
+           "Globalización",
+           "Depende del experto",
+           "Glocalización"],
+      "correct_option": 2
+    },
+    {
+      "question": "¿Qué significa globalización?",
+      "options": ["Las organizaciones piensan globalmente pero actúan localmente",
+           "Un mundo sin fronteras donde los bienes y servicios se producen y comercializan en todo el mundo, donde hay un intercambio de directivos y empleados entre países, y flujos de fuentes y recursos financieros.",
+           "Todas son incorrectas",
+           "Los gerentes deben entender culturas, sistemas, técnicas y leyes diferentes de las propias y adaptarse al entorno cambiante."],
+      "correct_option": 1
+    },
+    {
+      "question": "¿Qué significa semiglobalización?",
+      "options": ["Las organizaciones piensan globalmente pero actúan localmente",
+           "Un mundo sin fronteras donde los bienes y servicios se producen y comercializan en todo el mundo, donde hay un intercambio de directivos y empleados entre países, y flujos de fuentes y recursos financieros.",
+           "Todas son incorrectas",
+           "Los gerentes deben entender culturas, sistemas, técnicas y leyes diferentes de las propias y adaptarse al entorno cambiante."],
+      "correct_option": 3
+    },
+    {
+      "question": "¿Qué significa glocalización?",
+      "options": ["Las organizaciones piensan globalmente pero actúan localmente",
+           "Un mundo sin fronteras donde los bienes y servicios se producen y comercializan en todo el mundo, donde hay un intercambio de directivos y empleados entre países, y flujos de fuentes y recursos financieros.",
+           "Todas son incorrectas",
+           "Los gerentes deben entender culturas, sistemas, técnicas y leyes diferentes de las propias y adaptarse al entorno cambiante"],
+      "correct_option": 0
+    },
+    {
+      "question": "¿Qué se entiende por entorno externo en el contexto de una organización?",
+      "options": ["Factores y situaciones dentro de la organización que afectan su desempeño",
+           "Factores, fuerzas, situaciones y acontecimientos fuera de la organización que afectan su desempeño.",
+           "El conjunto de reglamentos y políticas internas de la organización",
+           "Las tendencias demográficas dentro de la organización"],
+      "correct_option": 1
+    },
+    {
+      "question": "¿Cuál de las siguientes tríos dimensiones no se incluye en la clasificación del entorno externo?",
+      "options": ["Económica, Demográfica y Tecnológica",
+           "Económica, Sociocultural y Político/legal",
+           "Demográfica, Tecnológica y Organizacional",
+           "Económica, Tecnológica y Global"],
+      "correct_option": 2
+    },
+    {
+      "question": "¿Qué es incorrecto sobre la economía compartida (sharing economy)?",
+      "options": ["Los propietarios de activos comparten con otras personas a través del servicio de pares (peer-to-peer)",
+           "Airbnb y Uber son ejemplos de economía compartida",
+           "El modelo de economía compartida se basa en la propiedad colectiva de activos y recursos en lugar de la propiedad individual",
+           "Puede ser llamada economía de acceso"],
+      "correct_option": 2
     }
   ]
 }
