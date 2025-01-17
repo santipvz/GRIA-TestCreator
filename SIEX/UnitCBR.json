@@ -1,0 +1,134 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué ventaja tiene la función sentence_transformers() respecto a jaro() o levenshtein()?",
+      "options": [
+        "Es más rápida al procesar largas cadenas de texto",
+        "Utiliza funciones de similitud basadas en taxonomías.",
+        "Puede alinear secuencias de longitud variable automáticamente.",
+        "Evalúa similitud semántica utilizando embeddings preentrenados."
+      ],
+      "correct_option": 3,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué estrategia utiliza wu_palmer() para calcular la similitud entre nodos de una taxonomía?",
+      "options": [
+        "Basarse en pesos definidos por el usuario.",
+        "Usar la profundidad de los nodos y su ancestro común más cercano (LCA).",
+        "Calcular la proporción de coincidencias entre las ramas de los nodos.",
+        "Comparar las claves de los nodos directamente."
+      ],
+      "correct_option": 1,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes es comúnmente utilizada en la etapa de recuperación en CBR?",
+      "options": [
+        "Redes neuronales.",
+        "Ninguna de las opciones indicadas se utiliza en la fase de Recuperación.",
+        "Métricas de similaridad.",
+        "Algoritmos genéticos."
+      ],
+      "correct_option": 2,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué métrica de similitud evalúa cadenas basándose en la distancia de edición?",
+      "options": [
+        "Jacquard.",
+        "Wu-Palmer.",
+        "Dynamic Time Warping.",
+        "Levenshtein."
+      ],
+      "correct_option": 3,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "En CBRkit, ¿qué sucede si se utiliza la función json() para cargar un archivo con una lista de objetos JSON?",
+      "options": [
+        "La clave de cada caso será un hash basado en sus valores.",
+        "Se crea un DataFrame de pandas con los objetos como filas.",
+        "La clave de cada caso será su índice en la lista.",
+        "Los objetos se convierten en una taxonomía jerárquica."
+      ],
+      "correct_option": 2,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cómo se combina la similaridad de múltiples atributos en la función attribute_value()?",
+      "options": [
+        "Basándose en el tipo de los datos.",
+        "Utilizando una métrica predeterminada fija.",
+        "Tomando el promedio ponderado automáticamente.",
+        "A través de un método de agregación especificado en el parámetro aggregator."
+      ],
+      "correct_option": 3,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué objetivo tiene la etapa de \"Reutilizar\" en CBR?",
+      "options": [
+        "Identificar los casos más similares al problema actual.",
+        "Calcular el grado de similitud entre dos casos.",
+        "Modificar un caso (o casos) existente para ajustarlo al problema actual.",
+        "Agregar nuevos casos a la base de conocimientos."
+      ],
+      "correct_option": 2,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué tipo de conocimiento utiliza CBR para resolver problemas?",
+      "options": [
+        "Modelos estadísticos y algoritmos de predicción.",
+        "Bases de datos relacionales.",
+        "Heurísticas y reglas predefinidas.",
+        "Experiencias previas almacenadas en casos."
+      ],
+      "correct_option": 3,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué formato puede usarse para cargar una taxonomía con cbrkit.sim.strings.taxonomy.load()?",
+      "options": ["PDF", "TXT", "YAML", "CSV"],
+      "correct_option": 2,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué módulo proporciona la función jaccard() para calcular la similitud?",
+      "options": [
+        "cbrkit.sim.collections",
+        "cbrkit.sim.numbers",
+        "cbrkit.sim.generic",
+        "cbrkit.sim.strings"
+      ],
+      "correct_option": 0,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué papel juegan las métricas de similaridad en el proceso de CBR?",
+      "options": [
+        "Sirven para estructurar la base de datos en forma de taxonomía.",
+        "Permiten medir la calidad de la solución final.",
+        "Son usadas para identificar los casos más relevantes en la base de casos.",
+        "Todas las opciones son correctas."
+      ],
+      "correct_option": 2,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué función del módulo cbrkit.sim permite definir una métrica de similitud basada en los atributos de los casos?",
+      "options": [
+        "taxonomy.load()",
+        "attribute_value()",
+        "similarity_func()",
+        "aggregator()"
+      ],
+      "correct_option": 1,
+      "questionType": "multipleChoice"
+    }
+  ]
+}
+
+
+
