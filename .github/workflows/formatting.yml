@@ -60,7 +60,7 @@ jobs:
           if ! git diff --quiet; then
             git add .
             git commit -m "chore: Auto-format code with Black and Prettier [GitHub Action]"
-            git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }} HEAD:main
+            git push git@github.com:${{ github.repository }} HEAD:main
           else
             echo "No changes to push."
           fi
