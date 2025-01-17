@@ -2,42 +2,24 @@
   "questions": [
     {
       "question": "(Diapositiva 30) ¿Cuál es la función subajustada?",
-      "options": [
-        "La verde",
-        "La roja",
-        "La morada"
-      ],
+      "options": ["La verde", "La roja", "La morada"],
       "correct_option": 0,
       "questionType": "multipleChoice",
-      "images": [
-        "ajustes.png"
-      ]
+      "images": ["ajustes.png"]
     },
     {
       "question": "(Diapositiva 30) ¿Cuál es la función sobreajustada?",
-      "options": [
-        "La verde",
-        "La roja",
-        "La morada"
-      ],
+      "options": ["La verde", "La roja", "La morada"],
       "correct_option": 2,
       "questionType": "multipleChoice",
-      "images": [
-        "ajustes.png"
-      ]
+      "images": ["ajustes.png"]
     },
     {
       "question": "(Diapositiva 30) ¿Cuál es la función que no está subajustada ni sobreajustada?",
-      "options": [
-        "La verde",
-        "La roja",
-        "La morada"
-      ],
+      "options": ["La verde", "La roja", "La morada"],
       "correct_option": 1,
       "questionType": "multipleChoice",
-      "images": [
-        "ajustes.png"
-      ]
+      "images": ["ajustes.png"]
     }
   ]
 }

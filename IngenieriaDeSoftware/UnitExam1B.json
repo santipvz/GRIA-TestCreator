@@ -24,12 +24,7 @@
     },
     {
       "question": "¿Qué se tiene en cuenta en la evaluación del software?",
-      "options": [
-        "",
-        "",
-        "",
-        "El uso de métodos sitemáticos"
-      ],
+      "options": ["", "", "", "El uso de métodos sitemáticos"],
       "correct_option": 3,
       "questionType": "multipleChoice"
     },
@@ -46,23 +41,13 @@
     },
     {
       "question": "Pregunta 5 del test",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "correct_option": 2,
       "questionType": "multipleChoice"
     },
     {
       "question": "Pregunta 6 del test",
-      "options": [
-        "",
-        "",
-        "",
-        ""
-      ],
+      "options": ["", "", "", ""],
       "correct_option": 0,
       "questionType": "multipleChoice"
     },
@@ -90,17 +75,13 @@
     },
     {
       "question": "Era pasar el modelo XP sobre el espiral",
-      "options": [
-        ""
-      ],
+      "options": [""],
       "correct_option": 0,
       "questionType": "multipleChoice"
     },
     {
       "question": "Daba una historia de usuario y había que hacer la tarjeta CRC de la clase Prueba",
-      "options": [
-        ""
-      ],
+      "options": [""],
       "correct_option": 0,
       "questionType": "multipleChoice"
     }

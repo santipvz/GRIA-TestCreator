@@ -2,12 +2,7 @@
   "questions": [
     {
       "question": "A través de qué puerto se accede a la página web Proxmox (Puerto por defecto). Escribe el número.",
-      "options": [
-        "8006",
-        "",
-        "",
-        ""
-      ],
+      "options": ["8006", "", "", ""],
       "correct_option": 0,
       "questionType": "multipleChoice"
     },
@@ -35,21 +30,13 @@
     },
     {
       "question": "¿Cuáles de los siguientes comandos NO funcionan (unknown command) en el apartado “Monitor” de una máquina virtual en funcionamiento (en Proxmox)?",
-      "options": [
-        "ls",
-        "mkdir",
-        "Todos los anteriores",
-        "df"
-      ],
+      "options": ["ls", "mkdir", "Todos los anteriores", "df"],
       "correct_option": 2,
       "questionType": "multipleChoice"
     },
     {
       "question": "¿Es posible editar el archivo Hosts de un nodo desde la interfaz de Proxmox?",
-      "options": [
-        "Falso",
-        "Verdadero"
-      ],
+      "options": ["Falso", "Verdadero"],
       "correct_option": 1,
       "questionType": "multipleChoice"
     },
@@ -132,23 +119,13 @@
     },
     {
       "question": "¿Cuál es la versión más antigua de Windows que tenemos disponible para virtualizar a la hora de crear un máquina virtual en Proxmox ?",
-      "options": [
-        "Windows 98",
-        "Windows 95",
-        "Windows 2007",
-        "Windows 2000"
-      ],
+      "options": ["Windows 98", "Windows 95", "Windows 2007", "Windows 2000"],
       "correct_option": 3,
       "questionType": "multipleChoice"
     },
     {
       "question": "A la hora de añadir un dispositivo hardware “serial port” a nuestra máquina virtual ¿cual es el número más alto que podemos introducir sin error?",
-      "options": [
-        "80",
-        "3",
-        "Infinito",
-        "50"
-      ],
+      "options": ["80", "3", "Infinito", "50"],
       "correct_option": 1,
       "questionType": "multipleChoice"
     },

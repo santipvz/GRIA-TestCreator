@@ -2,12 +2,7 @@
   "questions": [
     {
       "question": "Las Bases de Datos y los Sistemas Multiusuario en Tiempo Real aparecen en la década",
-      "options": [
-        "1950-6?",
-        "1960-7?",
-        "1970-8?",
-        "1980-9?"
-      ],
+      "options": ["1950-6?", "1960-7?", "1970-8?", "1980-9?"],
       "correct_option": 1,
       "questionType": "multipleChoice"
     },
@@ -90,17 +85,13 @@
     },
     {
       "question": "Trasladar AMDD sobre el modelo en espiral",
-      "options": [
-        ""
-      ],
+      "options": [""],
       "correct_option": 0,
       "questionType": "multipleChoice"
     },
     {
       "question": "Dada una historia de ususario sobre un servicio de control de evaluaciones hacer la tarjeta CRC de la clase Evaluación",
-      "options": [
-        ""
-      ],
+      "options": [""],
       "correct_option": 0,
       "questionType": "multipleChoice"
     }

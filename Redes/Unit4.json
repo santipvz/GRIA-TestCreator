@@ -79,12 +79,7 @@
     },
     {
       "question": "Si quisieras hacer una copia completa de una maquina en Virtual Box para ser usada en otro ordenador (también con Virtual Box instalado) ¿Cuál de los siguientes formatos usarías?",
-      "options": [
-        "VMDK",
-        "VHD",
-        "OVA",
-        "VDI"
-      ],
+      "options": ["VMDK", "VHD", "OVA", "VDI"],
       "correct_option": 2,
       "questionType": "multipleChoice"
     },
@@ -101,12 +96,7 @@
     },
     {
       "question": "¿Cuántos modos de red en VirtualBox permiten hacer una redirección de puertos de forma que podamos, por ejemplo, conectarnos a un servidor ssh o http instalado en la máquina virtualizada? (Escribe únicamente números)",
-      "options": [
-        "1",
-        "",
-        "",
-        ""
-      ],
+      "options": ["1", "", "", ""],
       "correct_option": 0,
       "questionType": "multipleChoice"
     }

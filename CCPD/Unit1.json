@@ -13,23 +13,13 @@
     },
     {
       "question": "(Diapositiva 20) ¿Qué modelo paralelo según el mecanismo de control y la clasificación de Flynn tiene varios flujos de instrucciones y un conjunto de datos?",
-      "options": [
-        "SISD",
-        "SIMD",
-        "MISD",
-        "MIMD"
-      ],
+      "options": ["SISD", "SIMD", "MISD", "MIMD"],
       "correct_option": 2,
       "questionType": "multipleChoice"
     },
     {
       "question": "(Diapositiva 30) Tenemos un problema que tarda en computarse 1000 horas. Usamos 100 procesos en los cada uno calcula 10 horas y 20 minutos y comunica 10 minutos ¿Cuál es su granularidad?",
-      "options": [
-        "62",
-        "1050 horas",
-        "95.238",
-        "33.333 horas"
-      ],
+      "options": ["62", "1050 horas", "95.238", "33.333 horas"],
       "correct_option": 0,
       "questionType": "multipleChoice"
     },

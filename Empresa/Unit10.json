@@ -2,12 +2,7 @@
   "questions": [
     {
       "question": "¿Cuál no es un criterio del control?",
-      "options": [
-        "Financiero",
-        "Objetivo",
-        "No financiero",
-        "Mixto"
-      ],
+      "options": ["Financiero", "Objetivo", "No financiero", "Mixto"],
       "correct_option": 1,
       "questionType": "multipleChoice"
     },
