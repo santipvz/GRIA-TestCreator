@@ -283,4 +283,3 @@ folder = "Redes"
 
 
 examGenerator(folder, numExams, numOfQuestions)
-examGenerator(folder)
