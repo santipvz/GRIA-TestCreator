@@ -1,0 +1,225 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué es el Internet de las Cosas (IoT)?",
+      "options": [
+        "Un tipo de red social para dispositivos electrónicos.",
+        "La conexión de objetos físicos a internet para recopilar y enviar datos automáticamente.",
+        "Un nuevo tipo de internet más rápido y seguro.",
+        "Un sistema exclusivo para empresas industriales."
+      ],
+      "correct_option": 1,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de los siguientes es un ejemplo de IoT?",
+      "options": [
+        "Un televisor que solo funciona con cable HDMI.",
+        "Un coche que necesita ser conducido manualmente.",
+        "Un reloj inteligente.",
+        "Un teléfono fijo con contestador automático."
+      ],
+      "correct_option": 2,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál es una de las principales ventajas del IoT en la industria?",
+      "options": [
+        "Permite la toma de decisiones basada en datos en tiempo real.",
+        "Reduce la cantidad de datos generados en la empresa.",
+        "Funciona solo con redes Wi-Fi de alta velocidad.",
+        "No requiere mantenimiento ni actualizaciones."
+      ],
+      "correct_option": 0,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué tecnología de conectividad es más adecuada para dispositivos IoT de largo alcance y bajo consumo energético?",
+      "options": ["Bluetooth.", "Wifi.", "Ethernet.", "WAN."],
+      "correct_option": 3,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cómo ayuda el Edge Computing a mejorar el rendimiento del IoT?",
+      "options": [
+        "Procesa los datos en la nube para reducir el uso de dispositivos locales.",
+        "Reduce la latencia al procesar los datos cerca de donde se generan.",
+        "Evita que los dispositivos IoT necesiten conectarse a internet.",
+        "Solo se utiliza en redes de área amplia (WAN)."
+      ],
+      "correct_option": 1,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál es el protocolo sucesor al IPv4?",
+      "options": ["IPv6.", "X10.", "IPv4.2.", "IPv5."],
+      "correct_option": 0,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué significa las siglas de RFID?",
+      "options": [
+        "Radio-frequency Identification (Identificación por radiofrecuencia).",
+        "Radio-frequency Input Device (Dispositivo de entrada de radiofrecuencia).",
+        "Remote Frequency Identification (Identificación de frecuencia remota).",
+        "Remote Frequency Input Device (Dispositivo de entrada de frecuencia remota)."
+      ],
+      "correct_option": 0,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿En que rango del RFID se encuentra el NFC?",
+      "options": [
+        "Low Frequency (LF).",
+        "High Frequency (HF).",
+        "Ultra High Frequency (UHF).",
+        "Microondas."
+      ],
+      "correct_option": 1,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué es lo que ocurrió de último?",
+      "options": [
+        "Introducción del protocolo HTTP/1.0.",
+        "Introducción del protocolo TCP/IP.",
+        "Introducción del protocolo IPv4.",
+        "Creación del ARPANET."
+      ],
+      "correct_option": 0,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de estos no es un producto de IoT?",
+      "options": [
+        "Un váter inteligente que mide tu salud.",
+        "Un medidor de la duración de erecciones nocturnas.",
+        "Un tenedor que mide la velocidad a la que comes.",
+        "Todos son productos reales."
+      ],
+      "correct_option": 3,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuáles son los 2 tipos principales diferentes de etiquetas RFID?",
+      "options": [
+        "Activas y pasivas.",
+        "Analógicas y digitales.",
+        "Infrarrojas y por Bluetooth.",
+        "Inalámbricas y cableadas."
+      ],
+      "correct_option": 0,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué fue lo que ocurrió primero?",
+      "options": [
+        "Se conecta una máquina vendedora a la ARPANET.",
+        "Se empieza a experimentar con IPv6.",
+        "Se puede apagar y encender una tostadora a través de la red.",
+        "Peter T. Lewis dice las palabras Internet of Things."
+      ],
+      "correct_option": 0,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué capas forman la arquitectura de un sistema IoT?",
+      "options": [
+        "Visual, sensorial, matemática y espacial.",
+        "Fisica, red, aplicación y analisis.",
+        "Wifi, MQTT, 5G y ML.",
+        "Fisica, comunicativa, procesamiento y sensorial."
+      ],
+      "correct_option": 1,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué tecnología se usa en IoT para predecir fallos y optimizar procesos?",
+      "options": [
+        "Machine learning.",
+        "Predictionware.",
+        "API REST.",
+        "Todas son correctas."
+      ],
+      "correct_option": 0,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál es una ventaja de utilizar Edge Computing en IoT?",
+      "options": [
+        "Mayor escalabilidad.",
+        "Solo funciona con redes 5G.",
+        "Complejidad O(log N).",
+        "Mayor privacidad."
+      ],
+      "correct_option": 3,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál es una ventaja de utilizar Edge Computing en IoT?",
+      "options": [
+        "Mayor escalabilidad.",
+        "Solo funciona con redes 5G.",
+        "Complejidad O(log N).",
+        "Mayor privacidad."
+      ],
+      "correct_option": 3,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué es esencial para las plataformas de IoT en cuanto a conectividad y comunicación?",
+      "options": [
+        "Deben usar solo Wi-Fi.",
+        "Deben ser capaces de conectarse a dispositivos mediante diversas tecnologías como 5G, Wi-Fi, Bluetooth, etc.",
+        "Deben conectarse únicamente a redes locales.",
+        "Ninguna es correcta."
+      ],
+      "correct_option": 1,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones respecto a la gestión de datos en sistemas IoT es correcta?",
+      "options": [
+        "Solo se almacenan datos de sensores.",
+        "Los dispositivos IoT generan pocos datos que no necesitan ser procesados.",
+        "Los datos generados por dispositivos IoT deben ser almacenados y procesados.",
+        "Ninguna de las anteriores es correcta."
+      ],
+      "correct_option": 2,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Por qué es importante la seguridad y privacidad en sistemas IoT?",
+      "options": [
+        "Porque los dispositivos IoT manejan datos sensibles, por lo que es necesario protegerlos con encriptación y autenticación.",
+        "Porque los dispositivos IoT siempre son privados y no necesitan protección.",
+        "Porque los dispositivos IoT no manejan datos sensibles.",
+        "Ninguna es correcta."
+      ],
+      "correct_option": 0,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué permite la escalabilidad en plataformas IoT?",
+      "options": [
+        "Manejar solo un pequeño número de conexiones de dispositivos.",
+        "Los dispositivos IoT no son escalables debido a que siempre son sensores únicos.",
+        "La escalabilidad permite tanto aumentar como disminuir la capacidad del sistema en función de las necesidades sin comprometer el rendimiento del sistema.",
+        "Reducir la cantidad de datos que generan los dispositivos IoT."
+      ],
+      "correct_option": 2,
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué significa interoperabilidad en un sistema IoT?",
+      "options": [
+        "Que los dispositivos de diferentes tecnologías puedan funcionar juntos.",
+        "Que los dispositivos de diferentes fabricantes puedan funcionar juntos.",
+        "Que los dispositivos de diferentes tecnologías y fabricantes puedan funcionar juntos.",
+        "Todas son incorrectas."
+      ],
+      "correct_option": 2,
+      "questionType": "multipleChoice"
+    }
+  ]
+}
