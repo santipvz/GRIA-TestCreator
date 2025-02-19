@@ -78,62 +78,45 @@ def testRandomizer(listOfQuestions):
 
 def examWriter(questions, fileOutName):
     submitFormFunction = """function submitForm() {
-                var form = document.getElementById("testForm");
-                var answers = [];
-                var questions = document.getElementsByClassName("singleChoice");
+        var form = document.getElementById("testForm");
+        form.elements["submitButton"].disabled = true;
 
-                for (var i = 0; i < questions.length; i++) {
-                    var question = questions[i];
-                    var inputs = question.getElementsByTagName("input");
-                    var answer = null;
+        var correctGlobal = 0;
+        var incorrectGlobal = 0;
+        var unanswered = 0;
+        var totalScore = 0;
 
-                    for (var j = 0; j < inputs.length; j++) {
-                        if (inputs[j].checked) {
-                            answer = inputs[j].value;
-                            break;
-                        }
-                    }
-                    answers.push(answer);
-                }
+        var questions = document.getElementsByClassName("singleChoice");
 
-                var correctAnswers = document.getElementsByClassName("correct-answer");
-
-                for (var i = 0; i < correctAnswers.length; i++) {
-                    correctAnswers[i].style.display = "block";
-
-                    // Obtener el input seleccionado de la pregunta
-                    var questionIndex = i;
-                    var selectedInput = document.querySelector('input[name="question_' + questionIndex + '"]:checked');
-
-                    // Verificar si la respuesta es correcta o incorrecta y aplicar la clase correspondiente
-                    if (selectedInput && selectedInput.value === correctAnswers[i].innerHTML.split(":")[1].trim()) {
-                        correctAnswers[i].classList.add("correct");
-                    } else {
-                        correctAnswers[i].classList.add("incorrect");
-                    }
-                }
-
-                var options = document.getElementsByTagName("input");
-
-                for (var i = 0; i < options.length; i++) {
-                    options[i].classList.add("answered");
-                }
-
-                var scores = calculateScore(answers);
-                var scoreDisplay = document.getElementById("scoreDisplay");
-
-                scoreDisplay.innerHTML = "Preguntas acertadas: " + scores.correctGlobal + "<br>Preguntas falladas: " + scores.incorrectGlobal + "<br>Puntuación total: " + scores.totalScore + "/10";
-
-                form.elements["submitButton"].disabled = true;
-
-                return false;
+        for (var question of questions) {
+            var score = singleChoice(question);
+            if (score === 1) {
+                correctGlobal++;
+                totalScore += score;
+            } else if (isNaN(score)) {
+                unanswered++;
+            } else {
+                incorrectGlobal++;
+                totalScore += score;
             }
+        }
+
+        // We calculate the score out of 10
+        totalScore = ((totalScore / questions.length) * 10).toFixed(2);
+
+        var scoreDisplay = document.getElementById("scoreDisplay");
+        scoreDisplay.innerHTML = "Preguntas acertadas: " + correctGlobal + "<br>Preguntas falladas: " + incorrectGlobal + "<br>Puntuación total: " + totalScore + "/10";
+
+        return false;
+    }
 """
 
     singleChoiceFunction = """function singleChoice(question) {
         var selectedInput = question.querySelector("input:checked");
         var correctAnswer = question.querySelector(".correct-answer");
-        var numOptions = question.getElementsByTagName("input").length;
+        correctAnswer.style.display = "block";
+        // We only count the ones with radio buttons
+        var numOptions = question.querySelectorAll("input[type=radio]").length;
 
         if (selectedInput && selectedInput.value === correctAnswer.innerHTML.split(":")[1].trim()) {
             correctAnswer.classList.add("correct");
@@ -152,43 +135,6 @@ def examWriter(questions, fileOutName):
             return -1 / (numOptions - 1);
         }
     }
-"""
-
-    calculateScoreFunction = """function calculateScore(answers) {
-                var correctGlobal = 0;
-                var incorrectGlobal = 0;
-                var unanswered = 0;
-
-                for (var i = 0; i < answers.length; i++) {
-                    var questionIndex = i;
-                    var correctOptionInput = document.getElementsByName("correct_" + questionIndex)[0];
-                    var correctOption = correctOptionInput.value;
-
-                    if (answers[i] === correctOption) {
-                        correctGlobal++;
-                    } else if (answers[i] !== null) {
-                        incorrectGlobal++;
-                    } else {
-                        unanswered++;
-                    }
-                }
-
-                var totalOptions = answers.length;
-                var totalCorrect = correctGlobal - Math.floor(incorrectGlobal / 3);  // Restar respuestas correctas por cada tres respuestas incorrectas
-                var score = (totalCorrect / totalOptions) * 10;  // Calcular la puntuación como un porcentaje
-
-                if (score < 0) {
-                    score = 0;
-                }
-
-                var result = {
-                    totalScore: score.toFixed(2),
-                    correctGlobal: correctGlobal,
-                    incorrectGlobal: incorrectGlobal,
-                    unanswered: unanswered
-                };
-                return result;
-            }
 """
 
     html_head = """
@@ -287,11 +233,7 @@ def examWriter(questions, fileOutName):
         )
 
     fileOut.write(html_tail)
-    fileOut.write(
-        combineFunctions(
-            [submitFormFunction, calculateScoreFunction, singleChoiceFunction]
-        )
-    )
+    fileOut.write(combineFunctions([submitFormFunction, singleChoiceFunction]))
     fileOut.close()
 
 
