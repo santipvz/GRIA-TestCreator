@@ -4,14 +4,14 @@
       "question": "Teniendo en cuenta la siguiente figura, escribe el comando que usarías para conectarte con el usuario sysadmin desde Blue Server a Red Server mediante ssh para poder lanzar comandos. (El puerto 80 corresponde a un servidor web al que no podemos acceder a causa de un firewall. Por eso queremos hacer una conexión SSH)",
       "options": ["ssh sysadmin@192.168.0.2", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice",
+      "questionType": "singleChoice",
       "images": ["sshImage.png"]
     },
     {
       "question": "¿Qué comando se utiliza para conectarse a un servidor SSH en un puerto específico?",
       "options": ["ssh -c", "ssh -r", "ssh -p", "ssh --remote_port"],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué comando usarías para ver en tiempo real (cada 10 segundos) desde tu máquina los usuarios conectados a una máquina remota (usuario: user, IP:192.168.0.222)? Deberás emplear unicamente los comandos vistos en clase y sin iniciar una sesión ssh interactiva. Es decir, sin que al ejecutar el comando, la sesión ssh se siga ejecutando",
@@ -22,13 +22,13 @@
         "Todas son correctas"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Teniendo en cuenta que el comando `date` nos permite ver la fecha actual, escribe el comando que nos permite ver la fecha remota del equipo `192.168.0.88` con el usuario `alumno` sin iniciar una sesión ssh interactiva. Es decir, sin que al ejecutar el comando, la sesión ssh se siga abierta",
       "options": ["ssh alumno@192.168.0.88 date", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es un ataque de “brute force” en SSH?",
@@ -39,7 +39,7 @@
         "Un ataque en el que el atacante trata de encontrar las contraseñas de inicio mediante la fuerza, probando múltiples combinaciones"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es la función principal del archivo sshd_config en un servidor SSH?",
@@ -50,7 +50,7 @@
         "Configurar las reglas SSH del servidor firewall."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué extensión suelen tener los archivos que almacenan las claves públicas SSH?",
@@ -61,7 +61,7 @@
         ".priv"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "En un sistema de almacenamiento, ¿Cuál es la relación entre el disco duro, particiones y los sistemas de archivos?",
@@ -72,31 +72,31 @@
         ""
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué comando (con parámetros y opciones) usarías para crear una clave privada de tipo ecdsa de 9046 bits? (Si 9046 no es posible, escribe el comando como si fuera posible tal cantidad de bits)",
       "options": ["ssh-keygen -t ecdsa -b 9046", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es el protocolo comúnmente utilizado para la transferencia de archivos a través de SSH?",
       "options": ["SFTP", "SMTP", "PUB", "HTTP"],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué comando usarías para ver en tiempo real (cada 10 segundos) desde tu máquina los usuarios conectados a una máquina remota (usuario: user, IP:192.168.0.222)? Deberás emplear unicamente los comandos vistos en clase y sin iniciar una sesión ssh interactiva. Es decir, sin que al ejecutar el comando, la sesión ssh se siga ejecutando",
       "options": ["ssh user@192.168.0.222 'watch -n 10 who'", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Con que comando (escríbelo) copiarías el fichero informe.txt  (en tu actual directorio) a un servidor remoto (192.168.0.33) con el usuario 'alumno' a la carpeta /tmp",
       "options": ["scp informe.txt alumno@192.168.0.33:/tmp", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de las siguientes respuestas es cierta?",
@@ -107,13 +107,13 @@
         "SSH se utiliza para dar seguridad a protocolos de transporte inseguros."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Teniendo en cuenta la siguiente imagen, en la que con un firewall deniega exclusivamente  conexiones a los puertos inferiores al 33, ¿Qué opción debemos cambiar del archivo sshd_config? (Escribe únicamente la línea modificada, cómo la dejarías en el fichero)",
       "options": ["Port 33", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice",
+      "questionType": "singleChoice",
       "images": ["firewall.png"]
     },
     {
@@ -125,7 +125,7 @@
         "Copiarla en un dispositivo USB."
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de las siguientes afirmaciones sobre las claves SSH es cierta?",
@@ -136,7 +136,7 @@
         "La clave pública se mantiene en secreto y la clave privada se comparte mediante ssh-copy-id."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué comando se usarías para iniciar una sesión SSH con un usuario específico (ejemplo alumno) en un servidor remoto?",
@@ -147,7 +147,7 @@
         "ssh -s usuario servidor"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

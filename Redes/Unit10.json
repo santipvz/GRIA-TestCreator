@@ -4,7 +4,7 @@
       "question": "A través de qué puerto se accede a la página web Proxmox (Puerto por defecto). Escribe el número.",
       "options": ["8006", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué tipo de comprensión se puede usar a la hora de hacer un Backup de una máquina virtual creada (mediante la interfaz de Proxmox)?",
@@ -15,7 +15,7 @@
         "LZO, GZIP, ZSTD"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuáles de los siguientes templates son válidos a la hora de hacer una copia de seguridad de una máquina virtual en proxmox?",
@@ -26,19 +26,19 @@
         "{{timestamp}}, {{guestname}}, {{role}}, {{user}}"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuáles de los siguientes comandos NO funcionan (unknown command) en el apartado “Monitor” de una máquina virtual en funcionamiento (en Proxmox)?",
       "options": ["ls", "mkdir", "Todos los anteriores", "df"],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Es posible editar el archivo Hosts de un nodo desde la interfaz de Proxmox?",
       "options": ["Falso", "Verdadero"],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de las siguientes opciones NO es un campo que debemos rellenar a la hora de crear un usuario en Proxmox?",
@@ -49,7 +49,7 @@
         "Expire (Caducar)"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué información recoge el apartado Summary en Proxmox?",
@@ -60,7 +60,7 @@
         "Información de las distintas máquinas virtuales creadas"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es el número máximo de cores que nos permite introducir Proxmox a la hora de crear una máquina virtual?",
@@ -71,7 +71,7 @@
         "128"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué opciones de BIOS podemos escoger a la hora de editar una máquina virtual ya creada (en Proxmox)?",
@@ -82,7 +82,7 @@
         "SeaBios, UEFI"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué formatos de imagen podemos crear a la hora de crear una máquina virtual en Proxmox?",
@@ -93,7 +93,7 @@
         "vdi, quemu, vmdk"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es Proxmox ?",
@@ -104,7 +104,7 @@
         "Un sistema de virtualización"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Cuáles de las siguientes opciones contiene los distintos atributos (columnas) que se pueden ver en el Cluster Log de Proxmox :",
@@ -115,19 +115,19 @@
         "TIME, CPU, RAM, SEVERITY"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es la versión más antigua de Windows que tenemos disponible para virtualizar a la hora de crear un máquina virtual en Proxmox ?",
       "options": ["Windows 98", "Windows 95", "Windows 2007", "Windows 2000"],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "A la hora de añadir un dispositivo hardware “serial port” a nuestra máquina virtual ¿cual es el número más alto que podemos introducir sin error?",
       "options": ["80", "3", "Infinito", "50"],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Cual de las siguientes afirmaciones es Verdadera:",
@@ -138,7 +138,7 @@
         "Puede instalarse Proxmox en cualquier hardware compatible"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

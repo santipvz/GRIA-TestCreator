@@ -4,7 +4,7 @@
       "question": "¿Cuál no es un criterio del control?",
       "options": ["Financiero", "Objetivo", "No financiero", "Mixto"],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Elija la opción correcta",
@@ -15,7 +15,7 @@
         "La estimación de un proyecto predictivo es el alcance"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es incorrecto sobre un análisis PERT?",
@@ -26,7 +26,7 @@
         "Hay que estimar el tiempo para cada actividad"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

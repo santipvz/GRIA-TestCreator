@@ -9,7 +9,7 @@
         "Década 1990-20??"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál no es una característica del software?",
@@ -20,13 +20,13 @@
         "Se realiza combinando componentes"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué se tiene en cuenta en la evaluación del software?",
       "options": ["", "", "", "El uso de métodos sitemáticos"],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es un modelo de desarrollo alternativo?",
@@ -37,19 +37,19 @@
         "Modelo en cascada"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Pregunta 5 del test",
       "options": ["", "", "", ""],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Pregunta 6 del test",
       "options": ["", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál no es una categoría de modelado?",
@@ -60,7 +60,7 @@
         "Modelado de interfaces de usuario"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué característica es del AMDD?",
@@ -71,19 +71,19 @@
         "El modelado inicial se hace en horas"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Era pasar el modelo XP sobre el espiral",
       "options": [""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Daba una historia de usuario y había que hacer la tarjeta CRC de la clase Prueba",
       "options": [""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

@@ -9,7 +9,7 @@
         "Eficacia es obtener el máximo rendimiento con el mínimo de recursos"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuáles son las cuatro funciones básicas de gestión en el trabajo directivo?",
@@ -20,7 +20,7 @@
         "Organizar, gestionar, controlar y liderar"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué diferencias hay entre la descripción y la especificación del puesto de trabajo?",
@@ -31,7 +31,7 @@
         "EPT y DPT son lo mismo, pero adoptan nombres diferentes según la empresa"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "En relación con la cadena de valor de Porter, señale la afirmación correcta",
@@ -42,7 +42,7 @@
         "Un objetivo pricipal de las actividades primarias es crear valor añadido"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "El producto es una variable del marketing-mix. Desde esta perspectiva señale la afimación correcta",
@@ -53,7 +53,7 @@
         "Debe centrarse en las características físicas y no en los beneficios que da"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Criterios para ordenar las cuentas del activo y pasivo",
@@ -64,7 +64,7 @@
         "Liquidez en el activo, exibiligidad en el pasivo"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Siendo r el tipo de rendimiento interno y k el coste del capital, una inversión es realizable según el criterio de TIR",
@@ -75,7 +75,7 @@
         "cuando r   >  k"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "En relación con la planificación estratégica podemos afirmar:",
@@ -86,7 +86,7 @@
         "Implica acciones y asignaciones de recursos necesarios"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuáles de los siguientes pares de dimensiones se encuentran entre las dimensiones culturales de Hofstede?",
@@ -97,7 +97,7 @@
         "Inclusividad vs. Exclusividad y Masculinidad vs. Feminidad"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué tipo de empresas son más propensas a sufrir el 'dilema del innovador'?",
@@ -108,7 +108,7 @@
         "Todas las empresas que optan por la innovación abierta"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

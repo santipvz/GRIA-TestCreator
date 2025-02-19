@@ -9,7 +9,7 @@
         "Un sistema exclusivo para empresas industriales."
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de los siguientes es un ejemplo de IoT?",
@@ -20,7 +20,7 @@
         "Un teléfono fijo con contestador automático."
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es una de las principales ventajas del IoT en la industria?",
@@ -31,13 +31,13 @@
         "No requiere mantenimiento ni actualizaciones."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué tecnología de conectividad es más adecuada para dispositivos IoT de largo alcance y bajo consumo energético?",
       "options": ["Bluetooth.", "Wifi.", "Ethernet.", "WAN."],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cómo ayuda el Edge Computing a mejorar el rendimiento del IoT?",
@@ -48,13 +48,13 @@
         "Solo se utiliza en redes de área amplia (WAN)."
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es el protocolo sucesor al IPv4?",
       "options": ["IPv6.", "X10.", "IPv4.2.", "IPv5."],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué significa las siglas de RFID?",
@@ -65,7 +65,7 @@
         "Remote Frequency Input Device (Dispositivo de entrada de frecuencia remota)."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿En que rango del RFID se encuentra el NFC?",
@@ -76,7 +76,7 @@
         "Microondas."
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es lo que ocurrió de último?",
@@ -87,7 +87,7 @@
         "Creación del ARPANET."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de estos no es un producto de IoT?",
@@ -98,7 +98,7 @@
         "Todos son productos reales."
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuáles son los 2 tipos principales diferentes de etiquetas RFID?",
@@ -109,7 +109,7 @@
         "Inalámbricas y cableadas."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué fue lo que ocurrió primero?",
@@ -120,7 +120,7 @@
         "Peter T. Lewis dice las palabras Internet of Things."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué capas forman la arquitectura de un sistema IoT?",
@@ -131,7 +131,7 @@
         "Fisica, comunicativa, procesamiento y sensorial."
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué tecnología se usa en IoT para predecir fallos y optimizar procesos?",
@@ -142,7 +142,7 @@
         "Todas son correctas."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es una ventaja de utilizar Edge Computing en IoT?",
@@ -153,7 +153,7 @@
         "Mayor privacidad."
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es una ventaja de utilizar Edge Computing en IoT?",
@@ -164,7 +164,7 @@
         "Mayor privacidad."
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es esencial para las plataformas de IoT en cuanto a conectividad y comunicación?",
@@ -175,7 +175,7 @@
         "Ninguna es correcta."
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de las siguientes afirmaciones respecto a la gestión de datos en sistemas IoT es correcta?",
@@ -186,7 +186,7 @@
         "Ninguna de las anteriores es correcta."
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Por qué es importante la seguridad y privacidad en sistemas IoT?",
@@ -197,7 +197,7 @@
         "Ninguna es correcta."
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué permite la escalabilidad en plataformas IoT?",
@@ -208,7 +208,7 @@
         "Reducir la cantidad de datos que generan los dispositivos IoT."
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué significa interoperabilidad en un sistema IoT?",
@@ -219,7 +219,7 @@
         "Todas son incorrectas."
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

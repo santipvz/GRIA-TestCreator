@@ -9,7 +9,7 @@
         "Comercio electrónico"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de los siguientes no es un modelo de negocio?",
@@ -20,7 +20,7 @@
         "Modelo de suscripción"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de los siguientes no es un modelo de negocio?",
@@ -31,7 +31,7 @@
         "Peer to peer"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

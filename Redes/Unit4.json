@@ -9,7 +9,7 @@
         "Permite guardar múltiples copias de seguridad de la máquina virtual."
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "En el contexto de la virtualización, ¿Qué representan los archivos VDI, VHD y VMDK y cuál es la principal diferencia entre ellos?",
@@ -20,7 +20,7 @@
         "Son archivos de instantánea que capturan el estado actual de una máquina virtual en un momento específico. La principal diferencia es el tamaño del archivo."
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es una red NAT (Network Address Translation) en VirtualBox?",
@@ -31,7 +31,7 @@
         "Una red que asigna automáticamente direcciones IP a las máquinas virtuales."
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es 'VBoxGuestAdditions.iso' y cuál es su función en VirtualBox?",
@@ -42,7 +42,7 @@
         "Un archivo de instalación de controladores y utilidades para mejorar la interacción entre el sistema host y la máquina virtual."
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuáles de las siguientes opciones de máquina virtual permite VirtualBox en términos de “portapapeles compartido”?",
@@ -53,7 +53,7 @@
         "Anfitrión a invitado"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es el “Modo de Red Interna” en VirtualBox?",
@@ -64,7 +64,7 @@
         "Un modo que desactiva todas las conexiones de red en la máquina virtual conservando solo la red interna localhost."
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es una de las ventajas clave de utilizar discos duros virtuales (VHD, VDI, VMDK) en lugar de discos duros físicos en entornos de virtualización?",
@@ -75,13 +75,13 @@
         "Los discos duros virtuales son más flexibles y portátiles, lo que permite la migración de máquinas virtuales entre diferentes hipervisores."
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Si quisieras hacer una copia completa de una maquina en Virtual Box para ser usada en otro ordenador (también con Virtual Box instalado) ¿Cuál de los siguientes formatos usarías?",
       "options": ["VMDK", "VHD", "OVA", "VDI"],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "En un sistema de almacenamiento, ¿Cuál es la relación entre el disco duro, particiones y los sistemas de archivos?",
@@ -92,13 +92,13 @@
         "Las particiones y los sistemas de archivos son términos intercambiables que se refieren a la misma cosa en el almacenamiento de datos."
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuántos modos de red en VirtualBox permiten hacer una redirección de puertos de forma que podamos, por ejemplo, conectarnos a un servidor ssh o http instalado en la máquina virtualizada? (Escribe únicamente números)",
       "options": ["1", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

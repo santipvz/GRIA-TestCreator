@@ -69,7 +69,7 @@ def questionGenerator(folderPath, numOfQuestions=10, questionsOfEachUnit=None):
 def testRandomizer(listOfQuestions):
     shuffle(listOfQuestions)
     for question in listOfQuestions:
-        if question["questionType"] == "multipleChoice":
+        if question["questionType"] == "singleChoice":
             correct = question["options"][question["correct_option"]]
             shuffle(question["options"])
             question["correct_option"] = question["options"].index(correct)

@@ -9,7 +9,7 @@
         "Todas las empresas que optan por la innovación abierta"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál no es un tipo de innovación según el objeto de la innovación?",
@@ -20,7 +20,7 @@
         "Innovación radical"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál no es un tipo de innovación según el impacto de la innovación?",
@@ -31,7 +31,7 @@
         "Innovación radical"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuáles son los dos tipo de innovación según el el grado de colaboración con agentes externos?",
@@ -42,7 +42,7 @@
         "Innovación privada o pública"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

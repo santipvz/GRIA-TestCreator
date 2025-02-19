@@ -4,7 +4,7 @@
       "question": "Las Bases de Datos y los Sistemas Multiusuario en Tiempo Real aparecen en la década",
       "options": ["1950-6?", "1960-7?", "1970-8?", "1980-9?"],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "NO es una característica del Software",
@@ -15,7 +15,7 @@
         "La mayoría se realiza a medida"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "La Ingeniería del Software es una disciplina tecnológica que",
@@ -26,7 +26,7 @@
         "trata de la producción y mantenimiento sistemático de productos software que se desarrollan y mantienen a lo largo del tiempo y con un coste estimado"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "En el paradigma del modelo en cascada, la fase de análisis de los requisitos se encarga",
@@ -37,7 +37,7 @@
         "Ninguna de las opciones es correcta"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "NO es un modelo de ciclo de vida alternativo",
@@ -48,7 +48,7 @@
         "Los modelos orientados al escenario de producción"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Es un principio ágil",
@@ -59,7 +59,7 @@
         "Medir la calidad del producto mediante complejas métricas estandarizadas"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Es una práctica central en las metodologías ágiles",
@@ -70,7 +70,7 @@
         "Representación completa y exhaustiva de los modelos"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Con la relación a la Programación eXtrema podemos afirmar",
@@ -81,19 +81,19 @@
         "Las historias de ususario escritas en tarjetas no permiten especificar la importancia de la misma"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Trasladar AMDD sobre el modelo en espiral",
       "options": [""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Dada una historia de ususario sobre un servicio de control de evaluaciones hacer la tarjeta CRC de la clase Evaluación",
       "options": [""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

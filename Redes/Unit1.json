@@ -9,19 +9,19 @@
         "Copiar archivos entre volúmenes"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué comando se utiliza para programar tareas periódicas en Linux?",
       "options": ["time", "task", "schedule", "cron"],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuáles de los siguientes comandos permiten instalar programas y gestionar paquetes?",
       "options": ["yum", "dnf", "apt", "Todos los anteriores"],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué hace el comando “cat quijote.txt | head -n 100 | tail 5” en un hipotético fichero?",
@@ -32,7 +32,7 @@
         "Muestra las 5 últimas líneas.Es decir: 95, 96 … 100."
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "En el supuesto de que un usuario tenga como directorio actual /var/www/html/myApp y quiera moverse a la carpeta /var/lib con un solo comando. ¿Cuál de los siguientes debería utilizar?",
@@ -43,43 +43,43 @@
         "cd ../../.././lib"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Que comando usarías junto con man para buscar de forma rápida una opción o un texto concreto en la ayuda/descripción de otro comando (deberás escribir el comando usado)",
       "options": ["grep", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Escribe el comando que usarías para guardar la salida del comando date en el fichero /tmp/date",
       "options": ["date >> /tmp/date", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Escribe el comando completo que usarías para ver el resultado de apt search mysql de forma paginada",
       "options": ["apt search mysql | less", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué comando usarías para guardar el resultado de pwd en una variable llamada var?",
       "options": ["var=`pwd`", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Escribe el comando que usarías para desinstalar el paquete mysql de tu ordenador",
       "options": ["sudo apt remove mysql", "", "", ""],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué comando se utiliza para copiar archivos y directorios preservando atributos y permisos en Linux?",
       "options": ["cp", "mv", "permsync", "rsync"],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es el comando para eliminar un directorio llamado 'old_dir' y todos sus contenidos, incluyendo subdirectorios y archivos?",
@@ -90,7 +90,7 @@
         "rm old_dir"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué comando usarías para mostrar las últimas 5 líneas de un archivo llamado 'archivo.txt'?",
@@ -101,7 +101,7 @@
         "cat archivo.txt & tail -5"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

@@ -9,7 +9,7 @@
         "Eficacia es obtener el máximo rendimiento con el mínimo de recursos"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué no es una empresa?",
@@ -20,7 +20,7 @@
         "Unidad socio-política"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Señale la respuesta correcta",
@@ -31,7 +31,7 @@
         "Las organizaciones no empresariales tienen beneficios"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué característica no identifica a una organización?",
@@ -42,7 +42,7 @@
         "Una estructura"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es la gestión de organizaciones?",
@@ -53,7 +53,7 @@
         "La forma de gestionar el tamaño de la organización"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de los siguientes factores puede influir en el modo y ámbito de la gestión?",
@@ -64,7 +64,7 @@
         "Todas son correctas"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Es posible que existan diferentes enfoques de gestión en diferentes culturas y sectores?",
@@ -75,7 +75,7 @@
         "Solo las culturas tienen diferentes enfoques de gestión"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es uno de los beneficios de la IA para empresas y organizaciones?",
@@ -86,7 +86,7 @@
         "Limitar la toma de decisiones"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿En qué estado se encuentra la economía?",
@@ -97,7 +97,7 @@
         "Glocalización"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué significa globalización?",
@@ -108,7 +108,7 @@
         "Los gerentes deben entender culturas, sistemas, técnicas y leyes diferentes de las propias y adaptarse al entorno cambiante."
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué significa semiglobalización?",
@@ -119,7 +119,7 @@
         "Los gerentes deben entender culturas, sistemas, técnicas y leyes diferentes de las propias y adaptarse al entorno cambiante."
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué significa glocalización?",
@@ -130,7 +130,7 @@
         "Los gerentes deben entender culturas, sistemas, técnicas y leyes diferentes de las propias y adaptarse al entorno cambiante"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué se entiende por entorno externo en el contexto de una organización?",
@@ -141,7 +141,7 @@
         "Las tendencias demográficas dentro de la organización"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de las siguientes tríos dimensiones no se incluye en la clasificación del entorno externo?",
@@ -152,7 +152,7 @@
         "Económica, Tecnológica y Global"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es incorrecto sobre la economía compartida (sharing economy)?",
@@ -163,7 +163,7 @@
         "Puede ser llamada economía de acceso"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es una empresa?",
@@ -174,7 +174,7 @@
         "Una forma de gobierno"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es el objetivo último de una empresa?",
@@ -185,7 +185,7 @@
         "Crear valor para el gobierno"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es una característica de las organizaciones?",
@@ -196,7 +196,7 @@
         "La imprevisibilidad constante"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué se entiende por eficiencia en la gestión?",
@@ -207,7 +207,7 @@
         "No cometer errores en la toma de decisiones"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es la economía compartida?",
@@ -218,7 +218,7 @@
         "Un sistema en el que los propietarios obtienen beneficios sin compartir con otros"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es una categoría del entorno externo que afecta a una organización?",
@@ -229,7 +229,7 @@
         "La dimensión espiritual"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es una tendencia demográfica relevante?",
@@ -240,7 +240,7 @@
         "La migración masiva en América"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

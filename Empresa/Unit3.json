@@ -9,7 +9,7 @@
         "EPT y DPT son lo mismo, pero adoptan nombres diferentes según la empresa"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál no es un sesgo del entrevistador?",
@@ -20,7 +20,7 @@
         "El orden en que se entrevisten a los candidatos"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "A la hora de evaluar los RRHH actuales, ¿qué es el inventario de recursos humanos?",
@@ -31,7 +31,7 @@
         "Ninguna de las anteriores"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es, según estudios, la mejor fuente de reclutamiento de candidatos a un puesto?",
@@ -42,7 +42,7 @@
         "Referencias de empleados"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Que es el 'downsizing'?",
@@ -53,7 +53,7 @@
         "Ninguna de las anteriores"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es la confiabilidad del proceso de selección?",
@@ -64,7 +64,7 @@
         "Ninguna de las anteriores"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es la validez del proceso de selección?",
@@ -75,7 +75,7 @@
         "Ninguna de las anteriores"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cual es el mecanismo de selección más utilizado?",
@@ -86,7 +86,7 @@
         "Muestras de trabajo (work sample tests)"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Selecciona la afirmación incorrecta",
@@ -97,7 +97,7 @@
         "En la entrevista conductal los candidatos son valorados no solo por lo que dicen sino también por cómo se portan"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Proporcionar información exageradamente positiva sobre la empresa, causa:",
@@ -108,7 +108,7 @@
         "Todas son correctas"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Por lo general, cuando un empleado no está a la altura de las expectativas:",
@@ -119,7 +119,7 @@
         "Depende de la situación, todas son correctas"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Selecciona la afirmación incorrecta",
@@ -130,7 +130,7 @@
         "La ubicación geográfica influye en el salario"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }

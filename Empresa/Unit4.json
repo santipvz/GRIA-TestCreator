@@ -9,7 +9,7 @@
         "Un objetivo pricipal de las actividades primarias es crear valor añadido"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es la fórmula de la productividad del factor trabajo?",
@@ -20,7 +20,7 @@
         "Valor de la producción obtenida / Valor de los factores empleados"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es la fórmula de la productividad global?",
@@ -31,7 +31,7 @@
         "Valor de la producción obtenida / Valor de los factores empleados"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Señala la opción incorrecta: La mejora de la productividad:",
@@ -42,7 +42,7 @@
         "Todas son correctas"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es la diferencia entre gasto y coste?",
@@ -53,7 +53,7 @@
         "Coste y gasto son lo mismo"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es la cadena de valor?",
@@ -64,7 +64,7 @@
         "Fórmula usada para calcular el valor total de una empresa"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Señala la opción incorrecta:",
@@ -75,7 +75,7 @@
         "Los clientes no tienen ningún poder sobre la cadena de valor"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es el valor?",
@@ -86,7 +86,7 @@
         "Según los 14 principios de Deiming el valor es la diferencia entre el precio al que ventes tu producto/servicio y el precio el que lo vente tu competencia"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es un requisito principal para la gestión de la cadena de valor?",
@@ -97,7 +97,7 @@
         "Todas las anteriores"
       ],
       "correct_option": 3,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Qué es el modelo de negocio?",
@@ -108,7 +108,7 @@
         "Es la propuesta del negocio ideal que se quiere alcanzar"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál no es un objetivo de la dirección de la producción?",
@@ -119,7 +119,7 @@
         "Todas las anteriores lo son"
       ],
       "correct_option": 2,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "ISO 9000 y Six Sigma son:",
@@ -130,7 +130,7 @@
         "Ninguna de las anteriores"
       ],
       "correct_option": 0,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "Señala la opción incorrecta:",
@@ -141,7 +141,7 @@
         "El certificado de calidad aumenta la eficacia por la rápida aceptación de los productos por los clientes"
       ],
       "correct_option": 1,
-      "questionType": "multipleChoice"
+      "questionType": "singleChoice"
     }
   ]
 }
