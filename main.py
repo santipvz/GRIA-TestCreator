@@ -80,7 +80,7 @@ def examWriter(questions, fileOutName):
     submitFormFunction = """function submitForm() {
                 var form = document.getElementById("testForm");
                 var answers = [];
-                var questions = document.getElementsByClassName("question");
+                var questions = document.getElementsByClassName("singleChoice");
 
                 for (var i = 0; i < questions.length; i++) {
                     var question = questions[i];
@@ -250,7 +250,7 @@ def examWriter(questions, fileOutName):
 
         fileOut.write(
             f"""
-        <div class="question">
+        <div class="{question['questionType']} question">
             <p>{question_number}: {question_text}</p>  <!-- Mostrar el número de pregunta -->
             {images}
             <ul>
@@ -279,7 +279,7 @@ def examGenerator(
 
 numExams = 2
 numOfQuestions = 10
-folder = "Redes"
+folder = "PIC"
 
 
 examGenerator(folder, numExams, numOfQuestions)
