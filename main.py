@@ -130,6 +130,30 @@ def examWriter(questions, fileOutName):
             }
 """
 
+    singleChoiceFunction = """function singleChoice(question) {
+        var selectedInput = question.querySelector("input:checked");
+        var correctAnswer = question.querySelector(".correct-answer");
+        var numOptions = question.getElementsByTagName("input").length;
+
+        if (selectedInput && selectedInput.value === correctAnswer.innerHTML.split(":")[1].trim()) {
+            correctAnswer.classList.add("correct");
+        } else {
+            correctAnswer.classList.add("incorrect");
+        }
+
+        // If it is correct we return 1
+        if (selectedInput && selectedInput.value === correctAnswer.innerHTML.split(":")[1].trim()) {
+            return 1;
+        } //If there is no answer we return NaN
+        else if (selectedInput === null) {
+            return NaN;
+        } //If it is incorrect we return the penalty for random guessing
+        else {
+            return -1 / (numOptions - 1);
+        }
+    }
+"""
+
     calculateScoreFunction = """function calculateScore(answers) {
                 var correctGlobal = 0;
                 var incorrectGlobal = 0;
@@ -263,7 +287,11 @@ def examWriter(questions, fileOutName):
         )
 
     fileOut.write(html_tail)
-    fileOut.write(combineFunctions([submitFormFunction, calculateScoreFunction]))
+    fileOut.write(
+        combineFunctions(
+            [submitFormFunction, calculateScoreFunction, singleChoiceFunction]
+        )
+    )
     fileOut.close()
 
 
