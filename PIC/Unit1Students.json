@@ -134,6 +134,17 @@
       "questionType": "singleChoice"
     },
     {
+      "question": "¿Cuál de los siguientes protocolos de comunicación es ligero y eficiente para dispositivos con recursos limitados?",
+      "options": [
+        "Todas son correctas.",
+        "Zigbee.",
+        "MQTT.",
+        "Bluetooth."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
       "question": "¿Qué tecnología se usa en IoT para predecir fallos y optimizar procesos?",
       "options": [
         "Machine learning.",
