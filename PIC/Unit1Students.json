@@ -135,12 +135,7 @@
     },
     {
       "question": "¿Cuál de los siguientes protocolos de comunicación es ligero y eficiente para dispositivos con recursos limitados?",
-      "options": [
-        "Todas son correctas.",
-        "Zigbee.",
-        "MQTT.",
-        "Bluetooth."
-      ],
+      "options": ["Todas son correctas.", "Zigbee.", "MQTT.", "Bluetooth."],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
