@@ -1,0 +1,503 @@
+{
+  "questions": [
+    {
+      "question": "Which key factors differentiate IoT from M2M (Machine-to-Machine) communication?",
+      "options": [
+        "IoT leverages cloud computing and data analytics, whereas M2M systems operate in isolated environments.",
+        "M2M is strictly limited to industrial applications, whereas IoT includes consumer applications.",
+        "IoT systems focus on interoperability across multiple platforms, while M2M connections are often proprietary.",
+        "IoT typically supports remote monitoring and decentralized control, unlike M2M systems.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,2,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of these technologies are directly responsible for ensuring IoT interoperability across different vendors?",
+      "options": [
+        "IEEE 802.15.4.",
+        "MQTT.",
+        "OpenFog Reference Architecture.",
+        "Wi-Fi 6E.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors make the Internet of Everything (IoE) different from IoT?",
+      "options": [
+        "IoE incorporates human-to-human communication, whereas IoT focuses solely on machine-to-machine (M2M) interaction.",
+        "IoE extends beyond devices to integrate processes, people, and data into a unified framework.",
+        "IoT and IoE are interchangeable terms with no significant distinction.",
+        "IoE is an extension of IoT that emphasizes connectivity beyond physical devices.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following IoT technologies primarily deal with short-range, low-power communication?",
+      "options": [
+        "LoRaWAN.",
+        "Zigbee.",
+        "Bluetooth Low Energy (BLE).",
+        "LPWAN.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following factors contribute to an IoT platform’s scalability?",
+      "options": [
+        "The ability to add new devices without requiring major system overhauls.",
+        "A flexible architecture that supports integration with multiple cloud services.",
+        "The exclusive use of centralized cloud computing, avoiding local data processing.",
+        "Support for edge computing to distribute processing closer to devices.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which characteristics distinguish Industrial IoT (IIoT) from Consumer IoT?",
+      "options": [
+        "IIoT emphasizes high reliability and fault tolerance.",
+        "Consumer IoT mainly involves wearables, home automation, and smart appliances.",
+        "IIoT systems often integrate real-time control and predictive maintenance analytics.",
+        "IIoT devices have lower cybersecurity requirements than consumer IoT devices.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements best describe the structure of IoT architectures?",
+      "options": [
+        "The IoT ecosystem consists of sensing, network, middleware, and application layers.",
+        "The OpenFog Reference Model promotes cloud-only computing for IoT devices.",
+        "Industrial IoT (IIoT) typically integrates SCADA systems and real-time processing.",
+        "Edge computing reduces network congestion by processing data closer to the source.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,2,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are common IoT security vulnerabilities?",
+      "options": [
+        "Weak authentication mechanisms.",
+        "Unencrypted data transmission.",
+        "Excessive power consumption in battery-operated IoT devices.",
+        "Default or hardcoded passwords in IoT firmware.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which technologies were fundamental to the early Internet before the rise of IoT?",
+      "options": [
+        "Network Control Protocol (NCP).",
+        "X.25 packet-switching networks.",
+        "Unix-to-Unix Copy Protocol (UUCP).",
+        "HTTP/HTTPS for web-based communication.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which trends are expected to shape the future of IoT platform development?",
+      "options": [
+        "The integration of AI-driven automation for predictive maintenance.",
+        "The increasing shift toward edge computing to reduce cloud dependency.",
+        "The exclusive adoption of 6G for all IoT connectivity, eliminating 4G and Wi-Fi.",
+        "The use of blockchain technology for decentralized identity management.",
+        "The decline of edge computing in favor of centralized cloud processing.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following networking technologies are commonly used for IoT applications?",
+      "options": [
+        "LoRaWAN.",
+        "Bluetooth Low Energy (BLE).",
+        "Zigbee.",
+        "DNS (Domain Name System).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following technologies are used for IoT security enhancement?",
+      "options": [
+        "Blockchain.",
+        "Multi-factor authentication (MFA).",
+        "End-to-end encryption.",
+        "Plaintext data storage.",
+        "Secure boot mechanisms",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2,4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are considered best practices for securing IoT networks?",
+      "options": [
+        "Decentralized security management.",
+        "Network segmentation.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which security risks are associated with IoT platforms?",
+      "options": [
+        "The presence of hardcoded credentials in IoT firmware.",
+        "Weak encryption mechanisms that expose sensitive data.",
+        "The inability of IoT platforms to support role-based access control (RBAC).",
+        "Dependency on third-party cloud services, increasing attack surface exposure",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which characteristics are critical for a high-quality IoT platform?",
+      "options": [
+        "The ability to scale with increasing device connections and data traffic.",
+        "Support for a single communication protocol to ensure reliability.",
+        "Hardware and cloud agnosticism to allow flexibility in deployment.",
+        "Strong security measures, including authentication, encryption, and regular firmware updates.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,2,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which key factors differentiate IoT from Cyber-Physical Systems (CPS)?",
+      "options": [
+        "CPS typically integrates real-time control loops, whereas IoT focuses more on data collection and automation.",
+        "CPS often operates within tightly controlled industrial settings, whereas IoT has a broader range of consumer applications.",
+        "IoT prioritizes low-latency response times, while CPS can tolerate higher latency.",
+        "IoT systems rely primarily on centralized cloud computing, whereas CPS favors edge intelligence.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements accurately describe the role of an IoT platform?",
+      "options": [
+        "An IoT platform acts as middleware, bridging physical devices and digital applications.",
+        "IoT platforms are limited to cloud-based services and cannot operate on local networks.",
+        "The primary function of an IoT platform is to provide device-to-device communication without cloud dependency.",
+        "A good IoT platform must support multiple communication protocols to ensure interoperability.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors differentiate IoT from traditional M2M communication?",
+      "options": [
+        "IoT integrates cloud computing, whereas M2M systems operate in isolated networks..",
+        "IoT emphasizes open communication standards, while M2M often relies on proprietary protocols.",
+        "M2M systems focus on real-time industrial automation, whereas IoT extends to consumer applications.",
+        "IoT is built solely on 5G networks, while M2M relies on older communication protocols",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which key challenges must be overcome for large-scale IoT adoption?",
+      "options": [
+        "The fragmentation of IoT ecosystems due to competing proprietary platforms.",
+        "The high energy consumption of IoT devices, particularly in remote areas.",
+        "The slow adoption of IPv6, limiting addressability for billions of IoT devices.",
+        "The need for global IoT security standards to prevent cyber threats.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following types of IoT platforms exist?",
+      "options": [
+        "Platforms that handle network servicing, such as LoRaWAN gateways.",
+        "Middleware platforms that manage protocol translation and device orchestration.",
+        "Application-layer platforms that focus solely on end-user interactions.",
+        "Hardware-specific platforms that support only proprietary device ecosystems.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements best describe application-layer IoT platforms?",
+      "options": [
+        "They primarily serve as an interface for end users, integrating middleware data into applications.",
+        "If an application-layer platform fails, the network and middleware layers will always continue functioning without disruption.",
+        "Application-layer platforms depend on middleware but do not necessarily control networking protocols.",
+        "They are critical to IoT infrastructure because they enable API integration with external software.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,2,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which trends are expected to shape the future of IoT?",
+      "options": [
+        "AI-driven automation for IoT analytics and decision-making.",
+        "The rise of decentralized IoT networks using blockchain for authentication.",
+        "The decline of edge computing in favor of centralized cloud processing.",
+        "The adoption of 6G wireless for ultra-low-latency IoT applications.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are advantages of using Low Power Wide Area Network (LPWAN) technologies for IoT applications?",
+      "options": [
+        "Long-range communication.",
+        "High power consumption.",
+        "Support for battery-operated devices.",
+        "Suited for large-scale deployments.",
+        "Enables deep indoor penetration",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,2,3,4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which strategies improve the security of an IoT platform?",
+      "options": [
+        "Implementing strong authentication and access control mechanisms.",
+        "Regular over-the-air (OTA) firmware updates for security patches.",
+        "Keeping IoT devices disconnected from the Internet at all times.",
+        "Using AI-driven anomaly detection to identify suspicious behavior.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are primary layers in the Open Systems Interconnection (OSI) model relevant to IoT?",
+      "options": [
+        "Physical layer.",
+        "Data link layer.",
+        "Transport layer.",
+        "Presentation layer.",
+        "Application layer.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [5],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements about M2M and IoT is accurate?",
+      "options": [
+        "M2M typically refers to direct communication between devices, while IoT extends to data analytics and cloud integration.",
+        "IoT is an evolution of M2M, focusing on data interoperability and automation.",
+        "M2M systems were originally designed to function without internet connectivity.",
+        "M2M cannot integrate with IoT systems due to fundamental technical differences.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following reasons support the decision to build an in-house IoT platform instead of buying one?",
+      "options": [
+        "Avoiding vendor lock-in and maintaining full control over system updates.",
+        "Reducing long-term costs compared to subscription-based platforms.",
+        "Ensuring complete customization to meet specific business needs.",
+        "Eliminating all cybersecurity risks associated with IoT deployments.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements about IoT security risks is the most accurate?",
+      "options": [
+        "IoT devices are more vulnerable than traditional computers because they lack built-in security mechanisms.",
+        "Encrypted data transmission eliminates IoT security risks.",
+        "Many IoT vulnerabilities arise from weak authentication and default credentials.",
+        "Edge computing can reduce attack exposure by minimizing cloud dependency.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,2,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are critical considerations when deploying IoT devices in industrial environments?",
+      "options": [
+        "Harsh environmental conditions.",
+        "High-speed data transmission.",
+        "Network reliability and redundancy.",
+        "Compliance with safety regulations.",
+        "Physical security of devices",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [5],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are some limitations of edge computing in IoT?",
+      "options": [
+        "Increased reliance on cloud storage.",
+        "Reduced latency for data processing.",
+        "Higher hardware costs.",
+        "Limited computational power in edge devices.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,2,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": " What are the trade-offs of using a third-party IoT platform instead of building your own?",
+      "options": [
+        "Faster time to market with pre-built functionalities.",
+        "Lower initial setup costs but potentially higher long-term subscription fees.",
+        "Dependence on vendor-controlled updates and feature availability.",
+        "Greater flexibility in customization compared to in-house solutions.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which protocols are used for IoT device-to-cloud and device-to-device communication?",
+      "options": [
+        "MQTT (Message Queuing Telemetry Transport).",
+        "CoAP (Constrained Application Protocol).",
+        "HTTP/HTTPS.",
+        "IPFS (InterPlanetary File System).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which IoT network communication models exist?",
+      "options": [
+        "Device-to-Device (D2D) Communication.",
+        "Device-to-Gateway Communication.",
+        "Device-to-Cloud Communication.",
+        "Broadcast-only Communication, where IoT devices send data without two-way interaction.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are potential drawbacks of IoT adoption in businesses?",
+      "options": [
+        "High initial deployment costs.",
+        "Increased cyberattack risks.",
+        "Data silos due to lack of standardization.",
+        "Greater network congestion.",
+        "Simplified network management.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which features define an effective IoT architecture?",
+      "options": [
+        "A multi-layered structure that includes sensing, networking, middleware, and application layers.",
+        "An exclusive reliance on centralized cloud computing for all processing tasks.",
+        "The integration of edge computing to reduce latency and network congestion.",
+        "The use of open interoperability standards to ensure cross-vendor compatibility.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,2,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements about Industrial IoT (IIoT) are true?",
+      "options": [
+        "IIoT emphasizes predictive maintenance and real-time machine monitoring.",
+        "Unlike consumer IoT, IIoT requires stricter regulatory compliance due to industrial safety concerns.",
+        "IIoT primarily operates on proprietary network protocols rather than open standards.",
+        "IIoT deployments rely heavily on SCADA systems and edge computing.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are major security concerns in IoT?",
+      "options": [
+        "Data privacy breaches.",
+        "Weak encryption mechanisms.",
+        "Unauthorized device access.",
+        "Insecure firmware updates.",
+        "Lack of regulatory compliance.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [5],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of these factors are important in selecting an IoT communication protocol?",
+      "options": [
+        "Energy consumption requirements.",
+        "Transmission range.",
+        "Network latency.",
+        "Compatibility with existing systems.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    }
+  ]
+}
