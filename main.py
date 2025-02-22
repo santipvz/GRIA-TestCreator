@@ -66,14 +66,77 @@ def questionGenerator(folderPath, numOfQuestions=10, questionsOfEachUnit=None):
     return questions
 
 
-def testRandomizer(listOfQuestions):
-    shuffle(listOfQuestions)
-    for question in listOfQuestions:
-        if question["questionType"] == "singleChoice":
-            correct = question["options"][question["correct_option"]]
-            shuffle(question["options"])
-            question["correct_option"] = question["options"].index(correct)
-    return listOfQuestions
+def randomizeSingleChoice(question: dict) -> dict:
+    """
+    Randomize the order of the options in a single choice question
+
+    Args:
+        - question (dict): The question data. It requires the following keys:
+            - question (str): The question text
+            - options (list): A list with the possible answers
+            - correct_option (int): The index of the correct answer
+
+    Returns:
+        - dict: The question data with the options randomized
+    """
+    correct = question["options"][question["correct_option"]]
+    shuffle(question["options"])
+    question["correct_option"] = question["options"].index(correct)
+    return question
+
+
+def singleChoiceWriter(question: dict, nQuestion=int) -> str:
+    """
+    Generate the HTML for a single choice question
+
+    Args:
+        - question (dict): The question data. It requires the following keys:
+            - question (str): The question text
+            - options (list): A list with the possible answers
+            - correct_option (int): The index of the correct answer
+            - folder (str): The folder where the images are located
+            - questionType (str): The type of question
+            It also can have the following optional keys:
+            - images (list): A list with the names of the images
+        - nQuestion (int): The question number. It needs to be in base 0
+
+    Returns:
+        - str: The HTML code for the question
+    """
+    # First we randomize the order of the options
+    question = randomizeSingleChoice(question)
+
+    question_text = question["question"]
+    options = question["options"]
+    correct_option = question["correct_option"]
+    option_html = ""
+
+    # Generate the HTML for the options
+    for j, option in enumerate(options):
+        option_letter = chr(ord("A") + j)  ## Convertir el índice en una letra
+        option_html += f'<li><input type="radio" name="question_{nQuestion}" value="{option_letter}"> {option_letter}) {option}</li>'
+
+    # Add the images to the question
+    images = ""
+    if "images" in question:
+        for im in question["images"]:
+            location = os.path.join(question["folder"], im)
+            images += f'<img src="{location}" alt="imagen">'
+
+    correct_html = f'<p class="correct-answer">Respuesta correcta: {chr(ord("A") + correct_option)}</p>'
+    correct_hidden_input = f'<input type="hidden" name="correct_{nQuestion}" value="{chr(ord("A") + correct_option)}">'
+
+    return f"""
+            <div class="{question['questionType']} question">
+                <p>{nQuestion + 1}: {question_text}</p>  <!-- Mostrar el número de pregunta -->
+                {images}
+                <ul>
+                    {option_html}
+                </ul>
+                {correct_html}
+                {correct_hidden_input}
+            </div>
+            """
 
 
 def examWriter(questions, fileOutName):
@@ -192,45 +255,18 @@ def examWriter(questions, fileOutName):
     fileOut = open(fileOutName, "w", encoding="utf-8")
     fileOut.write(html_head)
 
-    for i, question in enumerate(questions[:numOfQuestions]):
+    for questionNumber, question in enumerate(questions[:numOfQuestions]):
         """
         ##########################################################
         Here is where we would check the question type and generate the HTML accordingly.
         ##########################################################
         """
+        if question["questionType"] == "singleChoice":
 
-        question_number = i + 1  ## Incrementar el número de pregunta
+            fileOut.write(singleChoiceWriter(question, questionNumber))
 
-        question_text = question["question"]
-        options = question["options"]
-        correct_option = question["correct_option"]
-        option_html = ""
-        for j, option in enumerate(options):
-            option_letter = chr(ord("A") + j)  ## Convertir el índice en una letra
-            option_html += f'<li><input type="radio" name="question_{i}" value="{option_letter}"> {option_letter}) {option}</li>'
-
-        images = ""
-        if "images" in question:
-            for im in question["images"]:
-                location = os.path.join(question["folder"], im)
-                images += f'<img src="{location}" alt="imagen">'
-
-        correct_html = f'<p class="correct-answer">Respuesta correcta: {chr(ord("A") + correct_option)}</p>'
-        correct_hidden_input = f'<input type="hidden" name="correct_{i}" value="{chr(ord("A") + correct_option)}">'
-
-        fileOut.write(
-            f"""
-        <div class="{question['questionType']} question">
-            <p>{question_number}: {question_text}</p>  <!-- Mostrar el número de pregunta -->
-            {images}
-            <ul>
-                {option_html}
-            </ul>
-            {correct_html}
-            {correct_hidden_input}
-        </div>
-        """
-        )
+        else:
+            print("Tipo de pregunta no implementado")
 
     fileOut.write(html_tail)
     fileOut.write(combineFunctions([submitFormFunction, singleChoiceFunction]))
@@ -243,7 +279,8 @@ def examGenerator(
     output = "./ExamenTest.html"
     for exam in range(numberOfExams):
         questions = questionGenerator(folderPath, numberOfQuestions, questionsPerTopic)
-        questions = testRandomizer(questions)
+        # Randomize the order of the questions
+        shuffle(questions)
         examWriter(questions, "./ExamenTest" + str(exam + 1) + ".html")
 
 
