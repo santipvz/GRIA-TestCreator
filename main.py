@@ -196,7 +196,9 @@ def multipleChoiceWriter(question: dict, nQuestion=int) -> str:
             location = os.path.join(question["folder"], im)
             images += f'<img src="{location}" alt="imagen">'
 
-    correct_options_str = ", ".join([chr(ord("A") + i) for i in correct_options])
+    correct_options_str = ", ".join(
+        sorted([chr(ord("A") + i) for i in correct_options])
+    )
 
     correct_html = (
         f'<p class="correct-answer">Respuestas correctas: {correct_options_str}</p>'
@@ -345,18 +347,6 @@ def examWriter(questions, fileOutName):
 
     }
 """
-
-    # // If all the correct answers are selected and no incorrect answers are selected
-    # // we return 1
-    # if (correct === correctAnswersArray.length && incorrect === 0) {
-    #     return 1;
-    # } // If there are no answers we return NaN
-    # else if (selectedInputs.length === 0) {
-    #     return NaN;
-    # } // If there are incorrect answers we return the penalty for random guessing
-    # else {
-    #     return -1 / (numOptions - 1);
-    # }
 
     html_head = """
     <html>
