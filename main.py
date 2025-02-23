@@ -241,6 +241,21 @@ def examWriter(questions, fileOutName):
             }
         }
 
+        var questions = document.getElementsByClassName("multipleChoice");
+
+        for (var question of questions) {
+            var score = multipleChoice(question);
+            if (score === 1) {
+                correctGlobal++;
+                totalScore += score;
+            } else if (isNaN(score)) {
+                unanswered++;
+            } else {
+                incorrectGlobal++;
+                totalScore += score;
+            }
+        }
+
         // We calculate the score out of 10
         totalScore = ((totalScore / questions.length) * 10).toFixed(2);
 
@@ -276,6 +291,72 @@ def examWriter(questions, fileOutName):
         }
     }
 """
+
+    multipleChoiceFunction = """function multipleChoice(question) {
+        var selectedInputs = question.querySelectorAll("input:checked");
+
+        // Get the correct answer element
+        var correctAnswer = question.querySelector(".correct-answer");
+
+
+        // Extract the correct answers from the hidden input field
+        var correctAnswers = question.querySelector("input[name^='correct_']");
+        var correctAnswersArray = correctAnswers ? correctAnswers.value.split(",").map(x => x.trim()) : [];
+
+        // Display the correct answers
+        question.querySelectorAll(".correct-answer").forEach(x => x.style.display = "block");
+
+        // Get the total number of checkbox options
+        var numOptions = question.querySelectorAll("input[type=checkbox]").length;
+
+        var correct = 0;
+        var incorrect = 0;
+        var unanswered = 0;
+
+        // Iterate over selected inputs to mark correct/incorrect answers
+        for (var selectedInput of selectedInputs) {
+            var listItem = selectedInput.closest("li"); // Get the <li> containing the checkbox
+
+            if (listItem) {
+                if (correctAnswersArray.includes(selectedInput.value)) {
+                    // listItem.classList.add("correct"); // Apply class to the entire list item
+                    correct++;
+                } else {
+                    // listItem.classList.add("incorrect");
+                    incorrect++;
+                }
+            }
+        }
+
+        // If all the correct answers are selected and no incorrect answers are selected
+        // we return 1
+        if (correct === correctAnswersArray.length && incorrect === 0) {
+            correctAnswer.classList.add("correct");
+            return 1;
+        } // If there are no answers we return NaN
+        else if (selectedInputs.length === 0) {
+            correctAnswer.classList.add("incorrect");
+            return NaN;
+        } // If there are incorrect answers we return the penalty for random guessing
+        else {
+            correctAnswer.classList.add("incorrect");
+            return -1 / (numOptions - 1);
+        }
+
+    }
+"""
+
+    # // If all the correct answers are selected and no incorrect answers are selected
+    # // we return 1
+    # if (correct === correctAnswersArray.length && incorrect === 0) {
+    #     return 1;
+    # } // If there are no answers we return NaN
+    # else if (selectedInputs.length === 0) {
+    #     return NaN;
+    # } // If there are incorrect answers we return the penalty for random guessing
+    # else {
+    #     return -1 / (numOptions - 1);
+    # }
 
     html_head = """
     <html>
@@ -339,7 +420,6 @@ def examWriter(questions, fileOutName):
         ##########################################################
         """
         if question["questionType"] == "singleChoice":
-
             fileOut.write(singleChoiceWriter(question, questionNumber))
 
         elif question["questionType"] == "multipleChoice":
@@ -349,7 +429,11 @@ def examWriter(questions, fileOutName):
             print("Tipo de pregunta no implementado")
 
     fileOut.write(html_tail)
-    fileOut.write(combineFunctions([submitFormFunction, singleChoiceFunction]))
+    fileOut.write(
+        combineFunctions(
+            [submitFormFunction, singleChoiceFunction, multipleChoiceFunction]
+        )
+    )
     fileOut.close()
 
 
