@@ -85,6 +85,25 @@ def randomizeSingleChoice(question: dict) -> dict:
     return question
 
 
+def randomizeMultipleChoice(question: dict) -> dict:
+    """
+    Randomize the order of the options in a multiple choice question
+
+    Args:
+        - question (dict): The question data. It requires the following keys:
+            - question (str): The question text
+            - options (list): A list with the possible answers
+            - correct_options (list): A list with the indexes of the correct answers
+
+    Returns:
+        - dict: The question data with the options randomized
+    """
+    correct = [question["options"][i] for i in question["correct_options"]]
+    shuffle(question["options"])
+    question["correct_options"] = [question["options"].index(c) for c in correct]
+    return question
+
+
 def singleChoiceWriter(question: dict, nQuestion=int) -> str:
     """
     Generate the HTML for a single choice question
@@ -158,7 +177,7 @@ def multipleChoiceWriter(question: dict, nQuestion=int) -> str:
         - str: The HTML code for the question
     """
     # First we randomize the order of the options
-    # question = randomizeSingleChoice(question)
+    question = randomizeMultipleChoice(question)
 
     question_text = question["question"]
     options = question["options"]
