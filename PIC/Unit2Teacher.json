@@ -9,7 +9,7 @@
         "Actuators provide output based on computed decisions or human interaction.",
         "Information flow in IoT solutions may require intermediary hubs or gateways."
       ],
-      "correct_options": [0,3,4],
+      "correct_options": [0, 3, 4],
       "questionType": "multipleChoice"
     }
   ]
