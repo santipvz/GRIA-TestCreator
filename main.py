@@ -439,7 +439,7 @@ def examGenerator(
 
 
 numExams = 2
-numOfQuestions = 10
+numOfQuestions = 30
 folder = "PIC"
 
 
