@@ -6,12 +6,32 @@ Esto es un programa que crea exámenes tipo tests eligiendo las preguntas y poni
 
 ## Uso
 
-Para generar exámenes hay que ejecutar el fichero llamado [Test.py](/Test.py). Ahora mismo el número de exámenes, el número de preguntas y la asignatura está codificado como variables en el código. Si las cambias no subas esos cambios al github.
+Para generar exámenes hay que ejecutar el fichero llamado [main.py](/main.py). Ahora mismo el número de exámenes, el número de preguntas y la asignatura está codificado como variables en el código. Si las cambias no subas esos cambios al github.
 
 ## Contribuir
 
-La manera fácil de contribuir es añadiendo más preguntas. Esto se hace modificando o añadiendo ficheros .json que hay en cada carpeta de asignatura. Ahora mismo para que identifique el archivo, este tiene que empezar por Unit y acabar por .json. Cada archivo es un diccionario cuya única clave es `questions` y su valor es una lista de diccionarios. Para escribir una pregunta tipo test hay que poner la pregunta en la clave `question`, las opciones en la clave `options` (será una lista de strings), la respuesta en la clave `correct_option` (será un entero del índice de la lista de opciones; empieza en 0) y el tipo de pregunta con la clave `questionType` que tendrá como valor `singleChoice`. Antes de subir una pregunta nueva asegúrate de que está bien escrita, la respuesta es la correcta y que el programa sigue funcionando.
+La manera fácil de contribuir es añadiendo más preguntas. Estas se encuentran en los ficheros .json que hay en la carpeta de cada asignatura. Los ficheros tienen que seguir el formato de empezar por `Unit` y acabar por `.json`. Cada fichero es un diccionario con una única clave `questions` cuyo valor es una lista de diccionarios. Más bajo se explica cada tipo de pregunta que está implementado. Antes de subir una pregunta nueva asegúrate de que está bien escrita, la respuesta es la correcta y que el programa sigue funcionando.
 
-Para hacer esto haz un fork con el nombre de la asignatura a la que quieres añadir preguntas y añade las preguntas. Luego haz un pull request y si todo está bien se añadirá al programa.
+Para añadir tus cambios haz un fork con el nombre de la asignatura a la que quieres añadir preguntas y añade las preguntas. Luego haz un pull request y si todo está bien se añadirá al programa.
+
+### `singleChoice`
+
+Tiene que tener las siguientes claves:
+
+- `question`: La pregunta que se quiere hacer.
+- `options`: Una lista de strings con las opciones de respuesta.
+- `correct_option`: Un entero que indica el índice de la lista de opciones que es la correcta. Este índice está en base 0.
+- `questionType`: Un string que indica el tipo de pregunta. Tiene que ser `singleChoice` para este tipo de pregunta.
+
+### `multipleChoice`
+
+Tiene que tener las siguientes claves:
+
+- `question`: La pregunta que se quiere hacer.
+- `options`: Una lista de strings con las opciones de respuesta.
+- `correct_options`: Una lista de enteros que indica los índices de la lista de opciones que son correctas. Estos índices están en base 0.
+- `questionType`: Un string que indica el tipo de pregunta. Tiene que ser `multipleChoice` para este tipo de pregunta.
+
+### Contribuir avanzado
 
 Si quieres cambiar el código para mejorarlo o refactorizarlo, abre un issue y hablamos si los cambios que propones son útiles para este proyecto.
