@@ -1,6 +1,18 @@
 {
   "questions": [
     {
+      "question": "Which of the following statements accurately describe the classical information flow model in IoT solutions?",
+      "options": [
+        "The model follows a linear input-process-output (I-P-O) structure.",
+        "Sensors act as both input and output devices in all IoT solutions.",
+        "IoT processing occurs only in the cloud, not locally.",
+        "Actuators provide output based on computed decisions or human interaction.",
+        "Information flow in IoT solutions may require intermediary hubs or gateways."
+      ],
+      "correct_options": [0, 3, 4],
+      "questionType": "multipleChoice"
+    },
+    {
       "question": "Which of the following statements about REST APIs in IoT platforms is true?",
       "options": [
         "REST APIs are always required for real-time data communication in IoT.",
