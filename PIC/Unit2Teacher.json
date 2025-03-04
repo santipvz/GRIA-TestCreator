@@ -52,7 +52,7 @@
         "JSON enables binary data transmission with minimal overhead.",
         "JSON ensures consistency and scalability across different devices.",
         "JSON is the only format supported by MQTT.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 2],
       "questionType": "multipleChoice"
@@ -64,7 +64,7 @@
         "The growing scale of IoT networks, often reaching millions of connected devices.",
         "The elimination of cloud computing in favor of fully localized processing.",
         "The demand for better security measures due to increased cyber threats.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
@@ -76,7 +76,7 @@
         "It eliminates the need for cloud computing in IoT systems.",
         "It improves system intelligence by distributing computational workloads.",
         "It enhances reliability by reducing dependence on centralized cloud services.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
@@ -143,7 +143,7 @@
         "It serves as the orchestrator of the entire IoT solution.",
         "It only functions as a message router between devices and applications.",
         "It is primarily responsible for ingesting, processing, and storing IoT data.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [1, 3],
       "questionType": "multipleChoice"
@@ -166,7 +166,7 @@
         "It functions as the primary storage for all IoT messages.",
         "It allows asynchronous communication between components.",
         "It eliminates the need for HTTP-based communication entirely.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 2],
       "questionType": "multipleChoice"
@@ -178,7 +178,7 @@
         "OpenFog Reference Architecture",
         "IoT-A Architectural Reference Model",
         "ISO/IEC 30141 IoT Reference Architecture",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 1, 2, 3],
       "questionType": "multipleChoice"
@@ -190,7 +190,7 @@
         "Translating proprietary communication protocols into standard formats.",
         "Aggregating and compressing data before transmission.",
         "Preventing all types of security threats in IoT systems.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [1, 2],
       "questionType": "multipleChoice"
@@ -213,7 +213,7 @@
         "APIs provide real-time communication directly between devices.",
         "APIs enable integration with external services and applications.",
         "APIs replace the need for a message broker.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 2],
       "questionType": "multipleChoice"
@@ -236,7 +236,7 @@
         "VLANs for network segmentation.",
         "Open access to all devices to ensure seamless communication.",
         "VPN tunnels for secure data transmission.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
@@ -248,7 +248,7 @@
         "It primarily handles the authentication of IoT devices.",
         "It enhances the functionality of the communication management module.",
         "It converts messages between different formats like CSV to JSON.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 2],
       "questionType": "multipleChoice"
@@ -271,7 +271,7 @@
         "IT networks are designed for predictable traffic patterns, whereas IoT networks must handle unpredictable and bursty data flows.",
         "IoT networks always use Ethernet as the primary communication technology.",
         "IoT networks often operate in environments with constrained bandwidth and lossy networks.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
@@ -294,7 +294,7 @@
         "The ability to perform local data processing and filtering.",
         "High power consumption to support continuous processing.",
         "Security features such as encryption and authentication.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
@@ -306,7 +306,7 @@
         "It provides detailed, low-level implementation guidelines.",
         "It structures IoT systems using business, usage, functional, and implementation viewpoints.",
         "It follows a three-tier architecture consisting of edge, platform, and enterprise layers.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
@@ -318,7 +318,7 @@
         "Storing data that was not sent via MQTT.",
         "Encrypting data before it is sent to the IoT platform.",
         "Deleting stored data records based on conditions.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
@@ -330,7 +330,7 @@
         "It requires high processing power for message brokering.",
         "It ensures low latency and reliable message delivery.",
         "It operates best only on high-speed, stable networks.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 2],
       "questionType": "multipleChoice"
@@ -342,7 +342,7 @@
         "Ensuring interoperability between different IoT communication protocols.",
         "The necessity of direct connections between every IoT device and the cloud.",
         "Implementing secure and scalable data transport mechanisms.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
@@ -354,7 +354,7 @@
         "It guarantees zero latency in IoT data transmissions.",
         "It allows for redundancy in connectivity, such as switching from Wi-Fi to cellular.",
         "It is only applicable to wired networks.",
-        "None of the above."
+        "None of them."
       ],
       "correct_options": [0, 2],
       "questionType": "multipleChoice"
