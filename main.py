@@ -272,8 +272,13 @@ def examWriter(questions, fileOutName):
         var selectedInput = question.querySelector("input:checked");
         var correctAnswer = question.querySelector(".correct-answer");
         correctAnswer.style.display = "block";
+
         // We only count the ones with radio buttons
-        var numOptions = question.querySelectorAll("input[type=radio]").length;
+        var options = question.querySelectorAll("input[type=radio]");
+        var numOptions = options.length;
+
+        // Disable all radio buttons to prevent changing the answer
+        options.forEach(input => input.disabled = true);
 
         if (selectedInput && selectedInput.value === correctAnswer.innerHTML.split(":")[1].trim()) {
             correctAnswer.classList.add("correct");
@@ -300,7 +305,6 @@ def examWriter(questions, fileOutName):
         // Get the correct answer element
         var correctAnswer = question.querySelector(".correct-answer");
 
-
         // Extract the correct answers from the hidden input field
         var correctAnswers = question.querySelector("input[name^='correct_']");
         var correctAnswersArray = correctAnswers ? correctAnswers.value.split(",").map(x => x.trim()) : [];
@@ -309,7 +313,11 @@ def examWriter(questions, fileOutName):
         question.querySelectorAll(".correct-answer").forEach(x => x.style.display = "block");
 
         // Get the total number of checkbox options
-        var numOptions = question.querySelectorAll("input[type=checkbox]").length;
+        var options = question.querySelectorAll("input[type=checkbox]");
+        var numOptions = options.length;
+
+        // Disable all checkboxes to prevent changing the answer
+        options.forEach(input => input.disabled = true);
 
         var correct = 0;
         var incorrect = 0;
