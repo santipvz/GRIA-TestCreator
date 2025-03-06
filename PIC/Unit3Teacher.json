@@ -1,0 +1,17 @@
+{
+  "questions": [
+    {
+      "question": "What are the characteristics of ZigBee in IoT networks?",
+      "options": [
+        "Operates on IEEE 802.15.4 standard.",
+        "Supports mesh networking.",
+        "Designed for low-power applications.",
+        "Provides higher throughput than WiFi.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0,1,2],
+      "questionType": "multipleChoice"
+    }
+  ]
+}
