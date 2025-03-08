@@ -70,3 +70,29 @@ def findPatternFiles(pattern="Unit*.json", folderPath=".") -> list:
     matchingFiles = [os.path.abspath(file) for file in files if pattern_re.search(file)]
 
     return matchingFiles
+
+
+def questionsByFile(filePath: str) -> dict:
+    """
+    Returns a dictionary with the questions of a file
+
+    Args:
+        - filePath (str): The path of the file to read
+
+    Returns:
+        - dict: A dictionary with the questions of the file
+            The keys are the names of the files and the values
+            the number of questions of each file
+    """
+    questions = {x: 0 for x in findPatternFiles(folderPath=filePath)}
+
+    # We go file by file
+    for f in questions.keys():
+        with open(f, "r", encoding="utf-8") as file:
+            questionsData = json.load(file)
+            questions[f] = len(questionsData["questions"])
+
+    # Eliminate the files that have no questions
+    questions = {k: v for k, v in questions.items() if v > 0}
+
+    return questions
