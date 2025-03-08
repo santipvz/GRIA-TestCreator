@@ -162,17 +162,6 @@
       "questionType": "singleChoice"
     },
     {
-      "question": "¿Cuál es una ventaja de utilizar Edge Computing en IoT?",
-      "options": [
-        "Mayor escalabilidad.",
-        "Solo funciona con redes 5G.",
-        "Complejidad O(log N).",
-        "Mayor privacidad."
-      ],
-      "correct_option": 3,
-      "questionType": "singleChoice"
-    },
-    {
       "question": "¿Qué es esencial para las plataformas de IoT en cuanto a conectividad y comunicación?",
       "options": [
         "Deben usar solo Wi-Fi.",
