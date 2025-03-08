@@ -17,39 +17,56 @@ def questionGenerator(folderPath, numOfQuestions=10, questionsOfEachUnit=None):
             x = choice(list(questionsOfEachUnit.keys()))
             questionsOfEachUnit[x] += 1
 
-    for unit in questionsOfEachUnit.keys():
+    for filePath in questionsOfEachUnit.keys():
         with open(
-            os.path.join(folderPath, "Unit" + str(unit) + ".json"),
+            filePath,
             "r",
             encoding="utf-8",
         ) as file:
             questionsData = json.load(file)
         numOfQuestionsInUnit = len(questionsData["questions"])
 
-        enoughQuestions = questionsOfEachUnit[unit] <= numOfQuestionsInUnit
+        enoughQuestions = questionsOfEachUnit[filePath] <= numOfQuestionsInUnit
 
-        while questionsOfEachUnit[unit] > 0:
+        while questionsOfEachUnit[filePath] > 0:
             x = randint(0, numOfQuestionsInUnit - 1)
             questionAdded = copy.deepcopy(questionsData)
             questionAdded = questionAdded["questions"][x]
             questionAdded["folder"] = folderPath
             questionAdded["question"] = (
-                questionAdded["question"] + " [Tema " + str(unit) + "]"
+                questionAdded["question"]
+                + " [Tema "
+                + os.path.basename(filePath)[4:-5]
+                + "]"
             )
 
             if enoughQuestions and questionAdded not in questions:
                 questions.append(questionAdded)
-                questionsOfEachUnit[unit] -= 1
+                questionsOfEachUnit[filePath] -= 1
 
             elif not enoughQuestions:
                 questions.append(questionAdded)
-                questionsOfEachUnit[unit] -= 1
+                questionsOfEachUnit[filePath] -= 1
 
     return questions
 
 
-def findPatternFiles(pattern, folderPath):
+def findPatternFiles(pattern="Unit*.json", folderPath=".") -> list:
+    """
+    Returns a list of files that match the pattern
+    in the given folderPath. The files are returned
+    with their absolute path.
+
+    Args:
+        - pattern (str): The pattern to search for
+        - folderPath (str): The folder to search in
+
+    Returns:
+        - list: The list of files that match the pattern
+    """
     files = glob.glob(os.path.join(folderPath, pattern), recursive=True)
     pattern_re = re.compile(pattern.replace("*", "(.*?)"))
-    matching_parts = [pattern_re.search(file).group(1) for file in files]
-    return matching_parts
+
+    matchingFiles = [os.path.abspath(file) for file in files if pattern_re.search(file)]
+
+    return matchingFiles
