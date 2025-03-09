@@ -1,8 +1,8 @@
 from UTILS import exam
 
 
-numExams = 2
-numOfQuestions = 30
+numExams = 1
+numOfQuestions = 10
 folder = "PIC"
 
 if __name__ == "__main__":
