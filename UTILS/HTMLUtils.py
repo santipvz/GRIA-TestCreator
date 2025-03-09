@@ -49,7 +49,7 @@ def examWriter(questions, fileOutName):
         console.log("Unanswered: " + unanswered);
 
         // We calculate the score out of 10
-        totalScore = ((totalScore / questions.length) * 10).toFixed(2);
+        totalScore = ((totalScore / (correctGlobal + incorrectGlobal + unanswered)) * 10).toFixed(2);
 
         console.log("Score out of 10: " + totalScore);
 
