@@ -1,4 +1,4 @@
-from random import randint, choice
+import random
 import json
 import copy
 import glob
@@ -6,17 +6,53 @@ import os
 import re
 
 
-def questionGenerator(folderPath, numOfQuestions=10, questionsOfEachUnit=None):
+def questionGenerator(
+    folderPath: str, numOfQuestions: int = 10, questionsOfEachUnit: dict = None
+) -> list:
+    """
+    Generates a list of questions from the files in the
+    given folderPath. The questions are selected randomly
+    from the files.
+
+    Args:
+        - folderPath (str): The path of the folder with the questions
+        - numOfQuestions (int): The number of questions to generate
+        - questionsOfEachUnit (dict): A dictionary with the number of questions
+            to generate from each file. The keys are the names of the files and
+            the values the number of questions to generate from each file
+
+    Returns:
+        - list: A list with the generated questions
+    """
     questions = []
-    namesOfUnits = findPatternFiles("Unit*.json", folderPath)
 
+    questionsByFileDict = questionsByFile(folderPath)
+    maxQuestions = sum(questionsByFileDict.values())
+
+    if numOfQuestions > maxQuestions:
+        print(
+            "There are not enough questions to generate. Some questions will be repeated."
+        )
+
+    # Need to generate the number of questions for each file
     if questionsOfEachUnit == None:
-        questionsOfEachUnit = {key: 0 for key in namesOfUnits}
+        questionsOfEachUnit = {key: 0 for key in questionsByFileDict.keys()}
 
-        for i in range(numOfQuestions):
-            x = choice(list(questionsOfEachUnit.keys()))
-            questionsOfEachUnit[x] += 1
+        while sum(questionsOfEachUnit.values()) < numOfQuestions:
+            x = random.choice(list(questionsOfEachUnit.keys()))
 
+            if (
+                questionsOfEachUnit[x] < questionsByFileDict[x]
+                or numOfQuestions > maxQuestions
+            ):
+                questionsOfEachUnit[x] += 1
+
+    # Print the files from which don't have more questions
+    for f in questionsOfEachUnit.keys():
+        if questionsOfEachUnit[f] >= questionsByFileDict[f]:
+            print(f"The file {os.path.basename(f)} has no more questions.")
+
+    # Get the questions from each file
     for filePath in questionsOfEachUnit.keys():
         with open(
             filePath,
@@ -24,29 +60,30 @@ def questionGenerator(folderPath, numOfQuestions=10, questionsOfEachUnit=None):
             encoding="utf-8",
         ) as file:
             questionsData = json.load(file)
+
         numOfQuestionsInUnit = len(questionsData["questions"])
 
-        enoughQuestions = questionsOfEachUnit[filePath] <= numOfQuestionsInUnit
+        if questionsOfEachUnit[filePath] < numOfQuestionsInUnit:
+            choosenQuestions = random.sample(
+                questionsData["questions"], questionsOfEachUnit[filePath]
+            )  # No repeats
+        else:
+            choosenQuestions = [
+                copy.deepcopy(item)
+                for item in random.choices(
+                    questionsData["questions"], k=questionsOfEachUnit[filePath]
+                )  # Allows repeats
+            ]
 
-        while questionsOfEachUnit[filePath] > 0:
-            x = randint(0, numOfQuestionsInUnit - 1)
-            questionAdded = copy.deepcopy(questionsData)
-            questionAdded = questionAdded["questions"][x]
-            questionAdded["folder"] = folderPath
-            questionAdded["question"] = (
-                questionAdded["question"]
-                + " [Tema "
-                + os.path.basename(filePath)[4:-5]
-                + "]"
+        # Add the folder and the topic to the question
+        for q in choosenQuestions:
+            q["folder"] = folderPath
+            q["question"] = (
+                q["question"] + " [Tema " + os.path.basename(filePath)[4:-5] + "]"
             )
 
-            if enoughQuestions and questionAdded not in questions:
-                questions.append(questionAdded)
-                questionsOfEachUnit[filePath] -= 1
-
-            elif not enoughQuestions:
-                questions.append(questionAdded)
-                questionsOfEachUnit[filePath] -= 1
+        # Add the questions to the list that will be returned
+        questions.extend(choosenQuestions)
 
     return questions
 
