@@ -43,8 +43,15 @@ def examWriter(questions, fileOutName):
             }
         }
 
+        console.log("Score out of all questions: " + totalScore);
+        console.log("Correct: " + correctGlobal);
+        console.log("Incorrect: " + incorrectGlobal);
+        console.log("Unanswered: " + unanswered);
+
         // We calculate the score out of 10
         totalScore = ((totalScore / questions.length) * 10).toFixed(2);
+
+        console.log("Score out of 10: " + totalScore);
 
         var scoreDisplay = document.getElementById("scoreDisplay");
         scoreDisplay.innerHTML = "Preguntas acertadas: " + correctGlobal + "<br>Preguntas falladas: " + incorrectGlobal + "<br>Puntuación total: " + totalScore + "/10";
@@ -71,14 +78,19 @@ def examWriter(questions, fileOutName):
             correctAnswer.classList.add("incorrect");
         }
 
+        // We log the number of the question and score
+
         // If it is correct we return 1
         if (selectedInput && selectedInput.value === correctAnswer.innerHTML.split(":")[1].trim()) {
+            console.log(question.querySelector("p").innerHTML.split(":")[0] + " - Score: 1");
             return 1;
         } //If there is no answer we return NaN
         else if (selectedInput === null) {
+            console.log(question.querySelector("p").innerHTML.split(":")[0] + " - Score: NaN");
             return NaN;
         } //If it is incorrect we return the penalty for random guessing
         else {
+            console.log(question.querySelector("p").innerHTML.split(":")[0] + " - Score: -1/" + (numOptions - 1));
             return -1 / (numOptions - 1);
         }
     }
@@ -123,18 +135,23 @@ def examWriter(questions, fileOutName):
             }
         }
 
+        // We log the number of the question and score
+
         // If all the correct answers are selected and no incorrect answers are selected
         // we return 1
         if (correct === correctAnswersArray.length && incorrect === 0) {
             correctAnswer.classList.add("correct");
+            console.log(question.querySelector("p").innerHTML.split(":")[0] + " - Score: 1");
             return 1;
         } // If there are no answers we return NaN
         else if (selectedInputs.length === 0) {
             correctAnswer.classList.add("incorrect");
+            console.log(question.querySelector("p").innerHTML.split(":")[0] + " - Score: NaN");
             return NaN;
         } // If there are incorrect answers we return the penalty for random guessing
         else {
             correctAnswer.classList.add("incorrect");
+            console.log(question.querySelector("p").innerHTML.split(":")[0] + " - Score: -1/" + (numOptions - 1));
             return -1 / (numOptions - 1);
         }
 
