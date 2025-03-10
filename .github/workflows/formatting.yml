@@ -61,6 +61,7 @@ jobs:
             if ! git push git@github.com:${{ github.repository }}.git; then
               echo "SSH push failed. Falling back to normal."
               git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git
+              git push
             fi
           else
             echo "No changes to push."
