@@ -12,6 +12,19 @@
       ],
       "correct_options": [0, 1, 2],
       "questionType": "multipleChoice"
+    },
+     {
+      "question": "Which of the following are common applications of WSNs?",
+      "options": [
+        "Environmental monitoring.",
+        "Industrial automation.",
+        "Health and wellness tracking.",
+        "Seismic and structural monitoring.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
     }
   ]
 }
