@@ -60,7 +60,7 @@ jobs:
             git commit -m "chore: Auto-format code with Black and Prettier [GitHub Action]"
             if ! git push git@github.com:${{ github.repository }}.git; then
               echo "SSH push failed. Falling back to normal."
-              git push
+              git push https://github.com/${{ github.repository }}.git
             fi
           else
             echo "No changes to push."
