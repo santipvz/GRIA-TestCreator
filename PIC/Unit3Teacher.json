@@ -25,6 +25,149 @@
       ],
       "correct_options": [4],
       "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are some of the key advantages of using WSNs over traditional wired sensor networks?",
+      "options": [
+        "Extended sensing ranges.",
+        "Redundancy and fault tolerance.",
+        "Improved measurement accuracy.",
+        "Higher power consumption than wired networks.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which improvements does IEEE 802.11ac introduce over older Wi-Fi standards?",
+      "options": [
+        "Higher bandwidth with 160 MHz channels.",
+        "Multi-User MIMO (MU-MIMO) for parallel data transmission.",
+        "Support for operation in the 900 MHz band.",
+        "Enhanced beamforming capabilities.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which IEEE 802.15 working group standards are relevant to WPANs?",
+      "options": [
+        "IEEE 802.15.1 (Bluetooth PAN foundation).",
+        "IEEE 802.15.4 (Low data rate and power-efficient networks).",
+        "IEEE 802.15.5 (Mesh networking protocols).",
+        "IEEE 802.15.6 (Body area networking).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the main differences between mesh-under and route-over routing in 6LoWPAN?",
+      "options": [
+        "Mesh-under routing is managed at the data link layer.",
+        "Route-over routing allows each hop to be an IP router.",
+        "Route-over routing results in simpler packet forwarding.",
+        "Mesh-under routing incurs more traffic within a single domain.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors influence the reading range of an RFID system?",
+      "options": [
+        "Frequency of operation.",
+        "Power of the RFID reader.",
+        "Type of RFID tag used.",
+        "Environmental interference.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the key types of RFID tags?",
+      "options": [
+        "Passive tags.",
+        "Semi-passive tags.",
+        "Active tags.",
+        "Optical tags.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors affect signal propagation in wireless IoT networks?",
+      "options": [
+        "Physical obstructions like walls.",
+        "Interference from other electronic devices.",
+        "Frequency band used for transmission.",
+        "Weather conditions (for certain frequencies).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following describe key attributes of Z-Wave technology?",
+      "options": [
+        "Operates in the sub-1 GHz frequency band.",
+        "Supports a maximum of four routing hops.",
+        "Uses a single primary controller to manage the network.",
+        "Requires a full IP stack for communication.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are benefits of RFID over barcodes?",
+      "options": [
+        "Higher data storage capacity.",
+        "No need for line-of-sight scanning.",
+        "Faster read speeds.",
+        "Lower implementation cost.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the main layers in the WSN protocol stack?",
+      "options": [
+        "Physical layer.",
+        "Data link layer.",
+        "Network layer.",
+        "Application layer.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which characteristics differentiate IEEE 802.11ah (Wi-Fi HaLow) from traditional Wi-Fi?",
+      "options": [
+        "Operates in sub-1 GHz frequency bands.",
+        "Supports thousands of IoT devices per access point.",
+        "Uses narrower channels to increase range.",
+        "Provides higher throughput than IEEE 802.11ac.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
     }
   ]
 }
