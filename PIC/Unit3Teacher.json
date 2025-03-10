@@ -25,6 +25,799 @@
       ],
       "correct_options": [4],
       "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are some of the key advantages of using WSNs over traditional wired sensor networks?",
+      "options": [
+        "Extended sensing ranges.",
+        "Redundancy and fault tolerance.",
+        "Improved measurement accuracy.",
+        "Higher power consumption than wired networks.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which improvements does IEEE 802.11ac introduce over older Wi-Fi standards?",
+      "options": [
+        "Higher bandwidth with 160 MHz channels.",
+        "Multi-User MIMO (MU-MIMO) for parallel data transmission.",
+        "Support for operation in the 900 MHz band.",
+        "Enhanced beamforming capabilities.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which IEEE 802.15 working group standards are relevant to WPANs?",
+      "options": [
+        "IEEE 802.15.1 (Bluetooth PAN foundation).",
+        "IEEE 802.15.4 (Low data rate and power-efficient networks).",
+        "IEEE 802.15.5 (Mesh networking protocols).",
+        "IEEE 802.15.6 (Body area networking).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the main differences between mesh-under and route-over routing in 6LoWPAN?",
+      "options": [
+        "Mesh-under routing is managed at the data link layer.",
+        "Route-over routing allows each hop to be an IP router.",
+        "Route-over routing results in simpler packet forwarding.",
+        "Mesh-under routing incurs more traffic within a single domain.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors influence the reading range of an RFID system?",
+      "options": [
+        "Frequency of operation.",
+        "Power of the RFID reader.",
+        "Type of RFID tag used.",
+        "Environmental interference.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the key types of RFID tags?",
+      "options": [
+        "Passive tags.",
+        "Semi-passive tags.",
+        "Active tags.",
+        "Optical tags.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors affect signal propagation in wireless IoT networks?",
+      "options": [
+        "Physical obstructions like walls.",
+        "Interference from other electronic devices.",
+        "Frequency band used for transmission.",
+        "Weather conditions (for certain frequencies).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following describe key attributes of Z-Wave technology?",
+      "options": [
+        "Operates in the sub-1 GHz frequency band.",
+        "Supports a maximum of four routing hops.",
+        "Uses a single primary controller to manage the network.",
+        "Requires a full IP stack for communication.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are benefits of RFID over barcodes?",
+      "options": [
+        "Higher data storage capacity.",
+        "No need for line-of-sight scanning.",
+        "Faster read speeds.",
+        "Lower implementation cost.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the main layers in the WSN protocol stack?",
+      "options": [
+        "Physical layer.",
+        "Data link layer.",
+        "Network layer.",
+        "Application layer.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which characteristics differentiate IEEE 802.11ah (Wi-Fi HaLow) from traditional Wi-Fi?",
+      "options": [
+        "Operates in sub-1 GHz frequency bands.",
+        "Supports thousands of IoT devices per access point.",
+        "Uses narrower channels to increase range.",
+        "Provides higher throughput than IEEE 802.11ac.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors determine the reliability of an IoT network?",
+      "options": [
+        "Redundancy mechanisms",
+        "Adaptive error correction techniques",
+        "Secure authentication methods",
+        "Network packet prioritization",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are key considerations when designing IoT network protocols?",
+      "options": [
+        "Energy efficiency for battery-operated devices",
+        "Low latency for real-time applications",
+        "Scalability to support a large number of devices",
+        "Use of only wired communication for reliability",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are considered Application Layer protocols in IoT?",
+      "options": [
+        "HTTP",
+        "MQTT",
+        "CoAP",
+        "Transport Layer Security (TLS)",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are key differences between FDD and TDD in LTE?",
+      "options": [
+        "FDD uses separate frequency bands for uplink and downlink",
+        "TDD shares the same frequency band for uplink and downlink",
+        "FDD is more suitable for symmetric traffic loads",
+        "TDD is more efficient for asymmetric data traffic, such as in IoT",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are characteristics of Non-IP based WPAN communication?",
+      "options": [
+        "Optimized for cost and energy efficiency",
+        "Requires a full IP stack for connectivity",
+        "Typically operates within short to medium range",
+        "Uses standardized IP addressing methods",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are key advantages of using LoRaWAN for IoT?",
+      "options": [
+        "Long-range communication",
+        "High data transmission speed",
+        "Low power consumption",
+        "Scalability for large networks",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are key considerations when designing wireless IoT networks?",
+      "options": [
+        "Energy efficiency",
+        "Network congestion and interference management",
+        "Security vulnerabilities",
+        "Scalability of the network",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors influence RF signal quality in WPAN communication?",
+      "options": [
+        "Frequency band used",
+        "Physical obstructions in the environment",
+        "Interference from other wireless devices",
+        "Transmission power of the device",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which networking layers are commonly adapted in IoT environments?",
+      "options": [
+        "Physical Layer (PHY)",
+        "Data Link Layer (MAC/LLC)",
+        "Network Layer (IP)",
+        "Application Layer (HTTP, MQTT, CoAP)",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which wireless IoT technology is best suited for ultra-low-power applications?",
+      "options": [
+        "WiFi 6",
+        "LoRaWAN",
+        "NB-IoT",
+        "Bluetooth Low Energy (BLE)",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [1, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are key characteristics of WSN architecture?",
+      "options": [
+        "Deeply distributed network topology",
+        "Autonomous operation and self-configuration",
+        "Energy efficiency mechanisms",
+        "Dependence on wired connectivity",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are key characteristics of LTE-M (Cat-M1)?",
+      "options": [
+        "Supports voice communication using VoLTE",
+        "Operates in the licensed spectrum",
+        "Allows mobility and handover between cells",
+        "Uses ultra-narrowband channels for minimal interference",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are essential components of a Wireless Sensor Network (WSN)?",
+      "options": [
+        "Sensing unit",
+        "Processing unit",
+        "Transceiver unit",
+        "Power unit",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which challenges affect the deployment of WSNs?",
+      "options": [
+        "Power efficiency and energy constraints",
+        "Scalability and network density",
+        "Security vulnerabilities",
+        "High computational power in sensor nodes",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which IoT protocols support IP networking for low-power devices?",
+      "options": [
+        "6LoWPAN",
+        "Thread",
+        "Zigbee (without IP adaptations)",
+        "Wi-Fi HaLow (802.11ah)",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements about 5G and IoT are correct?",
+      "options": [
+        "5G includes specific standards optimized for massive IoT (mMTC)",
+        "5G operates only on millimeter wave (mmWave) frequencies",
+        "5G enables ultra-reliable and low-latency communications (URLLC)",
+        "5G networks offer higher energy efficiency than 4G LTE for IoT devices",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are fundamental aspects of communication in IoT?",
+      "options": [
+        "Hardware components such as wires and transmitters",
+        "Nature of transmission such as electromagnetic waves",
+        "Interpretation of transferred information",
+        "Communication between software applications only",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which protocols are typically used at the Network Layer in IoT?",
+      "options": [
+        "Internet Protocol (IP)",
+        "Address Resolution Protocol (ARP)",
+        "Internet Control Message Protocol (ICMP)",
+        "Hypertext Transfer Protocol (HTTP)",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors impact the efficiency of a 6LoWPAN mesh network?",
+      "options": [
+        "Edge router efficiency in handling IPv6 compression",
+        "The number of hops required for data to reach the internet",
+        "The type of routing scheme used (mesh-under vs. route-over)",
+        "Whether devices are statically assigned IPv6 addresses",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What functions does the Data Link Layer serve in IoT communication?",
+      "options": [
+        "Establishes a basic handshake between nodes",
+        "Encodes physical signal changes into a bit stream",
+        "Provides addressing and routing for data packets",
+        "Defines the physical characteristics of network cables",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements about 6LoWPAN are correct?",
+      "options": [
+        "It allows constrained devices to communicate using IPv6",
+        "It requires a full TCP/IP stack for operation",
+        "It supports both mesh and star topologies",
+        "It is optimized for low-power and lossy networks",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are advantages of Zigbee over Bluetooth Low Energy (BLE)?",
+      "options": [
+        "Better scalability in large mesh networks",
+        "Lower power consumption for continuous operation",
+        "Superior performance for audio streaming",
+        "More efficient handling of broadcast messaging",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which challenges are associated with Non-IP WPAN technologies?",
+      "options": [
+        "Limited interoperability with traditional networks",
+        "Security vulnerabilities due to lower encryption standards",
+        "Short-range communication constraints",
+        "Higher power consumption compared to IP-based solutions",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which features of IPv6 are particularly useful for IoT?",
+      "options": [
+        "Vast address space allowing unique addresses for billions of devices",
+        "Header compression to improve efficiency in low-power networks",
+        "Built-in security with IPsec support",
+        "Mandatory support for 4G LTE integration",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "How does the Transport Layer contribute to IoT communication?",
+      "options": [
+        "It determines how packets are routed through the network",
+        "It assigns unique IP addresses to data packets",
+        "It ensures data integrity and proper sequencing of messages",
+        "It establishes and maintains session connections",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following LPWAN technologies operates in the licensed spectrum?",
+      "options": [
+        "LoRaWAN",
+        "Sigfox",
+        "NB-IoT",
+        "LTE-M",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following standards are relevant for RFID technology?",
+      "options": [
+        "ISO/IEC 18000 series",
+        "EPCglobal standards",
+        "IEEE 802.15.4",
+        "GS1 standards",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which layers are included in the OSI model for IoT communication?",
+      "options": [
+        "Physical Layer",
+        "Data Link Layer",
+        "Network Layer",
+        "Application Layer",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the primary challenges of deploying LoRaWAN networks?",
+      "options": [
+        "High deployment and subscription costs",
+        "Limited downlink capabilities",
+        "Lack of support for real-time applications",
+        "Coverage constraints in dense urban areas",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [1, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which challenges arise when implementing IP in IoT sensor networks?",
+      "options": [
+        "High processing overhead for small devices",
+        "Power consumption due to constant connectivity requirements",
+        "Increased security risks from global addressability",
+        "Simplified network configuration compared to proprietary protocols",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are key characteristics of the Electronic Product Code (EPC)?",
+      "options": [
+        "Provides a unique identifier for tagged objects",
+        "Uses a standardized data format",
+        "Enables object tracking across supply chains",
+        "Requires a direct internet connection for functionality",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which wireless communication technologies are widely used in IoT?",
+      "options": [
+        "WiFi",
+        "Bluetooth Low Energy (BLE)",
+        "LoRaWAN",
+        "ZigBee",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following best describe the advantages of NB-IoT over traditional cellular networks?",
+      "options": [
+        "Reduced power consumption",
+        "Greater indoor penetration",
+        "Higher data throughput",
+        "Optimized for low-cost IoT deployments",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the advantages of using the Device-to-Cloud communication model?",
+      "options": [
+        "Centralized data processing",
+        "Scalability for large deployments",
+        "Easy remote access and management",
+        "Minimal reliance on network gateways",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which are the three main IoT communication models?",
+      "options": [
+        "Device-to-Device",
+        "Device-to-Gateway",
+        "Device-to-Cloud",
+        "Mesh-to-Mesh",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are critical trade-offs in IoT network design?",
+      "options": [
+        "Power consumption vs. network performance",
+        "Security vs. latency",
+        "Scalability vs. hardware costs",
+        "Data accuracy vs. bandwidth utilization",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following security risks are associated with RFID?",
+      "options": [
+        "Unauthorized scanning (skimming)",
+        "Cloning and spoofing of RFID tags",
+        "Eavesdropping on communication",
+        "Physical damage to RFID tags",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are common constraints of IoT network devices?",
+      "options": [
+        "Limited processing power",
+        "Restricted memory and storage",
+        "Battery dependency",
+        "High data transmission rates",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which IEEE standards define wireless communication protocols relevant to IoT?",
+      "options": [
+        "IEEE 802.11 (WiFi)",
+        "IEEE 802.15.4 (ZigBee, Thread)",
+        "IEEE 802.15.1 (Bluetooth)",
+        "IEEE 802.3 (Ethernet)",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are common applications of RFID?",
+      "options": [
+        "Supply chain management",
+        "Asset tracking",
+        "Contactless payments",
+        "Environmental monitoring",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What role does WSN middleware play in sensor networks?",
+      "options": [
+        "Manages communication between heterogeneous devices",
+        "Provides system scalability and fault tolerance",
+        "Supports energy-efficient network operation",
+        "Acts as a standalone WSN control system",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are essential components of an RFID system?",
+      "options": [
+        "RFID tags",
+        "RFID readers",
+        "Middleware",
+        "Communication network",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following factors influence the choice of a wireless standard for IoT?",
+      "options": [
+        "Data rate",
+        "Signal range",
+        "Power consumption",
+        "Compatibility with existing infrastructure",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following networking topologies is most scalable for large-scale IoT deployments?",
+      "options": [
+        "Star topology",
+        "Mesh topology",
+        "Bus topology",
+        "Point-to-Point topology",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [1],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which security mechanisms are commonly used in WPANs?",
+      "options": [
+        "AES encryption for data security",
+        "Device authentication protocols",
+        "Adaptive Frequency Hopping (AFH) to mitigate interference",
+        "Biometric-based access control",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which WPAN topologies are commonly used in Bluetooth and Zigbee networks?",
+      "options": [
+        "Star topology",
+        "Mesh topology",
+        "Ring topology",
+        "Point-to-Multipoint topology",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following technologies support IP-to-the-edge architecture in IoT?",
+      "options": [
+        "6LoWPAN",
+        "Thread",
+        "WiFi",
+        "Bluetooth Mesh",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are advantages of using Bluetooth 5.0 over previous Bluetooth versions?",
+      "options": [
+        "Increased range",
+        "Higher data transmission speeds",
+        "Improved energy efficiency",
+        "Enhanced security features",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which challenges are associated with wireless IoT communication?",
+      "options": [
+        "Interference from other devices",
+        "Limited frequency spectrum availability",
+        "Security risks due to open-air transmission",
+        "High power consumption in long-range communications",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "How does the TCP/IP model differ from the OSI model?",
+      "options": [
+        "The TCP/IP model has fewer layers",
+        "The OSI model is more theoretical, whereas TCP/IP is more practical",
+        "TCP/IP combines multiple OSI layers into broader categories",
+        "The OSI model does not support IoT applications",
+        "All of them",
+        "None of them"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
     }
   ]
 }
