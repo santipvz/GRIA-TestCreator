@@ -133,3 +133,28 @@ def questionsByFile(filePath: str) -> dict:
     questions = {k: v for k, v in questions.items() if v > 0}
 
     return questions
+
+
+def validFolders() -> dict:
+    """
+    Get the folders that have questions in them.
+
+    It will return them as the keys of a dictionary,
+    being the values a dictionary of the files
+    with the number of questions in them.
+
+    Args:
+        - None
+
+    Returns:
+        - dict: The dictionary with the folders and the
+            number of questions in each file
+    """
+    filePath = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+    folders = {f: questionsByFile(f) for f in os.listdir(filePath) if os.path.isdir(f)}
+
+    # We eliminate the ones with empty dictionaries (no questions)
+    folders = {k: v for k, v in folders.items() if v}
+
+    return folders
