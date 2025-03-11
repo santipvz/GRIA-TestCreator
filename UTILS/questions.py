@@ -161,3 +161,32 @@ def validFolders() -> dict:
     folders = {k: v for k, v in folders.items() if v}
 
     return folders
+
+
+def showNumberOfQuestions() -> None:
+    """
+    Print the number of questions in each folder and file
+
+    Args:
+        - None
+
+    Returns:
+        - None
+    """
+    data = validFolders()
+
+    # We order by the name of the folder
+    data = dict(sorted(data.items(), key=lambda x: x[0]))
+
+    # Inside each folder, we order by the name of the file
+    data = {k: dict(sorted(v.items(), key=lambda x: x[0])) for k, v in data.items()}
+
+    # We print the data
+    for folder, files in data.items():
+        print(f"{folder}: {sum(files.values())}")
+        for file, questions in files.items():
+            print(f"\t{os.path.basename(file)}: {questions}")
+
+
+if __name__ == "__main__":
+    showNumberOfQuestions()
