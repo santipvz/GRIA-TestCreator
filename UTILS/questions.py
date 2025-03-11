@@ -26,7 +26,7 @@ def questionGenerator(
     """
     questions = []
 
-    questionsByFileDict = questionsByFile(folderPath)
+    questionsByFileDict = questionsByFileInFolder(folderPath)
     maxQuestions = sum(questionsByFileDict.values())
 
     if numOfQuestions > maxQuestions:
@@ -109,9 +109,10 @@ def findPatternFiles(pattern="Unit*.json", folderPath=".") -> list:
     return matchingFiles
 
 
-def questionsByFile(filePath: str) -> dict:
+def questionsByFileInFolder(folderPath: str) -> dict:
     """
-    Returns a dictionary with the questions of a file
+    Returns a dictionary with the number questions of all
+    the files in the given folderPath.
 
     Args:
         - filePath (str): The path of the file to read
@@ -121,7 +122,7 @@ def questionsByFile(filePath: str) -> dict:
             The keys are the names of the files and the values
             the number of questions of each file
     """
-    questions = {x: 0 for x in findPatternFiles(folderPath=filePath)}
+    questions = {x: 0 for x in findPatternFiles(folderPath=folderPath)}
 
     # We go file by file
     for f in questions.keys():
@@ -152,7 +153,9 @@ def validFolders() -> dict:
     """
     filePath = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-    folders = {f: questionsByFile(f) for f in os.listdir(filePath) if os.path.isdir(f)}
+    folders = {
+        f: questionsByFileInFolder(f) for f in os.listdir(filePath) if os.path.isdir(f)
+    }
 
     # We eliminate the ones with empty dictionaries (no questions)
     folders = {k: v for k, v in folders.items() if v}
