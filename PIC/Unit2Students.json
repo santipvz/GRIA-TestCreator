@@ -35,7 +35,12 @@
     },
     {
       "question": "¿Qué ventaja ofrece el uso de un gateway en IoT?",
-      "options": ["Permite la comunicación entre dispositivos con diferentes protocolos.", "Reduce el consumo energético de la red IoT al eliminar sensores.", "Asegura que todos los dispositivos se conecten directamente a Internet.", "Hace innecesario el almacenamiento de datos en la nube."],
+      "options": [
+        "Permite la comunicación entre dispositivos con diferentes protocolos.",
+        "Reduce el consumo energético de la red IoT al eliminar sensores.",
+        "Asegura que todos los dispositivos se conecten directamente a Internet.",
+        "Hace innecesario el almacenamiento de datos en la nube."
+      ],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
