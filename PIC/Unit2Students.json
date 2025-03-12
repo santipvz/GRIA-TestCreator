@@ -145,12 +145,7 @@
     },
     {
       "question": "¿Cuál de las siguientes tecnologías pertenece a la categoría de medio alcance en IoT?",
-      "options": [
-        "NB - IoT.",
-        "Sigfox.",
-        "Satelital.",
-        "Bluetooth."
-      ],
+      "options": ["NB - IoT.", "Sigfox.", "Satelital.", "Bluetooth."],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
