@@ -1,0 +1,54 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué función principal cumplen los sensores en un sistema IoT?",
+      "options": [
+        "Recoger información del entorno y convertirla en señales digitales.",
+        "Ejecutar acciones físicas como abrir válvulas o encender motores.",
+        "Procesar los datos en la nube para la toma de decisiones.",
+        "Enviar datos directamente a los actuadores sin procesamiento."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es una desventaja de la topología en estrella en redes IoT?",
+      "options": [
+        "Requiere mayor consumo energético.",
+        "Es difícil de administrar debido a su estructura descentralizada.",
+        "Tiene un punto único de fallo si el nodo central deja de funcionar.",
+        "No permite la comunicación entre dispositivos conectados."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Cuál de las siguientes estrategias optimiza el consumo de energía en sistemas IoT?",
+      "options": [
+        "Usar redes Wi-Fi de alta velocidad en lugar de tecnologías de bajo consumo.",
+        "Utilizar protocolos como ZigBee o LoRa en lugar de Wi-Fi.",
+        "Mantener los dispositivos siempre conectados a Internet.",
+        "Enviar todos los datos recopilados sin procesarlos previamente."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ventaja ofrece el uso de un gateway en IoT?",
+      "options": ["Permite la comunicación entre dispositivos con diferentes protocolos.", "Reduce el consumo energético de la red IoT al eliminar sensores.", "Asegura que todos los dispositivos se conecten directamente a Internet.", "Hace innecesario el almacenamiento de datos en la nube."],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es un desafío de la computación en la nube para IoT?",
+      "options": [
+        "No permite el almacenamiento de datos.",
+        "Requiere que todos los datos sean procesados localmente.",
+        "No es compatible con dispositivos IoT de baja potencia.",
+        "Genera latencia debido a la distancia entre los dispositivos y la nube."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    }
+  ]
+}
