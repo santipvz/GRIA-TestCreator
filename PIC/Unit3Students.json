@@ -41,10 +41,7 @@
     },
     {
       "question": "¿Qué tipo de etiqueta RFID tiene una batería y puede enviar señales sin necesidad de ser activada por un lector?",
-      "options": [
-        "Activa",
-        "Pasiva"
-      ],
+      "options": ["Activa", "Pasiva"],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
@@ -100,34 +97,19 @@
     },
     {
       "question": "¿Cuál de las siguientes tecnologías usa una banda licenciada para su operación?",
-      "options": [
-        "Sigfox",
-        "LoRaWan",
-        "NB-IOT",
-        "LTE-M"
-      ],
+      "options": ["Sigfox", "LoRaWan", "NB-IOT", "LTE-M"],
       "correct_option": 3,
       "questionType": "singleChoice"
     },
     {
       "question": "¿Qué tecnología LPWAN permitiría la mayor duración de batería debido a su bajo consumo energético?",
-      "options": [
-        "LoRaWan",
-        "Sigfox",
-        "NB-IOT",
-        "LTE-M"
-      ],
+      "options": ["LoRaWan", "Sigfox", "NB-IOT", "LTE-M"],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de las siguientes tecnologías ofrece una mayor cobertura en kilómetros en campo abierto?",
-      "options": [
-        "LoRaWan",
-        "Sigfox",
-        "NB-IOT",
-        "LTE-M"
-      ],
+      "options": ["LoRaWan", "Sigfox", "NB-IOT", "LTE-M"],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
@@ -143,12 +125,7 @@
     },
     {
       "question": "¿Cuál de las siguientes tecnologías no ofrece cifrado AES-128 de forma nativa en su protocolo?",
-      "options": [
-        "Sigfox",
-        "LoRaWAN",
-        "NB-IoT",
-        "LTE-M"
-      ],
+      "options": ["Sigfox", "LoRaWAN", "NB-IoT", "LTE-M"],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
