@@ -54,6 +54,171 @@
       ],
       "correct_option": 3,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones es correcta sobre el enrutamiento en IoT?",
+      "options": [
+        "Los protocolos de enrutamiento en IoT no influyen en el consumo energético de los dispositivos.",
+        "El enrutamiento reactivo en IoT mantiene constantemente tablas de enrutamiento actualizadas.",
+        "Los protocolos de enrutamiento en IoT son idénticos a los de las redes tradicionales de TI.",
+        "El enrutamiento híbrido combina características del enrutamiento proactivo y reactivo."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es una de las ventajas de la arquitectura SDN en IoT?",
+      "options": [
+        "Aumenta el consumo energético de la red IoT.",
+        "Obliga a los dispositivos IoT a operar exclusivamente en la nube.",
+        "Permite configurar y gestionar la red de manera centralizada.",
+        "Requiere que todos los dispositivos sean idénticos para funcionar."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué función principal desempeña la capa de middleware en IoT?",
+      "options": [
+        "Gestionar la comunicación directa entre dispositivos sin necesidad de la nube.",
+        "Filtrar y procesar datos de dispositivos antes de enviarlos a la capa de aplicación.",
+        "Sustituir a la capa de sensores y actuadores en redes de alta densidad.",
+        "Actuar como gateway para dispositivos IoT que utilizan redes de corto alcance."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes es una arquitectura de referencia utilizada en IoT?",
+      "options": [
+        "Modelo Cliente-Servidor de IoT.",
+        "Arquitectura basada en redes de pares (P2P).",
+        "Arquitectura de Red de Alta Disponibilidad.",
+        "OpenFog Reference Architecture."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es un desafío clave en la interoperabilidad de dispositivos IoT?",
+      "options": [
+        "La incompatibilidad del protocolo HTTP con redes IoT.",
+        "La ausencia de estándares unificados para la comunicación entre dispositivos.",
+        "La imposibilidad de utilizar inteligencia artificial en la gestión de IoT.",
+        "La falta de sensores de bajo consumo energético en el mercado."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué Jerarquía de Procesamiento permite el filtrado de datos previo a su transmisión a la nube?",
+      "options": [
+        "Fog Computing (Niebla).",
+        "Edge Computing (Borde).",
+        "Ninguna de las propuestas.",
+        "Cloud Computing (Nube)."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la principal función de la capa de red en una arquitectura IoT?",
+      "options": [
+        "Gestionar la autenticación y cifrado de datos.",
+        "Asegurar la conectividad y transmisión de datos entre dispositivos y aplicaciones.",
+        "Coordinar la ejecución de aplicaciones en la nube.",
+        "Controlar la interacción entre los sensores y actuadores."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la diferencia clave entre IT e IoT?",
+      "options": [
+        "Una red IoT utiliza siempre comunicación cableada para mejorar la seguridad.",
+        "Una red IT está enfocada en la recopilación de datos en tiempo real.",
+        "Una red IoT requiere alta velocidad y baja latencia para funcionar correctamente.",
+        "Una red IT conecta computadoras y usuarios, mientras que una red IoT conecta sensores y dispositivos autónomos."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes tecnologías pertenece a la categoría de medio alcance en IoT?",
+      "options": [
+        "NB - IoT.",
+        "Sigfox.",
+        "Satelital.",
+        "Bluetooth."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué función tiene el Broker en el Protocolo MQTT?",
+      "options": [
+        "Procesar una solicitud de un cliente y darle una respuesta.",
+        "Cerrar la conexión entre servidor y cliente cuando no se transmiten más datos.",
+        "Gestionar la distribución de mensajes entre clientes suscritos a temas.",
+        "Realizar la conexión inicial entre los dispositivos."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la gran DIFERENCIA entre una Solución IoT y una Aplicación IoT?",
+      "options": [
+        "Una Solución IoT es un producto completo con hardware, software y conectividad, mientras que una Aplicación IoT es solo el software.",
+        "No hay diferencia, ambos términos son sinónimos.",
+        "Una Solución IoT solo incluye software, mientras que una Aplicación IoT incluye hardware.",
+        "Una Aplicación IoT incluye hardware y software, pero una Solución IoT solo hardware."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de los siguientes NO es un bloque funcional clave en una solución IoT?",
+      "options": [
+        "Plataforma IoT.",
+        "Dispositivos (Things).",
+        "Gateways.",
+        "Router."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la función principal del Message Broker en una plataforma IoT?",
+      "options": [
+        "Almacenar datos históricos de los sensores.",
+        "Actualizar el firmware de los dispositivos conectados.",
+        "Gestionar usuarios y permisos en la plataforma IoT.",
+        "Permitir que los dispositivos se comuniquen con la plataforma utilizando distintos protocolos."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Por qué MQTT es una opción comúnmente utilizada como Message Broker en IoT?",
+      "options": [
+        "Porque es el protocolo más rápido para redes de alta velocidad.",
+        "Porque es eficiente en redes de bajo ancho de banda y dispositivos con restricciones energéticas.",
+        "Porque es el único protocolo compatible con plataformas IoT.",
+        "Porque permite almacenar grandes volúmenes de datos sin necesidad de bases de datos externas."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de los siguientes módulos es MENOS necesario en las soluciones IoT?",
+      "options": [
+        "Interfaz de dispositivos y Message Broker.",
+        "Almacenamiento de datos y Motor de Reglas.",
+        "Microservicios y Gestión de Usuarios.",
+        "Ingestión de datos y Enrutamiento de mensajes."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
     }
   ]
 }
