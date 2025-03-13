@@ -1,0 +1,14 @@
+{
+  "questions": [
+    {
+      "question": "¿Por qué el primer ciclo de simulación en Lustre a menudo no produce una salida válida?",
+      "options": [
+        "Porque las variables de estado requieren una inicialización en el primer ciclo.",
+        "Porque la simulación no permite evaluar el primer ciclo.",
+        "Porque los valores booleanos no pueden ser leídos en la primera iteración.",
+        "Porque el compilador Lustre omite el primer paso siempre."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    }  ]
+}
