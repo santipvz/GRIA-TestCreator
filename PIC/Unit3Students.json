@@ -5,7 +5,8 @@
       "options": [
         "Traduce los datos en un formato comprensible para la otra computadora.",
         "Administra direcciones IP y encuentra la mejor ruta para los datos.",
-        "Establece y mantiene la conexión entre dos dispositivos."
+        "Establece y mantiene la conexión entre dos dispositivos.",
+        "Se encarga de la comunicación directa entre el hardware de red."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -13,9 +14,10 @@
     {
       "question": "En el modelo TCP/IP, ¿qué capa se encarga de manejar direcciones IP y asegurar que los datos lleguen al destino correcto?",
       "options": [
-        "Capa de acceso a la red",
-        "Capa de transporte",
-        "Capa de Internet"
+        "Capa de acceso a la red.",
+        "Capa de transporte.",
+        "Capa de Internet.",
+        "Capa de aplicación."
       ],
       "correct_option": 2,
       "questionType": "singleChoice"
@@ -24,7 +26,9 @@
       "question": "¿Cuál de las siguientes afirmaciones sobre las redes de sensores inalámbricos (WSN) es correcta?",
       "options": [
         "Utilizan sensores que trabajan juntos para recolectar y enviar información.",
-        "Son redes cableadas que requieren infraestructura fija."
+        "Son redes cableadas que requieren infraestructura fija.",
+        "Solo pueden medir temperatura y humedad.",
+        "No pueden funcionar si un sensor falla"
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -34,23 +38,25 @@
       "options": [
         "No necesita de un lector especial para funcionar.",
         "Permite leer múltiples etiquetas sin necesidad de escanear una por una.",
-        "Es más económica que los códigos de barras."
+        "Es más económica que los códigos de barras.",
+        "No requiere ondas de radio para la transmisión de datos."
       ],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
     {
       "question": "¿Qué tipo de etiqueta RFID tiene una batería y puede enviar señales sin necesidad de ser activada por un lector?",
-      "options": ["Activa", "Pasiva"],
+      "options": ["Activa.", "Pasiva.", "Semiactiva.", "Analógica."],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
     {
       "question": "¿Qué técnica utiliza bluetooth para evitar interferencias en su banda de 2.4 GHz?",
       "options": [
-        "Salto de frecuencia",
-        "CSMA-CA",
-        "Las respuestas B y C son correctas"
+        "Salto de frecuencia.",
+        "CSMA-CA.",
+        "Salto de frecuencia y CSMA-CA.",
+        "Detección de colisiones."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -60,7 +66,8 @@
       "options": [
         "Tiene más interferencia debido a la utilización de la misma frecuencia por otros dispositivos.",
         "Permite una menor velocidad de transmisión de datos.",
-        "Tiene menor alcance que la banda de 5 GHz."
+        "Tiene menor alcance que la banda de 5 GHz.",
+        "No es compatible con dispositivos más antiguos."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -70,7 +77,8 @@
       "options": [
         "Z-Wave es más caro y utiliza un estándar cerrado, lo que limita la interoperabilidad.",
         "Z-Wave tiene un mayor consumo de energía.",
-        "Z-Wave tiene mayor interferencia con dispositivos Wi-Fi."
+        "Z-Wave tiene mayor interferencia con dispositivos Wi-Fi.",
+        "Z-Wave no permite la creación de redes malla."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -80,7 +88,8 @@
       "options": [
         "Responder a las solicitudes del dispositivo master y pasar los datos entre piconets.",
         "Gestionar el tráfico de datos entre diferentes piconets.",
-        "Enviar datos únicamente a otros esclavos en la misma piconet."
+        "Enviar datos únicamente a otros esclavos en la misma piconet.",
+        "Iniciar y controlar la comunicación entre los dispositivos de la red."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -88,29 +97,30 @@
     {
       "question": "¿Cuál es la principal ventaja de Zigbee en comparación con Wi-Fi y Bluetooth?",
       "options": [
-        "Mayor alcance de señal",
-        "Bajo consumo de energía",
-        "Mayor velocidad de transmisión"
+        "Mayor alcance de señal.",
+        "Bajo consumo de energía.",
+        "Mayor velocidad de transmisión.",
+        "Conexión sin necesidad de hub."
       ],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de las siguientes tecnologías usa una banda licenciada para su operación?",
-      "options": ["Sigfox", "LoRaWan", "NB-IOT", "LTE-M"],
-      "correct_option": 3,
+      "options": ["Sigfox.", "LoRaWan.", "NB-IOT.", "LTE-M."],
+      "correct_option": 2,
       "questionType": "singleChoice"
     },
     {
       "question": "¿Qué tecnología LPWAN permitiría la mayor duración de batería debido a su bajo consumo energético?",
-      "options": ["LoRaWan", "Sigfox", "NB-IOT", "LTE-M"],
-      "correct_option": 1,
+      "options": ["Sigfox.", "LoRaWan.", "NB-IOT.", "LTE-M."],
+      "correct_option": 0,
       "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de las siguientes tecnologías ofrece una mayor cobertura en kilómetros en campo abierto?",
-      "options": ["LoRaWan", "Sigfox", "NB-IOT", "LTE-M"],
-      "correct_option": 1,
+      "options": ["Sigfox.", "LoRaWan.", "NB-IOT.", "LTE-M."],
+      "correct_option": 0,
       "questionType": "singleChoice"
     },
     {
@@ -118,23 +128,25 @@
       "options": [
         "LoRa es la tecnología de modulación y LoRaWAN el protocolo de red.",
         "LoRaWAN solo se usa en redes privadas, mientras que LoRa es pública.",
-        "LoRa usa bandas licenciadas y LoRaWAN no."
+        "LoRa usa bandas licenciadas y LoRaWAN no.",
+        "LoRa es un protocolo de red y LoRaWAN es solo la modulación de señal."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál de las siguientes tecnologías no ofrece cifrado AES-128 de forma nativa en su protocolo?",
-      "options": ["Sigfox", "LoRaWAN", "NB-IoT", "LTE-M"],
+      "options": ["Sigfox.", "LoRaWan.", "NB-IOT.", "LTE-M."],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
     {
       "question": "¿Cuál es una de las principales ventajas de IPv6 en IoT?",
       "options": [
-        "Espacio de direcciones más amplio y mejor seguridad",
-        "Compatibilidad directa con redes 3G y 4G",
-        "Reducir la necesidad de enrutadores de borde"
+        "Espacio de direcciones más amplio y mejor seguridad.",
+        "Compatibilidad directa con redes 3G y 4G.",
+        "Reducir la necesidad de enrutadores de borde.",
+        "Menor consumo energético que IPv4."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -142,9 +154,10 @@
     {
       "question": "¿Cuál es el propósito principal de 6LoWPAN en IoT?",
       "options": [
-        "Permitir el uso de IPv6 en redes de baja potencia",
-        "Eliminar la necesidad de direcciones IP en IoT",
-        "Reducir la necesidad de enrutadores de borde"
+        "Permitir el uso de IPv6 en redes de baja potencia.",
+        "Eliminar la necesidad de direcciones IP en IoT.",
+        "Reducir la necesidad de enrutadores de borde.",
+        "Sustituir completamente a IPv6 en redes cableadas."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -154,7 +167,8 @@
       "options": [
         "Es ideal para aplicaciones en tiempo real debido a su baja latencia.",
         "Implementa control de flujo y retransmisión de datos perdidos.",
-        "Es un protocolo orientado a conexión y fiable."
+        "Es un protocolo orientado a conexión y fiable.",
+        "Solo se usa en redes locales y no en Internet."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -164,7 +178,8 @@
       "options": [
         "TCP garantiza la entrega de datos, mientras que UDP no.",
         "TCP es sin conexión y UDP es orientado a conexión.",
-        "UDP solo funciona en redes IPv6, mientras que TCP en IPv4 e IPv6."
+        "UDP solo funciona en redes IPv6, mientras que TCP en IPv4 e IPv6.",
+        "TCP es más rápido y eficiente que UDP en transmisión en tiempo real."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
@@ -174,7 +189,8 @@
       "options": [
         "Nodos enrutadores, nodos host y enrutadores de borde.",
         "Solo nodos enrutadores y dispositivos Bluetooth.",
-        "Sensores Wi-Fi exclusivamente."
+        "Sensores Wi-Fi exclusivamente.",
+        "Solo dispositivos de alto consumo energético."
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
