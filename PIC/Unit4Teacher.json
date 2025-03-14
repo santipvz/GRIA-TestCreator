@@ -7,7 +7,7 @@
         "It is automatically assigned guest-level permissions.",
         "It is denied access to all topics.",
         "It is assigned to a default user group with limited privileges."
-    ],
+      ],
       "correct_options": [2],
       "questionType": "multipleChoice"
     }
