@@ -272,6 +272,227 @@
       ],
       "correct_options": [4],
       "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which networking layers are commonly adapted in IoT environments?",
+      "options": [
+        "Physical Layer (PHY).",
+        "Data Link Layer (MAC/LLC).",
+        "Network Layer (IP).",
+        "Application Layer (HTTP, MQTT, CoAP).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which wireless IoT technology is best suited for ultra-low-power applications?",
+      "options": [
+        "WiFi 6.",
+        "LoRaWAN.",
+        "NB-IoT.",
+        "Bluetooth Low Energy (BLE).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [1, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are key characteristics of WSN architecture?",
+      "options": [
+        "Deeply distributed network topology.",
+        "Autonomous operation and self-configuration.",
+        "Energy efficiency mechanisms.",
+        "Dependence on wired connectivity.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are key characteristics of LTE-M (Cat-M1)?",
+      "options": [
+        "Supports voice communication using VoLTE.",
+        "Operates in the licensed spectrum.",
+        "Allows mobility and handover between cells.",
+        "Uses ultra-narrowband channels for minimal interference.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are essential components of a Wireless Sensor Network (WSN)?",
+      "options": [
+        "Sensing unit.",
+        "Processing unit.",
+        "Transceiver unit.",
+        "Power unit.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which challenges affect the deployment of WSNs?",
+      "options": [
+        "Power efficiency and energy constraints.",
+        "Scalability and network density.",
+        "Security vulnerabilities.",
+        "High computational power in sensor nodes.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which IoT protocols support IP networking for low-power devices?",
+      "options": [
+        "6LoWPAN.",
+        "Thread.",
+        "Zigbee (without IP adaptations).",
+        "Wi-Fi HaLow (802.11ah).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements about 5G and IoT are correct?",
+      "options": [
+        "5G includes specific standards optimized for massive IoT (mMTC).",
+        "5G operates only on millimeter wave (mmWave) frequencies.",
+        "5G enables ultra-reliable and low-latency communications (URLLC).",
+        "5G networks offer higher energy efficiency than 4G LTE for IoT devices.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are fundamental aspects of communication in IoT?",
+      "options": [
+        "Hardware components such as wires and transmitters.",
+        "Nature of transmission such as electromagnetic waves.",
+        "Interpretation of transferred information.",
+        "Communication between software applications only.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which protocols are typically used at the Network Layer in IoT?",
+      "options": [
+        "Internet Protocol (IP).",
+        "Address Resolution Protocol (ARP).",
+        "Internet Control Message Protocol (ICMP).",
+        "Hypertext Transfer Protocol (HTTP).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors impact the efficiency of a 6LoWPAN mesh network?",
+      "options": [
+        "Edge router efficiency in handling IPv6 compression.",
+        "The number of hops required for data to reach the internet.",
+        "The type of routing scheme used (mesh-under vs. route-over).",
+        "Whether devices are statically assigned IPv6 addresses.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What functions does the Data Link Layer serve in IoT communication?",
+      "options": [
+        "Establishes a basic handshake between nodes.",
+        "Encodes physical signal changes into a bit stream.",
+        "Provides addressing and routing for data packets.",
+        "Defines the physical characteristics of network cables.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements about 6LoWPAN are correct?",
+      "options": [
+        "It allows constrained devices to communicate using IPv6.",
+        "It requires a full TCP/IP stack for operation.",
+        "It supports both mesh and star topologies.",
+        "It is optimized for low-power and lossy networks.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are advantages of Zigbee over Bluetooth Low Energy (BLE)?",
+      "options": [
+        "Better scalability in large mesh networks.",
+        "Lower power consumption for continuous operation.",
+        "Superior performance for audio streaming.",
+        "More efficient handling of broadcast messaging.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which challenges are associated with Non-IP WPAN technologies?",
+      "options": [
+        "Limited interoperability with traditional networks.",
+        "Security vulnerabilities due to lower encryption standards.",
+        "Short-range communication constraints.",
+        "Higher power consumption compared to IP-based solutions.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which features of IPv6 are particularly useful for IoT?",
+      "options": [
+        "Vast address space allowing unique addresses for billions of devices.",
+        "Header compression to improve efficiency in low-power networks.",
+        "Built-in security with IPsec support.",
+        "Mandatory support for 4G LTE integration.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "How does the Transport Layer contribute to IoT communication?",
+      "options": [
+        "It determines how packets are routed through the network.",
+        "It assigns unique IP addresses to data packets.",
+        "It ensures data integrity and proper sequencing of messages.",
+        "It establishes and maintains session connections.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
     }
   ]
 }
