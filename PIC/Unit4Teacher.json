@@ -1,544 +1,544 @@
 {
   "questions": [
-      {
-          "question": "Which of the following statements correctly describe the role of an IoT platform?",
-          "options": [
-              "It acts as a simple data storage for IoT applications.",
-              "It serves as the orchestrator of the entire IoT solution.",
-              "It only functions as a message router between devices and applications.",
-              "It is primarily responsible for ingesting, processing, and storing IoT data.",
-              "None of the above."
-          ],
-          "correct_options": [1,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following are true about IoT gateways?",
-          "options": [
-              "They always provide direct Internet connectivity to IoT devices.",
-              "They can support multiple communication technologies.",
-              "They are essential for all IoT solutions.",
-              "They may perform data segregation, cleanup, and edge computing.",
-              "None of the above."
-          ],
-          "correct_options": [1,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which components are considered critical for an IoT platform\u2019s functionality?",
-          "options": [
-              "Message broker and communication module",
-              "Data storage",
-              "REST API",
-              "Rule engine",
-              "Microservices"
-          ],
-          "correct_options": [0,1,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following correctly describe the role of the Rule Engine in an IoT platform?",
-          "options": [
-              "It listens to the message bus and executes actions based on predefined conditions.",
-              "It primarily handles the authentication of IoT devices.",
-              "It enhances the functionality of the communication management module.",
-              "It converts messages between different formats like CSV to JSON.",
-              "None of the above."
-          ],
-          "correct_options": [0,2],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which statement best differentiates an IoT solution from an IoT application?",
-          "options": [
-              "An IoT application includes both hardware and software components.",
-              "An IoT solution is an end-to-end product or service, while an IoT application is usually just software-based.",
-              "IoT solutions do not involve software components, whereas IoT applications do.",
-              "IoT applications require physical sensors to function, whereas IoT solutions do not."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following is NOT a function of the message broker in an IoT platform?",
-          "options": [
-              "Consolidating messages from different communication protocols.",
-              "Directly managing and controlling IoT devices.",
-              "Decoupling devices from the IoT platform.",
-              "Facilitating communication between different system components."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Why is time-series data storage crucial for IoT platforms?",
-          "options": [
-              "It enables real-time message processing and decision-making.",
-              "It is required for all IoT solutions to function.",
-              "It provides structured storage for sequential data, enabling trend analysis and event tracking.",
-              "It prevents redundancy and duplicate messages."
-          ],
-          "correct_option": 2,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following statements about REST APIs in IoT platforms is true?",
-          "options": [
-              "REST APIs are always required for real-time data communication in IoT.",
-              "REST APIs are useful for periodic data transfer but are not ideal for real-time messaging.",
-              "REST APIs replace the need for an IoT platform\u2019s message broker.",
-              "REST APIs work only for upstream applications and cannot be used by devices."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "What is the main function of the device manager in an IoT platform?",
-          "options": [
-              "It ensures secure communication between devices and the cloud.",
-              "It manages devices, their status, access control, and over-the-air updates.",
-              "It processes raw sensor data into meaningful insights.",
-              "It routes messages between different IoT components."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following are key advantages of using a message broker in an IoT platform?",
-          "options": [
-              "It ensures real-time bidirectional communication between devices and applications.",
-              "It functions as the primary storage for all IoT messages.",
-              "It allows asynchronous communication between components.",
-              "It eliminates the need for HTTP-based communication entirely.",
-              "None of the above."
-          ],
-          "correct_options": [0,2],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following characteristics make MQTT suitable for IoT applications?",
-          "options": [
-              "It minimizes network bandwidth usage.",
-              "It requires high processing power for message brokering.",
-              "It ensures low latency and reliable message delivery.",
-              "It operates best only on high-speed, stable networks.",
-              "None of the above."
-          ],
-          "correct_options": [0,2],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "What are valid reasons for using JSON as the standard payload format for MQTT messages in an IoT platform?",
-          "options": [
-              "JSON is human-readable and easy to debug.",
-              "JSON enables binary data transmission with minimal overhead.",
-              "JSON ensures consistency and scalability across different devices.",
-              "JSON is the only format supported by MQTT.",
-              "None of the above."
-          ],
-          "correct_options": [0,2],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following best describe the role of APIs in an IoT platform?",
-          "options": [
-              "APIs allow applications and devices to retrieve stored data.",
-              "APIs provide real-time communication directly between devices.",
-              "APIs enable integration with external services and applications.",
-              "APIs replace the need for a message broker.",
-              "None of the above."
-          ],
-          "correct_options": [0,2],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following are valid data access API functionalities in an IoT platform?",
-          "options": [
-              "Querying historical data based on a time range.",
-              "Storing data that was not sent via MQTT.",
-              "Encrypting data before it is sent to the IoT platform.",
-              "Deleting stored data records based on conditions.",
-              "None of the above."
-          ],
-          "correct_options": [0,1,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Why is the publish-subscribe mechanism preferred for IoT messaging over traditional HTTP requests?",
-          "options": [
-              "It allows devices to push data even when the receiver is offline.",
-              "It requires a direct connection between sender and receiver at all times.",
-              "It ensures data is always delivered without any packet loss.",
-              "It prevents the need for any cloud-based infrastructure."
-          ],
-          "correct_option": 0,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "What is a key reason for implementing a time-series database in an IoT platform?",
-          "options": [
-              "To enable devices to communicate in real time.",
-              "To store and retrieve historical data efficiently.",
-              "To replace the need for an MQTT message broker.",
-              "To increase security by encrypting stored messages."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Why is Mosquitto a common choice for an MQTT message broker in IoT platforms?",
-          "options": [
-              "It is an open-source, lightweight, and stable implementation of MQTT.",
-              "It is the only message broker that supports real-time communication.",
-              "It eliminates the need for device authentication.",
-              "It does not require any additional configuration to work in production."
-          ],
-          "correct_option": 0,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following is NOT a valid function of microservice APIs in an IoT platform?",
-          "options": [
-              "Handling email and text message notifications.",
-              "Providing authentication services for user access.",
-              "Managing MQTT message routing between devices.",
-              "Generating unique identifiers (UUIDs) for devices."
-          ],
-          "correct_option": 2,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following best explains the need for an MQTT callback registration service in an IoT platform?",
-          "options": [
-              "It ensures that all connected devices can store data locally.",
-              "It allows HTTP-based applications to receive real-time MQTT messages.",
-              "It replaces the need for time-series storage in the platform.",
-              "It encrypts messages before sending them to the database."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following statements accurately describe the classical information flow model in IoT solutions?",
-          "options": [
-              "The model follows a linear input-process-output (I-P-O) structure.",
-              "Sensors act as both input and output devices in all IoT solutions.",
-              "IoT processing occurs only in the cloud, not locally.",
-              "Actuators provide output based on computed decisions or human interaction.",
-              "Information flow in IoT solutions may require intermediary hubs or gateways."
-          ],
-          "correct_options": [0,3,4],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "What are some key functions of IoT gateways/hubs?",
-          "options": [
-              "Managing direct Internet connections for all edge devices.",
-              "Translating proprietary communication protocols into standard formats.",
-              "Aggregating and compressing data before transmission.",
-              "Preventing all types of security threats in IoT systems.",
-              "None of the above."
-          ],
-          "correct_options": [1,2],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following are key characteristics of IoT cloud platforms?",
-          "options": [
-              "They provide storage and computing resources on demand.",
-              "They eliminate the need for on-premise computing resources.",
-              "They enable API-driven data access and integration.",
-              "They ensure interoperability between all IoT platforms by default.",
-              "None of the above."
-          ],
-          "correct_options": [0,2],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Why do many IoT devices use gateways instead of connecting directly to the Internet?",
-          "options": [
-              "Gateways are required to ensure secure communication between devices.",
-              "Many IoT devices use proprietary or short-range communication protocols that require translation.",
-              "Gateways provide unlimited bandwidth for IoT communications.",
-              "IoT devices cannot function without a gateway."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "What is a major disadvantage of using a hub-based IoT architecture?",
-          "options": [
-              "It prevents direct device-to-cloud communication.",
-              "It introduces a potential single point of failure.",
-              "It significantly increases device power consumption.",
-              "It reduces the number of devices that can connect to the network."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following is a key limitation of mesh networks in IoT?",
-          "options": [
-              "They require a direct Internet connection for every device.",
-              "They do not support multi-hop communication.",
-              "They suffer from low data throughput due to frequent message hopping.",
-              "They cannot be used for industrial applications."
-          ],
-          "correct_option": 2,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following are key classification criteria for IoT applications?",
-          "options": [
-              "The type of application (e.g., smart home, smart city).",
-              "The programming language used for development.",
-              "The geographical scope of deployment.",
-              "The timescale of execution (real-time vs. non-real-time).",
-              "None of the above."
-          ],
-          "correct_options": [0,2,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following statements correctly describe the Industrial Internet Consortium Reference Architecture (IIRA)?",
-          "options": [
-              "It is a framework for developing interoperable IoT systems across industries.",
-              "It provides detailed, low-level implementation guidelines.",
-              "It structures IoT systems using business, usage, functional, and implementation viewpoints.",
-              "It follows a three-tier architecture consisting of edge, platform, and enterprise layers.",
-              "None of the above."
-          ],
-          "correct_options": [0,2,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "What are key benefits of the OpenFog Reference Architecture for IoT?",
-          "options": [
-              "It reduces latency by enabling localized data processing.",
-              "It eliminates the need for cloud computing in IoT systems.",
-              "It improves system intelligence by distributing computational workloads.",
-              "It enhances reliability by reducing dependence on centralized cloud services.",
-              "None of the above."
-          ],
-          "correct_options": [0,2],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following reference architectures focus on standardizing IoT system development?",
-          "options": [
-              "Industrial Internet Consortium Reference Architecture (IIRA)",
-              "OpenFog Reference Architecture",
-              "IoT-A Architectural Reference Model",
-              "ISO/IEC 30141 IoT Reference Architecture",
-              "None of the above."
-          ],
-          "correct_options": [0,1,2,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "What is the primary goal of the IoT-A Architectural Reference Model (ARM)?",
-          "options": [
-              "To establish a domain-specific IoT reference model for smart homes.",
-              "To define interoperability standards for IoT systems with heterogeneous components.",
-              "To provide low-level implementation details for IoT system development.",
-              "To replace all other IoT reference architectures."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "What was a major outcome of the merger between the OpenFog Consortium and the Industrial Internet Consortium (IIC)?",
-          "options": [
-              "The OpenFog architecture ceased to exist.",
-              "The IIC incorporated fog computing principles into its reference model.",
-              "The IIC discontinued all fog computing research.",
-              "Fog computing became the only acceptable IoT architecture."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which layer in an IoT architecture is responsible for data filtering, analytics, and high-level decision-making?",
-          "options": [
-              "Sensing and Actuating Layer",
-              "Network Layer",
-              "Middleware Layer",
-              "Application Layer"
-          ],
-          "correct_option": 3,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following is NOT a perspective commonly considered in IoT system development?",
-          "options": [
-              "Things-oriented view",
-              "Internet-oriented view",
-              "Semantic-oriented view",
-              "Entertainment-oriented view"
-          ],
-          "correct_option": 3,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "What is a key challenge faced by large-scale IoT systems that reference architectures aim to address?",
-          "options": [
-              "Eliminating the need for cloud computing.",
-              "Standardizing device interoperability and communication.",
-              "Ensuring that all IoT systems use the same programming language.",
-              "Replacing traditional computing systems with IoT-exclusive infrastructure."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following are key drivers behind new IoT network architectures?",
-          "options": [
-              "The need for low-latency and real-time processing.",
-              "The growing scale of IoT networks, often reaching millions of connected devices.",
-              "The elimination of cloud computing in favor of fully localized processing.",
-              "The demand for better security measures due to increased cyber threats.",
-              "None of the above."
-          ],
-          "correct_options": [0,1,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following are fundamental challenges in designing IoT networks?",
-          "options": [
-              "Managing constrained devices with limited power, CPU, and memory.",
-              "Ensuring interoperability between different IoT communication protocols.",
-              "The necessity of direct connections between every IoT device and the cloud.",
-              "Implementing secure and scalable data transport mechanisms.",
-              "None of the above."
-          ],
-          "correct_options": [0,1,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following correctly describe the role of IoT gateways?",
-          "options": [
-              "They bridge communication between IoT devices and the core network.",
-              "They always require a wired Ethernet connection.",
-              "They provide protocol translation and data aggregation.",
-              "They enable local decision-making in edge computing models.",
-              "None of the above."
-          ],
-          "correct_options": [0,2,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which characteristics differentiate IT networks from IoT networks?",
-          "options": [
-              "IoT networks focus on data collection from distributed sensors, while IT networks prioritize business applications.",
-              "IT networks are designed for predictable traffic patterns, whereas IoT networks must handle unpredictable and bursty data flows.",
-              "IoT networks always use Ethernet as the primary communication technology.",
-              "IoT networks often operate in environments with constrained bandwidth and lossy networks.",
-              "None of the above."
-          ],
-          "correct_options": [0,1,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "What is a key reason why traditional IT architectures are not well-suited for IoT networks?",
-          "options": [
-              "IT architectures focus on centralized processing, while IoT requires distributed architectures.",
-              "IT networks do not support IP-based communication.",
-              "IT networks are designed exclusively for cloud computing.",
-              "IT architectures are designed to handle massive amounts of sensor-generated data."
-          ],
-          "correct_option": 0,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "What is the primary function of edge computing in an IoT system?",
-          "options": [
-              "To replace cloud computing entirely.",
-              "To provide low-latency data processing close to the IoT devices.",
-              "To store all IoT data permanently.",
-              "To connect all IoT devices directly to the Internet."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following best describes the oneM2M IoT Standardized Architecture?",
-          "options": [
-              "It is a vertical-specific IoT model focusing only on smart home applications.",
-              "It provides a horizontal architecture to ensure interoperability across IoT domains.",
-              "It eliminates the need for cloud computing in IoT networks.",
-              "It was designed exclusively for 5G IoT deployments."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which of the following are key considerations when selecting an IoT edge gateway?",
-          "options": [
-              "Support for multiple communication protocols such as MQTT, CoAP, and HTTP.",
-              "The ability to perform local data processing and filtering.",
-              "High power consumption to support continuous processing.",
-              "Security features such as encryption and authentication.",
-              "None of the above."
-          ],
-          "correct_options": [0,1,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which security measures are commonly implemented in IoT routers and gateways?",
-          "options": [
-              "Firewalls for network traffic filtering.",
-              "VLANs for network segmentation.",
-              "Open access to all devices to ensure seamless communication.",
-              "VPN tunnels for secure data transmission.",
-              "None of the above."
-          ],
-          "correct_options": [0,1,3],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Which of the following best describe the functions of failover in IoT networks?",
-          "options": [
-              "It enables automatic switching between WAN interfaces during network disruptions.",
-              "It guarantees zero latency in IoT data transmissions.",
-              "It allows for redundancy in connectivity, such as switching from Wi-Fi to cellular.",
-              "It is only applicable to wired networks.",
-              "None of the above."
-          ],
-          "correct_options": [0,2],
-          "questionType": "multipleChoice"
-      },
-      {
-          "question": "Why is VLAN segmentation beneficial in IoT networks?",
-          "options": [
-              "It isolates IoT devices from other network traffic to enhance security.",
-              "It eliminates the need for firewalls.",
-              "It forces all IoT devices to use the same communication protocol.",
-              "It removes the need for encryption in IoT communication."
-          ],
-          "correct_option": 0,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "Which statement best explains why Software-Defined Networking (SDN) is relevant to IoT?",
-          "options": [
-              "It provides a scalable and flexible method to manage large IoT networks.",
-              "It eliminates the need for network security in IoT deployments.",
-              "It only applies to enterprise IT networks and has no impact on IoT.",
-              "It forces all IoT devices to use a centralized cloud infrastructure."
-          ],
-          "correct_option": 0,
-          "questionType": "singleChoice"
-      },
-      {
-          "question": "What is the primary role of VPNs in IoT networks?",
-          "options": [
-              "To encrypt and secure data transmissions from IoT edge devices to corporate or cloud environments.",
-              "To improve data transmission speeds by bypassing internet protocols.",
-              "To eliminate the need for device authentication in IoT networks.",
-              "To provide an alternative to IP-based communication in IoT."
-          ],
-          "correct_option": 0,
-          "questionType": "singleChoice"
-      }
+    {
+      "question": "Which of the following statements correctly describe the role of an IoT platform?",
+      "options": [
+        "It acts as a simple data storage for IoT applications.",
+        "It serves as the orchestrator of the entire IoT solution.",
+        "It only functions as a message router between devices and applications.",
+        "It is primarily responsible for ingesting, processing, and storing IoT data.",
+        "None of the above."
+      ],
+      "correct_options": [1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are true about IoT gateways?",
+      "options": [
+        "They always provide direct Internet connectivity to IoT devices.",
+        "They can support multiple communication technologies.",
+        "They are essential for all IoT solutions.",
+        "They may perform data segregation, cleanup, and edge computing.",
+        "None of the above."
+      ],
+      "correct_options": [1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which components are considered critical for an IoT platform\u2019s functionality?",
+      "options": [
+        "Message broker and communication module",
+        "Data storage",
+        "REST API",
+        "Rule engine",
+        "Microservices"
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following correctly describe the role of the Rule Engine in an IoT platform?",
+      "options": [
+        "It listens to the message bus and executes actions based on predefined conditions.",
+        "It primarily handles the authentication of IoT devices.",
+        "It enhances the functionality of the communication management module.",
+        "It converts messages between different formats like CSV to JSON.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which statement best differentiates an IoT solution from an IoT application?",
+      "options": [
+        "An IoT application includes both hardware and software components.",
+        "An IoT solution is an end-to-end product or service, while an IoT application is usually just software-based.",
+        "IoT solutions do not involve software components, whereas IoT applications do.",
+        "IoT applications require physical sensors to function, whereas IoT solutions do not."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following is NOT a function of the message broker in an IoT platform?",
+      "options": [
+        "Consolidating messages from different communication protocols.",
+        "Directly managing and controlling IoT devices.",
+        "Decoupling devices from the IoT platform.",
+        "Facilitating communication between different system components."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Why is time-series data storage crucial for IoT platforms?",
+      "options": [
+        "It enables real-time message processing and decision-making.",
+        "It is required for all IoT solutions to function.",
+        "It provides structured storage for sequential data, enabling trend analysis and event tracking.",
+        "It prevents redundancy and duplicate messages."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following statements about REST APIs in IoT platforms is true?",
+      "options": [
+        "REST APIs are always required for real-time data communication in IoT.",
+        "REST APIs are useful for periodic data transfer but are not ideal for real-time messaging.",
+        "REST APIs replace the need for an IoT platform\u2019s message broker.",
+        "REST APIs work only for upstream applications and cannot be used by devices."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is the main function of the device manager in an IoT platform?",
+      "options": [
+        "It ensures secure communication between devices and the cloud.",
+        "It manages devices, their status, access control, and over-the-air updates.",
+        "It processes raw sensor data into meaningful insights.",
+        "It routes messages between different IoT components."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following are key advantages of using a message broker in an IoT platform?",
+      "options": [
+        "It ensures real-time bidirectional communication between devices and applications.",
+        "It functions as the primary storage for all IoT messages.",
+        "It allows asynchronous communication between components.",
+        "It eliminates the need for HTTP-based communication entirely.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following characteristics make MQTT suitable for IoT applications?",
+      "options": [
+        "It minimizes network bandwidth usage.",
+        "It requires high processing power for message brokering.",
+        "It ensures low latency and reliable message delivery.",
+        "It operates best only on high-speed, stable networks.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are valid reasons for using JSON as the standard payload format for MQTT messages in an IoT platform?",
+      "options": [
+        "JSON is human-readable and easy to debug.",
+        "JSON enables binary data transmission with minimal overhead.",
+        "JSON ensures consistency and scalability across different devices.",
+        "JSON is the only format supported by MQTT.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following best describe the role of APIs in an IoT platform?",
+      "options": [
+        "APIs allow applications and devices to retrieve stored data.",
+        "APIs provide real-time communication directly between devices.",
+        "APIs enable integration with external services and applications.",
+        "APIs replace the need for a message broker.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are valid data access API functionalities in an IoT platform?",
+      "options": [
+        "Querying historical data based on a time range.",
+        "Storing data that was not sent via MQTT.",
+        "Encrypting data before it is sent to the IoT platform.",
+        "Deleting stored data records based on conditions.",
+        "None of the above."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Why is the publish-subscribe mechanism preferred for IoT messaging over traditional HTTP requests?",
+      "options": [
+        "It allows devices to push data even when the receiver is offline.",
+        "It requires a direct connection between sender and receiver at all times.",
+        "It ensures data is always delivered without any packet loss.",
+        "It prevents the need for any cloud-based infrastructure."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is a key reason for implementing a time-series database in an IoT platform?",
+      "options": [
+        "To enable devices to communicate in real time.",
+        "To store and retrieve historical data efficiently.",
+        "To replace the need for an MQTT message broker.",
+        "To increase security by encrypting stored messages."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Why is Mosquitto a common choice for an MQTT message broker in IoT platforms?",
+      "options": [
+        "It is an open-source, lightweight, and stable implementation of MQTT.",
+        "It is the only message broker that supports real-time communication.",
+        "It eliminates the need for device authentication.",
+        "It does not require any additional configuration to work in production."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following is NOT a valid function of microservice APIs in an IoT platform?",
+      "options": [
+        "Handling email and text message notifications.",
+        "Providing authentication services for user access.",
+        "Managing MQTT message routing between devices.",
+        "Generating unique identifiers (UUIDs) for devices."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following best explains the need for an MQTT callback registration service in an IoT platform?",
+      "options": [
+        "It ensures that all connected devices can store data locally.",
+        "It allows HTTP-based applications to receive real-time MQTT messages.",
+        "It replaces the need for time-series storage in the platform.",
+        "It encrypts messages before sending them to the database."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following statements accurately describe the classical information flow model in IoT solutions?",
+      "options": [
+        "The model follows a linear input-process-output (I-P-O) structure.",
+        "Sensors act as both input and output devices in all IoT solutions.",
+        "IoT processing occurs only in the cloud, not locally.",
+        "Actuators provide output based on computed decisions or human interaction.",
+        "Information flow in IoT solutions may require intermediary hubs or gateways."
+      ],
+      "correct_options": [0, 3, 4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are some key functions of IoT gateways/hubs?",
+      "options": [
+        "Managing direct Internet connections for all edge devices.",
+        "Translating proprietary communication protocols into standard formats.",
+        "Aggregating and compressing data before transmission.",
+        "Preventing all types of security threats in IoT systems.",
+        "None of the above."
+      ],
+      "correct_options": [1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are key characteristics of IoT cloud platforms?",
+      "options": [
+        "They provide storage and computing resources on demand.",
+        "They eliminate the need for on-premise computing resources.",
+        "They enable API-driven data access and integration.",
+        "They ensure interoperability between all IoT platforms by default.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Why do many IoT devices use gateways instead of connecting directly to the Internet?",
+      "options": [
+        "Gateways are required to ensure secure communication between devices.",
+        "Many IoT devices use proprietary or short-range communication protocols that require translation.",
+        "Gateways provide unlimited bandwidth for IoT communications.",
+        "IoT devices cannot function without a gateway."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is a major disadvantage of using a hub-based IoT architecture?",
+      "options": [
+        "It prevents direct device-to-cloud communication.",
+        "It introduces a potential single point of failure.",
+        "It significantly increases device power consumption.",
+        "It reduces the number of devices that can connect to the network."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following is a key limitation of mesh networks in IoT?",
+      "options": [
+        "They require a direct Internet connection for every device.",
+        "They do not support multi-hop communication.",
+        "They suffer from low data throughput due to frequent message hopping.",
+        "They cannot be used for industrial applications."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following are key classification criteria for IoT applications?",
+      "options": [
+        "The type of application (e.g., smart home, smart city).",
+        "The programming language used for development.",
+        "The geographical scope of deployment.",
+        "The timescale of execution (real-time vs. non-real-time).",
+        "None of the above."
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements correctly describe the Industrial Internet Consortium Reference Architecture (IIRA)?",
+      "options": [
+        "It is a framework for developing interoperable IoT systems across industries.",
+        "It provides detailed, low-level implementation guidelines.",
+        "It structures IoT systems using business, usage, functional, and implementation viewpoints.",
+        "It follows a three-tier architecture consisting of edge, platform, and enterprise layers.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are key benefits of the OpenFog Reference Architecture for IoT?",
+      "options": [
+        "It reduces latency by enabling localized data processing.",
+        "It eliminates the need for cloud computing in IoT systems.",
+        "It improves system intelligence by distributing computational workloads.",
+        "It enhances reliability by reducing dependence on centralized cloud services.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following reference architectures focus on standardizing IoT system development?",
+      "options": [
+        "Industrial Internet Consortium Reference Architecture (IIRA)",
+        "OpenFog Reference Architecture",
+        "IoT-A Architectural Reference Model",
+        "ISO/IEC 30141 IoT Reference Architecture",
+        "None of the above."
+      ],
+      "correct_options": [0, 1, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What is the primary goal of the IoT-A Architectural Reference Model (ARM)?",
+      "options": [
+        "To establish a domain-specific IoT reference model for smart homes.",
+        "To define interoperability standards for IoT systems with heterogeneous components.",
+        "To provide low-level implementation details for IoT system development.",
+        "To replace all other IoT reference architectures."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What was a major outcome of the merger between the OpenFog Consortium and the Industrial Internet Consortium (IIC)?",
+      "options": [
+        "The OpenFog architecture ceased to exist.",
+        "The IIC incorporated fog computing principles into its reference model.",
+        "The IIC discontinued all fog computing research.",
+        "Fog computing became the only acceptable IoT architecture."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which layer in an IoT architecture is responsible for data filtering, analytics, and high-level decision-making?",
+      "options": [
+        "Sensing and Actuating Layer",
+        "Network Layer",
+        "Middleware Layer",
+        "Application Layer"
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following is NOT a perspective commonly considered in IoT system development?",
+      "options": [
+        "Things-oriented view",
+        "Internet-oriented view",
+        "Semantic-oriented view",
+        "Entertainment-oriented view"
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is a key challenge faced by large-scale IoT systems that reference architectures aim to address?",
+      "options": [
+        "Eliminating the need for cloud computing.",
+        "Standardizing device interoperability and communication.",
+        "Ensuring that all IoT systems use the same programming language.",
+        "Replacing traditional computing systems with IoT-exclusive infrastructure."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following are key drivers behind new IoT network architectures?",
+      "options": [
+        "The need for low-latency and real-time processing.",
+        "The growing scale of IoT networks, often reaching millions of connected devices.",
+        "The elimination of cloud computing in favor of fully localized processing.",
+        "The demand for better security measures due to increased cyber threats.",
+        "None of the above."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are fundamental challenges in designing IoT networks?",
+      "options": [
+        "Managing constrained devices with limited power, CPU, and memory.",
+        "Ensuring interoperability between different IoT communication protocols.",
+        "The necessity of direct connections between every IoT device and the cloud.",
+        "Implementing secure and scalable data transport mechanisms.",
+        "None of the above."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following correctly describe the role of IoT gateways?",
+      "options": [
+        "They bridge communication between IoT devices and the core network.",
+        "They always require a wired Ethernet connection.",
+        "They provide protocol translation and data aggregation.",
+        "They enable local decision-making in edge computing models.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which characteristics differentiate IT networks from IoT networks?",
+      "options": [
+        "IoT networks focus on data collection from distributed sensors, while IT networks prioritize business applications.",
+        "IT networks are designed for predictable traffic patterns, whereas IoT networks must handle unpredictable and bursty data flows.",
+        "IoT networks always use Ethernet as the primary communication technology.",
+        "IoT networks often operate in environments with constrained bandwidth and lossy networks.",
+        "None of the above."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What is a key reason why traditional IT architectures are not well-suited for IoT networks?",
+      "options": [
+        "IT architectures focus on centralized processing, while IoT requires distributed architectures.",
+        "IT networks do not support IP-based communication.",
+        "IT networks are designed exclusively for cloud computing.",
+        "IT architectures are designed to handle massive amounts of sensor-generated data."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is the primary function of edge computing in an IoT system?",
+      "options": [
+        "To replace cloud computing entirely.",
+        "To provide low-latency data processing close to the IoT devices.",
+        "To store all IoT data permanently.",
+        "To connect all IoT devices directly to the Internet."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following best describes the oneM2M IoT Standardized Architecture?",
+      "options": [
+        "It is a vertical-specific IoT model focusing only on smart home applications.",
+        "It provides a horizontal architecture to ensure interoperability across IoT domains.",
+        "It eliminates the need for cloud computing in IoT networks.",
+        "It was designed exclusively for 5G IoT deployments."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following are key considerations when selecting an IoT edge gateway?",
+      "options": [
+        "Support for multiple communication protocols such as MQTT, CoAP, and HTTP.",
+        "The ability to perform local data processing and filtering.",
+        "High power consumption to support continuous processing.",
+        "Security features such as encryption and authentication.",
+        "None of the above."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which security measures are commonly implemented in IoT routers and gateways?",
+      "options": [
+        "Firewalls for network traffic filtering.",
+        "VLANs for network segmentation.",
+        "Open access to all devices to ensure seamless communication.",
+        "VPN tunnels for secure data transmission.",
+        "None of the above."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following best describe the functions of failover in IoT networks?",
+      "options": [
+        "It enables automatic switching between WAN interfaces during network disruptions.",
+        "It guarantees zero latency in IoT data transmissions.",
+        "It allows for redundancy in connectivity, such as switching from Wi-Fi to cellular.",
+        "It is only applicable to wired networks.",
+        "None of the above."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Why is VLAN segmentation beneficial in IoT networks?",
+      "options": [
+        "It isolates IoT devices from other network traffic to enhance security.",
+        "It eliminates the need for firewalls.",
+        "It forces all IoT devices to use the same communication protocol.",
+        "It removes the need for encryption in IoT communication."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which statement best explains why Software-Defined Networking (SDN) is relevant to IoT?",
+      "options": [
+        "It provides a scalable and flexible method to manage large IoT networks.",
+        "It eliminates the need for network security in IoT deployments.",
+        "It only applies to enterprise IT networks and has no impact on IoT.",
+        "It forces all IoT devices to use a centralized cloud infrastructure."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is the primary role of VPNs in IoT networks?",
+      "options": [
+        "To encrypt and secure data transmissions from IoT edge devices to corporate or cloud environments.",
+        "To improve data transmission speeds by bypassing internet protocols.",
+        "To eliminate the need for device authentication in IoT networks.",
+        "To provide an alternative to IP-based communication in IoT."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    }
   ]
 }
