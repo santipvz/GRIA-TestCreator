@@ -168,6 +168,110 @@
       ],
       "correct_options": [0, 1, 2],
       "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors determine the reliability of an IoT network?",
+      "options": [
+        "Redundancy mechanisms.",
+        "Adaptive error correction techniques.",
+        "Secure authentication methods.",
+        "Network packet prioritization.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are key considerations when designing IoT network protocols?",
+      "options": [
+        "Energy efficiency for battery-operated devices.",
+        "Low latency for real-time applications.",
+        "Scalability to support a large number of devices.",
+        "Use of only wired communication for reliability.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are considered Application Layer protocols in IoT?",
+      "options": [
+        "HTTP.",
+        "MQTT.",
+        "CoAP.",
+        "Transport Layer Security (TLS).",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are key differences between FDD and TDD in LTE?",
+      "options": [
+        "FDD uses separate frequency bands for uplink and downlink.",
+        "TDD shares the same frequency band for uplink and downlink.",
+        "FDD is more suitable for symmetric traffic loads.",
+        "TDD is more efficient for asymmetric data traffic, such as in IoT.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following are characteristics of Non-IP based WPAN communication?",
+      "options": [
+        "Optimized for cost and energy efficiency.",
+        "Requires a full IP stack for connectivity.",
+        "Typically operates within short to medium range.",
+        "Uses standardized IP addressing methods.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are key advantages of using LoRaWAN for IoT?",
+      "options": [
+        "Long-range communication.",
+        "High data transmission speed.",
+        "Low power consumption.",
+        "Scalability for large networks.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are key considerations when designing wireless IoT networks?",
+      "options": [
+        "Energy efficiency.",
+        "Network congestion and interference management.",
+        "Security vulnerabilities.",
+        "Scalability of the network.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which factors influence RF signal quality in WPAN communication?",
+      "options": [
+        "Frequency band used.",
+        "Physical obstructions in the environment.",
+        "Interference from other wireless devices.",
+        "Transmission power of the device.",
+        "All of them.",
+        "None of them."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
     }
   ]
 }
