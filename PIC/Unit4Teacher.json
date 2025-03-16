@@ -1,6 +1,17 @@
 {
     "questions": [
         {
+            "question": "What happens if an MQTT client connects with a username not defined in the ACL file?",
+            "options": [
+                "It is granted full access to all topics by default.",
+                "It is automatically assigned guest-level permissions.",
+                "It is denied access to all topics.",
+                "It is assigned to a default user group with limited privileges."
+            ],
+            "correct_option": 2,
+            "questionType": "singleChoice"
+        },
+        {
             "question": "Which of the following are advantages of using the publish/subscribe (pub/sub) paradigm in MQTT?",
             "options": [
                 "A publisher must know the identity of all subscribers.",
@@ -174,17 +185,6 @@
                 "It restricts access to local network devices only."
             ],
             "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What happens if an MQTT client connects with a username not defined in the ACL file?",
-            "options": [
-                "It is granted full access to all topics by default.",
-                "It is automatically assigned guest-level permissions.",
-                "It is denied access to all topics.",
-                "It is assigned to a default user group with limited privileges."
-            ],
-            "correct_option": null,
             "questionType": "singleChoice"
         },
         {
