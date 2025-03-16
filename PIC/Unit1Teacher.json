@@ -224,7 +224,7 @@
     {
       "question": "Which factors differentiate IoT from traditional M2M communication?",
       "options": [
-        "IoT integrates cloud computing, whereas M2M systems operate in isolated networks..",
+        "IoT integrates cloud computing, whereas M2M systems operate in isolated networks.",
         "IoT emphasizes open communication standards, while M2M often relies on proprietary protocols.",
         "M2M systems focus on real-time industrial automation, whereas IoT extends to consumer applications.",
         "IoT is built solely on 5G networks, while M2M relies on older communication protocols",
