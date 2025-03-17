@@ -8,8 +8,8 @@
         "Procesar los datos en la nube para la toma de decisiones.",
         "Enviar datos directamente a los actuadores sin procesamiento."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es una desventaja de la topología en estrella en redes IoT?",
@@ -19,8 +19,8 @@
         "Tiene un punto único de fallo si el nodo central deja de funcionar.",
         "No permite la comunicación entre dispositivos conectados."
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "Cuál de las siguientes estrategias optimiza el consumo de energía en sistemas IoT?",
@@ -30,8 +30,8 @@
         "Mantener los dispositivos siempre conectados a Internet.",
         "Enviar todos los datos recopilados sin procesarlos previamente."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué ventaja ofrece el uso de un gateway en IoT?",
@@ -41,8 +41,8 @@
         "Asegura que todos los dispositivos se conecten directamente a Internet.",
         "Hace innecesario el almacenamiento de datos en la nube."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es un desafío de la computación en la nube para IoT?",
@@ -52,8 +52,8 @@
         "No es compatible con dispositivos IoT de baja potencia.",
         "Genera latencia debido a la distancia entre los dispositivos y la nube."
       ],
-      "correct_option": 3,
-      "questionType": "singleChoice"
+      "correct_options": [3],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál de las siguientes afirmaciones es correcta sobre el enrutamiento en IoT?",
@@ -63,8 +63,8 @@
         "Los protocolos de enrutamiento en IoT son idénticos a los de las redes tradicionales de TI.",
         "El enrutamiento híbrido combina características del enrutamiento proactivo y reactivo."
       ],
-      "correct_option": 3,
-      "questionType": "singleChoice"
+      "correct_options": [3],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es una de las ventajas de la arquitectura SDN en IoT?",
@@ -74,8 +74,8 @@
         "Permite configurar y gestionar la red de manera centralizada.",
         "Requiere que todos los dispositivos sean idénticos para funcionar."
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué función principal desempeña la capa de middleware en IoT?",
@@ -85,8 +85,8 @@
         "Sustituir a la capa de sensores y actuadores en redes de alta densidad.",
         "Actuar como gateway para dispositivos IoT que utilizan redes de corto alcance."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál de las siguientes es una arquitectura de referencia utilizada en IoT?",
@@ -96,8 +96,8 @@
         "Arquitectura de Red de Alta Disponibilidad.",
         "OpenFog Reference Architecture."
       ],
-      "correct_option": 3,
-      "questionType": "singleChoice"
+      "correct_options": [3],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es un desafío clave en la interoperabilidad de dispositivos IoT?",
@@ -107,8 +107,8 @@
         "La imposibilidad de utilizar inteligencia artificial en la gestión de IoT.",
         "La falta de sensores de bajo consumo energético en el mercado."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué Jerarquía de Procesamiento permite el filtrado de datos previo a su transmisión a la nube?",
@@ -118,8 +118,8 @@
         "Ninguna de las propuestas.",
         "Cloud Computing (Nube)."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es la principal función de la capa de red en una arquitectura IoT?",
@@ -129,8 +129,8 @@
         "Coordinar la ejecución de aplicaciones en la nube.",
         "Controlar la interacción entre los sensores y actuadores."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es la diferencia clave entre IT e IoT?",
@@ -140,14 +140,14 @@
         "Una red IoT requiere alta velocidad y baja latencia para funcionar correctamente.",
         "Una red IT conecta computadoras y usuarios, mientras que una red IoT conecta sensores y dispositivos autónomos."
       ],
-      "correct_option": 3,
-      "questionType": "singleChoice"
+      "correct_options": [3],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál de las siguientes tecnologías pertenece a la categoría de medio alcance en IoT?",
       "options": ["NB - IoT.", "Sigfox.", "Satelital.", "Bluetooth."],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué función tiene el Broker en el Protocolo MQTT?",
@@ -157,8 +157,8 @@
         "Gestionar la distribución de mensajes entre clientes suscritos a temas.",
         "Realizar la conexión inicial entre los dispositivos."
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es la gran DIFERENCIA entre una Solución IoT y una Aplicación IoT?",
@@ -168,8 +168,8 @@
         "Una Solución IoT solo incluye software, mientras que una Aplicación IoT incluye hardware.",
         "Una Aplicación IoT incluye hardware y software, pero una Solución IoT solo hardware."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál de los siguientes NO es un bloque funcional clave en una solución IoT?",
@@ -179,8 +179,8 @@
         "Gateways.",
         "Router."
       ],
-      "correct_option": 3,
-      "questionType": "singleChoice"
+      "correct_options": [3],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es la función principal del Message Broker en una plataforma IoT?",
@@ -190,8 +190,8 @@
         "Gestionar usuarios y permisos en la plataforma IoT.",
         "Permitir que los dispositivos se comuniquen con la plataforma utilizando distintos protocolos."
       ],
-      "correct_option": 3,
-      "questionType": "singleChoice"
+      "correct_options": [3],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Por qué MQTT es una opción comúnmente utilizada como Message Broker en IoT?",
@@ -201,8 +201,8 @@
         "Porque es el único protocolo compatible con plataformas IoT.",
         "Porque permite almacenar grandes volúmenes de datos sin necesidad de bases de datos externas."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál de los siguientes módulos es MENOS necesario en las soluciones IoT?",
@@ -212,8 +212,8 @@
         "Microservicios y Gestión de Usuarios.",
         "Ingestión de datos y Enrutamiento de mensajes."
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     }
   ]
 }

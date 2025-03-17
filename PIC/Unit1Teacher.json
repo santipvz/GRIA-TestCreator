@@ -166,8 +166,8 @@
         "All of them.",
         "None of them."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "Which security risks are associated with IoT platforms?",

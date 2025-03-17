@@ -8,8 +8,8 @@
         "It is denied access to all topics.",
         "It is assigned to a default user group with limited privileges."
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "Which of the following are advantages of using the publish/subscribe (pub/sub) paradigm in MQTT?",
@@ -63,8 +63,8 @@
         "To store and persist all published messages indefinitely.",
         "To directly manage device-to-device communication without any intermediary."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What happens when an MQTT client disconnects ungracefully (e.g., due to a network failure)?",
@@ -74,8 +74,8 @@
         "The subscriber automatically re-sends the last received message.",
         "The publisher retries sending messages to re-establish the connection."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "How does MQTT ensure that a subscriber receives the most recent message when it first connects to a topic?",
@@ -85,8 +85,8 @@
         "A retained message ensures that the latest published value is available to new subscribers.",
         "The broker forces all clients to remain continuously connected."
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What is the function of the Keep Alive mechanism in MQTT?",
@@ -96,8 +96,8 @@
         "It helps detect broken connections by requiring periodic client communication.",
         "It prevents unauthorized clients from subscribing to topics."
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "Why is MQTT a good choice for an IoT system requiring frequent but small messages?",
@@ -107,8 +107,8 @@
         "It ensures messages are always received in real time without delay.",
         "It allows for direct peer-to-peer communication without a broker."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What is the significance of MQTT over WebSocket?",
@@ -118,8 +118,8 @@
         "It prevents any security vulnerabilities in MQTT.",
         "It is required for all IoT devices to communicate with MQTT."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What are the key differences between WebSocket and standard MQTT?",
@@ -173,8 +173,8 @@
         "The client retries the publish request automatically.",
         "The broker forcefully disconnects the client."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What is the purpose of the `require_certificate false` setting in WebSocket configuration?",
@@ -184,8 +184,8 @@
         "It disables encryption for WebSocket connections.",
         "It restricts access to local network devices only."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What is the purpose of the `forever` utility in managing an MQTT broker?",
@@ -195,8 +195,8 @@
         "It prevents unauthorized clients from connecting.",
         "It reduces latency in message delivery."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "Why is port 8443 commonly used for MQTT over WebSocket?",
@@ -206,8 +206,8 @@
         "It is required for secure MQTT connections.",
         "It is the only port that supports WebSocket encryption."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "Why is HTTP not always the best choice for IoT communication?",
@@ -217,8 +217,8 @@
         "It is a binary protocol, making it harder to implement.",
         "It lacks compatibility with web applications."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What is a key difference between CoAP and MQTT?",
@@ -228,8 +228,8 @@
         "CoAP supports message retention, while MQTT does not.",
         "MQTT is optimized for constrained devices, while CoAP is not."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "Why is AMQP commonly used in IoT backends but not as widely on constrained devices?",
@@ -239,8 +239,8 @@
         "It only supports request/response communication.",
         "It does not allow for bidirectional communication."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What are common IoT communication models?",
@@ -261,8 +261,8 @@
         "Wi-Fi has very limited bandwidth for IoT applications.",
         "Wi-Fi cannot support secure communications."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What is the primary difference between QoS 1 and QoS 2 in MQTT?",
@@ -272,8 +272,8 @@
         "QoS 1 messages are not acknowledged, while QoS 2 messages require multiple acknowledgments.",
         "QoS 1 is used only for publishing, while QoS 2 is used only for subscribing."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "How does Bluetooth Low Energy (BLE) achieve lower power consumption compared to classic Bluetooth?",
@@ -283,8 +283,8 @@
         "BLE remains in sleep mode between transmissions.",
         "BLE only allows communication between two devices at a time."
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "Which of the following is a key application of BLE in IoT?",
@@ -294,8 +294,8 @@
         "Indoor location tracking",
         "Large-scale data center communication"
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "What are characteristics of Message-Oriented Middleware (MOM) implementations like MQTT and AMQP?",
@@ -327,8 +327,8 @@
         "AMQP does not allow multiple consumers for the same message.",
         "MQTT requires more bandwidth than AMQP."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     }
   ]
 }

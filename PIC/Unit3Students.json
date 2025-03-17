@@ -8,8 +8,8 @@
         "Establece y mantiene la conexión entre dos dispositivos.",
         "Se encarga de la comunicación directa entre el hardware de red."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "En el modelo TCP/IP, ¿qué capa se encarga de manejar direcciones IP y asegurar que los datos lleguen al destino correcto?",
@@ -19,8 +19,8 @@
         "Capa de Internet.",
         "Capa de aplicación."
       ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál de las siguientes afirmaciones sobre las redes de sensores inalámbricos (WSN) es correcta?",
@@ -30,8 +30,8 @@
         "Solo pueden medir temperatura y humedad.",
         "No pueden funcionar si un sensor falla"
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es la principal ventaja de la tecnología RFID frente a los códigos de barras tradicionales?",
@@ -41,14 +41,14 @@
         "Es más económica que los códigos de barras.",
         "No requiere ondas de radio para la transmisión de datos."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué tipo de etiqueta RFID tiene una batería y puede enviar señales sin necesidad de ser activada por un lector?",
       "options": ["Activa.", "Pasiva.", "Semiactiva.", "Analógica."],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué técnica utiliza bluetooth para evitar interferencias en su banda de 2.4 GHz?",
@@ -58,8 +58,8 @@
         "Salto de frecuencia y CSMA-CA.",
         "Detección de colisiones."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es la principal desventaja de utilizar la banda de 2.4 GHz para Wi-Fi?",
@@ -69,8 +69,8 @@
         "Tiene menor alcance que la banda de 5 GHz.",
         "No es compatible con dispositivos más antiguos."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es la principal desventaja de Z-Wave en comparación con Zigbee?",
@@ -80,8 +80,8 @@
         "Z-Wave tiene mayor interferencia con dispositivos Wi-Fi.",
         "Z-Wave no permite la creación de redes malla."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "En una red Scatternet, ¿cuál es el papel de los dispositivos esclavos?",
@@ -91,8 +91,8 @@
         "Enviar datos únicamente a otros esclavos en la misma piconet.",
         "Iniciar y controlar la comunicación entre los dispositivos de la red."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es la principal ventaja de Zigbee en comparación con Wi-Fi y Bluetooth?",
@@ -102,26 +102,26 @@
         "Mayor velocidad de transmisión.",
         "Conexión sin necesidad de hub."
       ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
+      "correct_options": [1],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál de las siguientes tecnologías usa una banda licenciada para su operación?",
       "options": ["Sigfox.", "LoRaWan.", "NB-IOT.", "LTE-M."],
-      "correct_option": 2,
-      "questionType": "singleChoice"
+      "correct_options": [2],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué tecnología LPWAN permitiría la mayor duración de batería debido a su bajo consumo energético?",
       "options": ["Sigfox.", "LoRaWan.", "NB-IOT.", "LTE-M."],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál de las siguientes tecnologías ofrece una mayor cobertura en kilómetros en campo abierto?",
       "options": ["Sigfox.", "LoRaWan.", "NB-IOT.", "LTE-M."],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es la principal diferencia entre LoRa y LoRaWAN?",
@@ -131,14 +131,14 @@
         "LoRa usa bandas licenciadas y LoRaWAN no.",
         "LoRa es un protocolo de red y LoRaWAN es solo la modulación de señal."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál de las siguientes tecnologías no ofrece cifrado AES-128 de forma nativa en su protocolo?",
       "options": ["Sigfox.", "LoRaWan.", "NB-IOT.", "LTE-M."],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es una de las principales ventajas de IPv6 en IoT?",
@@ -148,8 +148,8 @@
         "Reducir la necesidad de enrutadores de borde.",
         "Menor consumo energético que IPv4."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es el propósito principal de 6LoWPAN en IoT?",
@@ -159,8 +159,8 @@
         "Reducir la necesidad de enrutadores de borde.",
         "Sustituir completamente a IPv6 en redes cableadas."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué afirmación sobre UDP es correcta?",
@@ -170,8 +170,8 @@
         "Es un protocolo orientado a conexión y fiable.",
         "Solo se usa en redes locales y no en Internet."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es una de las principales diferencias entre TCP y UDP?",
@@ -181,8 +181,8 @@
         "UDP solo funciona en redes IPv6, mientras que TCP en IPv4 e IPv6.",
         "TCP es más rápido y eficiente que UDP en transmisión en tiempo real."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué tipo de dispositivos se encuentran en una red 6LoWPAN?",
@@ -192,8 +192,8 @@
         "Sensores Wi-Fi exclusivamente.",
         "Solo dispositivos de alto consumo energético."
       ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "correct_options": [0],
+      "questionType": "multipleChoice"
     }
   ]
 }
