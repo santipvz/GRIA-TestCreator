@@ -10,6 +10,84 @@
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "Un estudiante implementa la especificación ABRO pero olvida reinicializar el sistema cuando ocurre la señal `R`. ¿Qué consecuencia es más probable?",
+      "options": [
+        "El programa se bloqueará inmediatamente.",
+        "La señal `R` no tendrá ningún efecto.",
+        "El sistema no se reiniciará correctamente, afectando la salida.",
+        "El programa generará un error de compilación."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Si al compilar un archivo Lustre con `lv6 edge.lus -n EDGE` se detecta un error de sintaxis, ¿qué ocurrirá?",
+      "options": [
+        "Se ejecutará el código, pero con advertencias.",
+        "La simulación se ejecutará con valores predeterminados.",
+        "El compilador mostrará un mensaje de error y no generará código.",
+        "Se generarán los archivos en C de todas formas."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la mejor manera de simular el comportamiento de un programa Lustre después de compilarlo?",
+      "options": [
+        "Modificar el código fuente y recompilar.",
+        "Ejecutar el archivo binario generado (por ejemplo, `./ABRO.exec`).",
+        "Usar un editor de texto para ver el código.",
+        "Reiniciar la máquina virtual."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En Lustre, ¿qué representa un \"node\"?",
+      "options": [
+        "Un programa o subprograma que define una transformación de flujos de datos.",
+        "Una herramienta gráfica para visualizar flujos de datos.",
+        "Un tipo de dato primitivo como un entero o booleano.",
+        "Un archivo de configuración para el compilador."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué efecto tiene el operador `->` en Lustre?",
+      "options": [
+        "Compara dos flujos y devuelve un valor booleano.",
+        "Reinicia el flujo a su valor inicial en cada ciclo.",
+        "Define un valor inicial para un flujo en el primer ciclo y luego sigue con la expresión dada.",
+        "Detiene la ejecución del programa si la condición es falsa."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Se desea realizar una simulación gráfica de un sistema reactivo en Lustre. ¿Qué comando se debe ejecutar?",
+      "options": [
+        "`lv6 edge.lus -exec`",
+        "`luciole abro.lus ABRO`",
+        "`./ABRO.exec`",
+        "`lv6 abro.lus -2c-exec`"
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    }
+    ,
+    {
+      "question": "Un estudiante está implementando la especificación ABRO y quiere asegurarse de que el sistema se reinicie cuando ocurra la señal `R`. ¿Qué expresión debería usar para reinicializar las variables `seenA` y `seenB`?",
+      "options": [
+        "seenA = R or pre(seenA)",
+        "seenA = false -> not R and (A or pre(seenA))",
+        "seenA = A and pre(seenA)",
+        "seenA = not R and pre(seenA)"
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
     }
   ]
 }
