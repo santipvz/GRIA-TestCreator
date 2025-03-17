@@ -76,8 +76,7 @@
       ],
       "correct_option": 1,
       "questionType": "singleChoice"
-    }
-    ,
+    },
     {
       "question": "Un estudiante está implementando la especificación ABRO y quiere asegurarse de que el sistema se reinicie cuando ocurra la señal `R`. ¿Qué expresión debería usar para reinicializar las variables `seenA` y `seenB`?",
       "options": [
