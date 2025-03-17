@@ -1,334 +1,334 @@
 {
-    "questions": [
-        {
-            "question": "What happens if an MQTT client connects with a username not defined in the ACL file?",
-            "options": [
-                "It is granted full access to all topics by default.",
-                "It is automatically assigned guest-level permissions.",
-                "It is denied access to all topics.",
-                "It is assigned to a default user group with limited privileges."
-            ],
-            "correct_option": 2,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Which of the following are advantages of using the publish/subscribe (pub/sub) paradigm in MQTT?",
-            "options": [
-                "A publisher must know the identity of all subscribers.",
-                "The broker enables message decoupling between publishers and subscribers.",
-                "A message can have multiple subscribers.",
-                "The publisher directly communicates with each subscriber."
-            ],
-            "correct_options": [1,2],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "What are the roles of a message broker in an MQTT system?",
-            "options": [
-                "It directly stores all messages indefinitely.",
-                "It filters incoming messages and forwards them to the correct subscribers.",
-                "It maintains session details and manages client connections.",
-                "It determines the appropriate Quality of Service (QoS) level for message delivery."
-            ],
-            "correct_options": [1,2,3],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Which of the following statements about MQTT Quality of Service (QoS) levels are correct?",
-            "options": [
-                "QoS 0 ensures messages are delivered exactly once.",
-                "QoS 1 guarantees at least one delivery but may result in duplicates.",
-                "QoS 2 ensures that messages are delivered only once.",
-                "The broker always enforces the publisher's QoS level."
-            ],
-            "correct_options": [1,2],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Under which conditions is MQTT a better choice than HTTP for communication?",
-            "options": [
-                "When devices have limited bandwidth and power.",
-                "When a request-response pattern is required.",
-                "When frequent updates need to be sent asynchronously.",
-                "When real-time bidirectional communication is needed."
-            ],
-            "correct_options": [0,2.3],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "What is the primary role of an MQTT message broker?",
-            "options": [
-                "To initiate and establish direct communication between publishers and subscribers.",
-                "To route messages from publishers to the correct subscribers.",
-                "To store and persist all published messages indefinitely.",
-                "To directly manage device-to-device communication without any intermediary."
-            ],
-            "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What happens when an MQTT client disconnects ungracefully (e.g., due to a network failure)?",
-            "options": [
-                "The broker ignores the disconnection and waits for reconnection.",
-                "The broker immediately publishes a Last Will and Testament (LWT) message if configured.",
-                "The subscriber automatically re-sends the last received message.",
-                "The publisher retries sending messages to re-establish the connection."
-            ],
-            "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "How does MQTT ensure that a subscriber receives the most recent message when it first connects to a topic?",
-            "options": [
-                "The broker stores and automatically replays all previous messages.",
-                "The publisher re-sends messages whenever a new subscriber joins.",
-                "A retained message ensures that the latest published value is available to new subscribers.",
-                "The broker forces all clients to remain continuously connected."
-            ],
-            "correct_option": 2,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What is the function of the Keep Alive mechanism in MQTT?",
-            "options": [
-                "It ensures that messages are always delivered exactly once.",
-                "It prevents duplicate messages in QoS 1 communication.",
-                "It helps detect broken connections by requiring periodic client communication.",
-                "It prevents unauthorized clients from subscribing to topics."
-            ],
-            "correct_option": 2,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Why is MQTT a good choice for an IoT system requiring frequent but small messages?",
-            "options": [
-                "It reduces network overhead by using a lightweight binary protocol.",
-                "It requires high bandwidth to function efficiently.",
-                "It ensures messages are always received in real time without delay.",
-                "It allows for direct peer-to-peer communication without a broker."
-            ],
-            "correct_option": 0,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What is the significance of MQTT over WebSocket?",
-            "options": [
-                "It allows MQTT communication from web browsers.",
-                "It replaces MQTT's need for a broker.",
-                "It prevents any security vulnerabilities in MQTT.",
-                "It is required for all IoT devices to communicate with MQTT."
-            ],
-            "correct_option": 0,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What are the key differences between WebSocket and standard MQTT?",
-            "options": [
-                "WebSocket provides an always-open communication channel, while MQTT operates in a request-response model.",
-                "WebSocket alone does not follow MQTT but can be used as a transport layer for MQTT.",
-                "MQTT over WebSocket allows clients to publish messages to multiple recipients.",
-                "MQTT over WebSocket does not support retained messages or Quality of Service (QoS)."
-            ],
-            "correct_options": [1,2],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Why is WebSocket important for an IoT platform?",
-            "options": [
-                "It allows real-time communication between web applications and IoT devices.",
-                "It replaces the need for HTTP REST APIs in IoT platforms.",
-                "It provides a way to integrate MQTT functionality into browser-based applications.",
-                "It removes the need for an MQTT broker."
-            ],
-            "correct_options": [0,2],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "What are the benefits of adding Access Control Lists (ACLs) to an MQTT broker?",
-            "options": [
-                "It prevents unauthorized users from subscribing to topics they shouldn't access.",
-                "It allows defining user-specific permissions for reading and writing topics.",
-                "It eliminates the need for username-password authentication.",
-                "It enforces topic-based restrictions on MQTT clients."
-            ],
-            "correct_options": [0,1,3],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "Which of the following settings are defined in the ACL file for an MQTT broker?",
-            "options": [
-                "General settings for broad topic access.",
-                "User-specific settings to define individual permissions.",
-                "Pattern-based settings to control access dynamically.",
-                "QoS settings to define priority levels for each user."
-            ],
-            "correct_options": [0,1,2],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "What happens when an ACL restriction prevents an MQTT client from publishing to a topic?",
-            "options": [
-                "The client receives an explicit error message explaining the restriction.",
-                "The broker silently denies the publish request, but logs the event.",
-                "The client retries the publish request automatically.",
-                "The broker forcefully disconnects the client."
-            ],
-            "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What is the purpose of the `require_certificate false` setting in WebSocket configuration?",
-            "options": [
-                "It mandates that all MQTT clients must present a certificate for authentication.",
-                "It allows connections without requiring client-side certificates.",
-                "It disables encryption for WebSocket connections.",
-                "It restricts access to local network devices only."
-            ],
-            "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What is the purpose of the `forever` utility in managing an MQTT broker?",
-            "options": [
-                "It automatically restarts the broker if it crashes.",
-                "It optimizes the broker's message routing.",
-                "It prevents unauthorized clients from connecting.",
-                "It reduces latency in message delivery."
-            ],
-            "correct_option": 0,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Why is port 8443 commonly used for MQTT over WebSocket?",
-            "options": [
-                "It is the official standard for WebSocket communication.",
-                "It is commonly allowed through corporate firewalls.",
-                "It is required for secure MQTT connections.",
-                "It is the only port that supports WebSocket encryption."
-            ],
-            "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Why is HTTP not always the best choice for IoT communication?",
-            "options": [
-                "It only supports request/response communication, which is inefficient for real-time IoT.",
-                "It cannot be used with secure communication protocols like TLS.",
-                "It is a binary protocol, making it harder to implement.",
-                "It lacks compatibility with web applications."
-            ],
-            "correct_option": 0,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What is a key difference between CoAP and MQTT?",
-            "options": [
-                "CoAP is a publish/subscribe protocol, while MQTT is request/response.",
-                "CoAP is based on UDP, while MQTT uses TCP.",
-                "CoAP supports message retention, while MQTT does not.",
-                "MQTT is optimized for constrained devices, while CoAP is not."
-            ],
-            "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Why is AMQP commonly used in IoT backends but not as widely on constrained devices?",
-            "options": [
-                "It lacks support for security features like TLS.",
-                "It has higher protocol overhead compared to MQTT or CoAP.",
-                "It only supports request/response communication.",
-                "It does not allow for bidirectional communication."
-            ],
-            "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What are common IoT communication models?",
-            "options": [
-                "Device-to-Device (D2D)",
-                "Device-to-Gateway (D2G)",
-                "Device-to-Cloud (D2C)",
-                "Peer-to-Peer (P2P)"
-            ],
-            "correct_options": [0,1,2],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "What is a primary disadvantage of using Wi-Fi for IoT communication?",
-            "options": [
-                "Wi-Fi requires a centralized controller for all transmissions.",
-                "Wi-Fi consumes more power compared to other IoT wireless protocols.",
-                "Wi-Fi has very limited bandwidth for IoT applications.",
-                "Wi-Fi cannot support secure communications."
-            ],
-            "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What is the primary difference between QoS 1 and QoS 2 in MQTT?",
-            "options": [
-                "QoS 1 ensures a message is delivered exactly once, while QoS 2 delivers at most once.",
-                "QoS 1 ensures at least one delivery but may result in duplicates, while QoS 2 guarantees exactly one delivery.",
-                "QoS 1 messages are not acknowledged, while QoS 2 messages require multiple acknowledgments.",
-                "QoS 1 is used only for publishing, while QoS 2 is used only for subscribing."
-            ],
-            "correct_option": 1,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "How does Bluetooth Low Energy (BLE) achieve lower power consumption compared to classic Bluetooth?",
-            "options": [
-                "BLE transmits data at a much higher speed.",
-                "BLE operates in a different frequency band than classic Bluetooth.",
-                "BLE remains in sleep mode between transmissions.",
-                "BLE only allows communication between two devices at a time."
-            ],
-            "correct_option": 2,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "Which of the following is a key application of BLE in IoT?",
-            "options": [
-                "High-speed file transfer",
-                "Streaming audio and video",
-                "Indoor location tracking",
-                "Large-scale data center communication"
-            ],
-            "correct_option": 2,
-            "questionType": "singleChoice"
-        },
-        {
-            "question": "What are characteristics of Message-Oriented Middleware (MOM) implementations like MQTT and AMQP?",
-            "options": [
-                "They use distributed message queues for communication.",
-                "They always require a central broker.",
-                "They enable decoupled communication between producers and consumers.",
-                "They are inherently stateless and require HTTP for transport."
-            ],
-            "correct_options": [0,2],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "What are the key characteristics of MQTT-SN compared to standard MQTT?",
-            "options": [
-                "MQTT-SN can operate without TCP/IP.",
-                "MQTT-SN uses shorter topic IDs to reduce bandwidth usage.",
-                "MQTT-SN eliminates the need for brokers in message delivery.",
-                "MQTT-SN supports gateway-based communication for constrained networks."
-            ],
-            "correct_options": [0,1,3],
-            "questionType": "multipleChoice"
-        },
-        {
-            "question": "What is a major difference between MQTT and AMQP?",
-            "options": [
-                "AMQP supports message queuing and transactions, whereas MQTT does not.",
-                "MQTT is optimized for high-performance financial transactions.",
-                "AMQP does not allow multiple consumers for the same message.",
-                "MQTT requires more bandwidth than AMQP."
-            ],
-            "correct_option": 0,
-            "questionType": "singleChoice"
-        }
-    ]
+  "questions": [
+    {
+      "question": "What happens if an MQTT client connects with a username not defined in the ACL file?",
+      "options": [
+        "It is granted full access to all topics by default.",
+        "It is automatically assigned guest-level permissions.",
+        "It is denied access to all topics.",
+        "It is assigned to a default user group with limited privileges."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following are advantages of using the publish/subscribe (pub/sub) paradigm in MQTT?",
+      "options": [
+        "A publisher must know the identity of all subscribers.",
+        "The broker enables message decoupling between publishers and subscribers.",
+        "A message can have multiple subscribers.",
+        "The publisher directly communicates with each subscriber."
+      ],
+      "correct_options": [1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the roles of a message broker in an MQTT system?",
+      "options": [
+        "It directly stores all messages indefinitely.",
+        "It filters incoming messages and forwards them to the correct subscribers.",
+        "It maintains session details and manages client connections.",
+        "It determines the appropriate Quality of Service (QoS) level for message delivery."
+      ],
+      "correct_options": [1, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following statements about MQTT Quality of Service (QoS) levels are correct?",
+      "options": [
+        "QoS 0 ensures messages are delivered exactly once.",
+        "QoS 1 guarantees at least one delivery but may result in duplicates.",
+        "QoS 2 ensures that messages are delivered only once.",
+        "The broker always enforces the publisher's QoS level."
+      ],
+      "correct_options": [1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Under which conditions is MQTT a better choice than HTTP for communication?",
+      "options": [
+        "When devices have limited bandwidth and power.",
+        "When a request-response pattern is required.",
+        "When frequent updates need to be sent asynchronously.",
+        "When real-time bidirectional communication is needed."
+      ],
+      "correct_options": [0, 2.3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What is the primary role of an MQTT message broker?",
+      "options": [
+        "To initiate and establish direct communication between publishers and subscribers.",
+        "To route messages from publishers to the correct subscribers.",
+        "To store and persist all published messages indefinitely.",
+        "To directly manage device-to-device communication without any intermediary."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What happens when an MQTT client disconnects ungracefully (e.g., due to a network failure)?",
+      "options": [
+        "The broker ignores the disconnection and waits for reconnection.",
+        "The broker immediately publishes a Last Will and Testament (LWT) message if configured.",
+        "The subscriber automatically re-sends the last received message.",
+        "The publisher retries sending messages to re-establish the connection."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "How does MQTT ensure that a subscriber receives the most recent message when it first connects to a topic?",
+      "options": [
+        "The broker stores and automatically replays all previous messages.",
+        "The publisher re-sends messages whenever a new subscriber joins.",
+        "A retained message ensures that the latest published value is available to new subscribers.",
+        "The broker forces all clients to remain continuously connected."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is the function of the Keep Alive mechanism in MQTT?",
+      "options": [
+        "It ensures that messages are always delivered exactly once.",
+        "It prevents duplicate messages in QoS 1 communication.",
+        "It helps detect broken connections by requiring periodic client communication.",
+        "It prevents unauthorized clients from subscribing to topics."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Why is MQTT a good choice for an IoT system requiring frequent but small messages?",
+      "options": [
+        "It reduces network overhead by using a lightweight binary protocol.",
+        "It requires high bandwidth to function efficiently.",
+        "It ensures messages are always received in real time without delay.",
+        "It allows for direct peer-to-peer communication without a broker."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is the significance of MQTT over WebSocket?",
+      "options": [
+        "It allows MQTT communication from web browsers.",
+        "It replaces MQTT's need for a broker.",
+        "It prevents any security vulnerabilities in MQTT.",
+        "It is required for all IoT devices to communicate with MQTT."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What are the key differences between WebSocket and standard MQTT?",
+      "options": [
+        "WebSocket provides an always-open communication channel, while MQTT operates in a request-response model.",
+        "WebSocket alone does not follow MQTT but can be used as a transport layer for MQTT.",
+        "MQTT over WebSocket allows clients to publish messages to multiple recipients.",
+        "MQTT over WebSocket does not support retained messages or Quality of Service (QoS)."
+      ],
+      "correct_options": [1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Why is WebSocket important for an IoT platform?",
+      "options": [
+        "It allows real-time communication between web applications and IoT devices.",
+        "It replaces the need for HTTP REST APIs in IoT platforms.",
+        "It provides a way to integrate MQTT functionality into browser-based applications.",
+        "It removes the need for an MQTT broker."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the benefits of adding Access Control Lists (ACLs) to an MQTT broker?",
+      "options": [
+        "It prevents unauthorized users from subscribing to topics they shouldn't access.",
+        "It allows defining user-specific permissions for reading and writing topics.",
+        "It eliminates the need for username-password authentication.",
+        "It enforces topic-based restrictions on MQTT clients."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Which of the following settings are defined in the ACL file for an MQTT broker?",
+      "options": [
+        "General settings for broad topic access.",
+        "User-specific settings to define individual permissions.",
+        "Pattern-based settings to control access dynamically.",
+        "QoS settings to define priority levels for each user."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What happens when an ACL restriction prevents an MQTT client from publishing to a topic?",
+      "options": [
+        "The client receives an explicit error message explaining the restriction.",
+        "The broker silently denies the publish request, but logs the event.",
+        "The client retries the publish request automatically.",
+        "The broker forcefully disconnects the client."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is the purpose of the `require_certificate false` setting in WebSocket configuration?",
+      "options": [
+        "It mandates that all MQTT clients must present a certificate for authentication.",
+        "It allows connections without requiring client-side certificates.",
+        "It disables encryption for WebSocket connections.",
+        "It restricts access to local network devices only."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is the purpose of the `forever` utility in managing an MQTT broker?",
+      "options": [
+        "It automatically restarts the broker if it crashes.",
+        "It optimizes the broker's message routing.",
+        "It prevents unauthorized clients from connecting.",
+        "It reduces latency in message delivery."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Why is port 8443 commonly used for MQTT over WebSocket?",
+      "options": [
+        "It is the official standard for WebSocket communication.",
+        "It is commonly allowed through corporate firewalls.",
+        "It is required for secure MQTT connections.",
+        "It is the only port that supports WebSocket encryption."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Why is HTTP not always the best choice for IoT communication?",
+      "options": [
+        "It only supports request/response communication, which is inefficient for real-time IoT.",
+        "It cannot be used with secure communication protocols like TLS.",
+        "It is a binary protocol, making it harder to implement.",
+        "It lacks compatibility with web applications."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is a key difference between CoAP and MQTT?",
+      "options": [
+        "CoAP is a publish/subscribe protocol, while MQTT is request/response.",
+        "CoAP is based on UDP, while MQTT uses TCP.",
+        "CoAP supports message retention, while MQTT does not.",
+        "MQTT is optimized for constrained devices, while CoAP is not."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Why is AMQP commonly used in IoT backends but not as widely on constrained devices?",
+      "options": [
+        "It lacks support for security features like TLS.",
+        "It has higher protocol overhead compared to MQTT or CoAP.",
+        "It only supports request/response communication.",
+        "It does not allow for bidirectional communication."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What are common IoT communication models?",
+      "options": [
+        "Device-to-Device (D2D)",
+        "Device-to-Gateway (D2G)",
+        "Device-to-Cloud (D2C)",
+        "Peer-to-Peer (P2P)"
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What is a primary disadvantage of using Wi-Fi for IoT communication?",
+      "options": [
+        "Wi-Fi requires a centralized controller for all transmissions.",
+        "Wi-Fi consumes more power compared to other IoT wireless protocols.",
+        "Wi-Fi has very limited bandwidth for IoT applications.",
+        "Wi-Fi cannot support secure communications."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What is the primary difference between QoS 1 and QoS 2 in MQTT?",
+      "options": [
+        "QoS 1 ensures a message is delivered exactly once, while QoS 2 delivers at most once.",
+        "QoS 1 ensures at least one delivery but may result in duplicates, while QoS 2 guarantees exactly one delivery.",
+        "QoS 1 messages are not acknowledged, while QoS 2 messages require multiple acknowledgments.",
+        "QoS 1 is used only for publishing, while QoS 2 is used only for subscribing."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "How does Bluetooth Low Energy (BLE) achieve lower power consumption compared to classic Bluetooth?",
+      "options": [
+        "BLE transmits data at a much higher speed.",
+        "BLE operates in a different frequency band than classic Bluetooth.",
+        "BLE remains in sleep mode between transmissions.",
+        "BLE only allows communication between two devices at a time."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Which of the following is a key application of BLE in IoT?",
+      "options": [
+        "High-speed file transfer",
+        "Streaming audio and video",
+        "Indoor location tracking",
+        "Large-scale data center communication"
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "What are characteristics of Message-Oriented Middleware (MOM) implementations like MQTT and AMQP?",
+      "options": [
+        "They use distributed message queues for communication.",
+        "They always require a central broker.",
+        "They enable decoupled communication between producers and consumers.",
+        "They are inherently stateless and require HTTP for transport."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What are the key characteristics of MQTT-SN compared to standard MQTT?",
+      "options": [
+        "MQTT-SN can operate without TCP/IP.",
+        "MQTT-SN uses shorter topic IDs to reduce bandwidth usage.",
+        "MQTT-SN eliminates the need for brokers in message delivery.",
+        "MQTT-SN supports gateway-based communication for constrained networks."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "What is a major difference between MQTT and AMQP?",
+      "options": [
+        "AMQP supports message queuing and transactions, whereas MQTT does not.",
+        "MQTT is optimized for high-performance financial transactions.",
+        "AMQP does not allow multiple consumers for the same message.",
+        "MQTT requires more bandwidth than AMQP."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    }
+  ]
 }
