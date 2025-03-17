@@ -52,7 +52,7 @@
         "When frequent updates need to be sent asynchronously.",
         "When real-time bidirectional communication is needed."
       ],
-      "correct_options": [0, 1, 2],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
@@ -316,7 +316,7 @@
         "MQTT-SN eliminates the need for brokers in message delivery.",
         "MQTT-SN supports gateway-based communication for constrained networks."
       ],
-      "correct_options": [0, 1, 2],
+      "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
     {
