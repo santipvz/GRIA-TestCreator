@@ -1,0 +1,420 @@
+{
+  "questions": [
+    {
+      "question": "Selecciona todas las afirmaciones correctas sobre el funcionamiento de RabbitMQ:",
+      "options": [
+        "En algunos casos, los productores pueden enviar mensajes directamente a una cola, pero lo más habitual es que lo hagan a través de un exchange, el cual se encarga de enrutar los mensajes según su configuración.",
+        "Un exchange de tipo fanout distribuye los mensajes a todas las colas vinculadas a él, sin tener en cuenta ningún criterio de filtrado.",
+        "Los exchanges de tipo headers toman decisiones de enrutamiento basadas en los atributos de la cabecera del mensaje, en lugar de utilizar una clave de enrutamiento.",
+        "El tipo de exchange topic permite enrutar mensajes a una o varias colas según patrones definidos con comodines, lo que lo hace útil para escenarios de publicación/suscripción flexibles.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuáles de las siguientes afirmaciones son ventajas reales del uso de RabbitMQ en arquitecturas edge-cloud?",
+      "options": [
+        "RabbitMQ no permite el uso de TLS, lo cual mejora el rendimiento.",
+        "El edge puede seguir funcionando incluso si la nube no está disponible.",
+        "RabbitMQ permite buffering y persistencia temporal para evitar pérdida de datos.",
+        "RabbitMQ permite la escalabilidad natural al recibir datos de múltiples dispositivos sin sobrecargar la nube.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [2, 3, 4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Selecciona todas las afirmaciones correctas sobre Mosquitto como broker MQTT en entornos IoT:",
+      "options": [
+        "Mosquitto permite comunicación en tiempo real basada en eventos.",
+        "Mosquitto no es adecuado para dispositivos con recursos limitados.",
+        "Mosquitto puede ejecutarse únicamente en la nube.",
+        "Mosquitto ofrece autenticación y soporte TLS/SSL.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Selecciona todas las afirmaciones verdaderas sobre el uso de MQTT sobre WebSocket con Mosquitto:",
+      "options": [
+        "Permite integrar dashboards IoT modernos accesibles desde navegadores.",
+        "Solo se puede usar en redes locales, no en la nube.",
+        "Usa puertos estándar como 8083 o 443 para facilitar la conexión.",
+        "WebSocket no es compatible con aplicaciones web en tiempo real.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Selecciona las afirmaciones correctas acerca de las tecnologías middleware comentadas:",
+      "options": [
+        "RabbitMQ es un broker que implementa MQTT y se utiliza en sensores IoT.",
+        "Node-RED es un middleware orientado a flujos, pero no actúa como broker.",
+        "Apache Kafka es un broker especializado en bases de datos relacionales.",
+        "Mosquitto es un broker MQTT utilizado en entornos de edge computing.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuáles de las siguientes afirmaciones reflejan correctamente el papel de los protocolos estándar en sistemas IoT?",
+      "options": [
+        "Permiten que dispositivos IoT de distintos fabricantes se comuniquen entre sí de forma segura y eficiente.",
+        "Son útiles solo en redes locales, ya que la nube utiliza reglas de comunicación propietarias.",
+        "Establecen un conjunto claro de reglas que aseguran la interoperabilidad entre sensores, plataformas y servicios cloud.",
+        "Su propósito principal es reducir el consumo energético de los dispositivos IoT.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuáles de las siguientes afirmaciones sobre el modelo MOM (Middleware Oriented Messages) en IoT son correctas?",
+      "options": [
+        "El modelo MOM emplea el paradigma cliente-servidor como base principal de comunicación.",
+        "Protocolos como MQTT y AMQP utilizan el modelo MOM y funcionan mediante brokers.",
+        "En el modelo MOM, los consumidores deben estar siempre conectados para recibir los datos.",
+        "Una de las ventajas del modelo MOM es la escalabilidad sin necesidad de rediseñar el sistema.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "Sobre el paradigma Publish/Subscribe (Pub/Sub) y su funcionamiento en sistemas IoT, selecciona las afirmaciones que reflejan adecuadamente su lógica:",
+      "options": [
+        "En el modelo Pub/Sub, los Publishers deben conocer previamente a los Subscribers para poder enviarles los mensajes.",
+        "El broker actúa como intermediario, distribuyendo los mensajes a los Subscribers suscritos al tópico correspondiente.",
+        "Un Subscriber puede recibir mensajes de un tópico sin necesidad de estar suscrito a él previamente.",
+        "Los mensajes en el modelo Pub/Sub están etiquetados con un tópico, como por ejemplo \"sensores/temperatura\".",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe correctamente un protocolo de comunicación en redes?",
+      "options": [
+        "Es un conjunto de reglas y algoritmos que rigen la comunicación entre dispositivos.",
+        "Define formatos de mensajes y mecanismos para el intercambio de datos.",
+        "Funciona de manera aislada sin depender de otros protocolos.",
+        "Solo se aplica a redes de Internet, no a IoT.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 1],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Por qué no existe un protocolo universal para IoT?",
+      "options": [
+        "Porque cada protocolo está diseñado para un tipo específico de comunicación y arquitectura.",
+        "Porque la competencia entre fabricantes impide la estandarización.",
+        "Porque los protocolos fundamentales de Internet no pueden ser usados en IoT.",
+        "Porque cada aplicación IoT tiene diferentes necesidades y requisitos.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué afirmación sobre TCP es correcta?",
+      "options": [
+        "TCP es un protocolo orientado a conexión que garantiza la entrega ordenada de los datos.",
+        "TCP utiliza un mecanismo llamado three-way handshake para establecer conexiones.",
+        "TCP es un protocolo sin conexión y sin garantía de entrega.",
+        "TCP no implementa control de flujo ni congestión.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 1],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre UDP es correcta?",
+      "options": [
+        "UDP es un protocolo sin conexión y no garantiza la entrega de los datos.",
+        "UDP tiene un alto consumo de recursos debido a sus mecanismos de control avanzados.",
+        "UDP es ideal para aplicaciones en tiempo real como streaming de video y audio.",
+        "UDP ofrece un mecanismo de retransmisión y control de congestión similar al de TCP.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre los códigos de estado HTTP es correcta?",
+      "options": [
+        "Los códigos 2xx indican éxito en la solicitud del cliente.",
+        "Los códigos 4xx representan errores del servidor.",
+        "Los códigos 1xx significan que la solicitud ha sido rechazada.",
+        "Los códigos 5xx indican que el servidor ha encontrado un problema al procesar la solicitud.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de los siguientes métodos HTTP se utiliza para realizar una modificación parcial de un recurso?",
+      "options": [
+        "POST.",
+        "PUT.",
+        "PATCH.",
+        "DELETE.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes características corresponde a HTTP/2?",
+      "options": [
+        "Multiplexación de conexiones.",
+        "Uso exclusivo del formato textual para mejorar la depuración.",
+        "Server Push, permitiendo al servidor enviar datos sin solicitud previa del cliente.",
+        "Compresión de encabezados para reducir el tamaño de las peticiones.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre el protocolo HTTP es correcta?",
+      "options": [
+        "HTTP sigue un modelo cliente-servidor basado en solicitud y respuesta.",
+        "Un cliente HTTP inicia una solicitud (request) y el servidor devuelve una respuesta (response).",
+        "HTTP es un protocolo fundamental para la comunicación en Internet.",
+        "HTTP permite la transferencia de datos entre clientes y servidores web.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre REST es correcta?",
+      "options": [
+        "REST es un protocolo de comunicación específico para IoT.",
+        "REST utiliza HTTP como base para acceder y modificar recursos.",
+        "REST requiere que el estado de la sesión se mantenga en el servidor.",
+        "REST es un modelo de comunicación bidireccional en tiempo real.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [1],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre el uso de REST en IoT es correcta?",
+      "options": [
+        "REST es la mejor opción para dispositivos IoT con restricciones de ancho de banda y consumo de energía.",
+        "REST permite una comunicación eficiente en tiempo real entre dispositivos IoT.",
+        "HTTP/2 reduce la sobrecarga en REST, pero sigue sin ser la mejor opción para IoT en tiempo real.",
+        "MQTT y WebSockets no son recomendados para IoT, ya que REST cubre todas las necesidades.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre CoAP es correcta?",
+      "options": [
+        "Es un protocolo diseñado para IoT y redes restringidas.",
+        "Está basado en UDP, aunque admite extensiones para TCP o SMS.",
+        "Emplea un modelo de petición/respuesta similar a HTTP.",
+        "Tiene una cabecera fija de 4 bytes para ser ligero y eficiente.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes características es exclusiva de CoAP en comparación con HTTP?",
+      "options": [
+        "Utiliza UDP en lugar de TCP como transporte por defecto.",
+        "Es más eficiente y optimizado para dispositivos de baja potencia.",
+        "Soporta la observabilidad de recursos con suscripción a cambios.",
+        "Permite el uso de multicast sin DTLS.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [4],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "En cuanto a los mecanismos de compensación de la falta de fiabilidad de UDP en CoAP, ¿cuál de las siguientes opciones es INCORRECTA?",
+      "options": [
+        "CoAP utiliza retransmisión con confirmación para garantizar la entrega de mensajes.",
+        "Emplea un sistema de deduplicación para evitar procesar mensajes repetidos.",
+        "CoAP se basa exclusivamente en TCP para asegurar fiabilidad.",
+        "CoAP implementa seguridad mediante DTLS (Datagram Transport Layer Security).",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre XMPP es correcta?",
+      "options": [
+        "XMPP es un protocolo basado en XML con arquitectura descentralizada.",
+        "XMPP fue desarrollado en 1999 con el nombre de Jabber.",
+        "XMPP permite gestionar la presencia de usuarios en tiempo real.",
+        "XMPP es un protocolo cerrado y propietario.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál es una de las principales desventajas de XMPP en IoT?",
+      "options": [
+        "No permite la comunicación en tiempo real.",
+        "El uso de XML puede ser pesado para dispositivos con recursos limitados.",
+        "No admite cifrado ni autenticación.",
+        "La arquitectura descentralizada impide la escalabilidad.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [1],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de los siguientes es un caso de uso de XMPP en IoT?",
+      "options": [
+        "Control de luces y sistemas de alarma en domótica.",
+        "Notificaciones push en dispositivos conectados.",
+        "Comunicación en tiempo real con monitoreo de presencia.",
+        "Solo se usa en aplicaciones de mensajería instantánea, no en IoT.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones sobre AMQP es correcta?",
+      "options": [
+        "Es un protocolo estándar abierto diseñado para mensajería eficiente en sistemas distribuidos.",
+        "AMQP 1.0 permite arquitecturas de comunicación más flexibles que versiones anteriores.",
+        "AMQP está estandarizado por ISO bajo la norma ISO/IEC 19464:2014.",
+        "AMQP es un protocolo basado en texto y no ofrece seguridad integrada.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes características es incorrecta respecto a AMQP?",
+      "options": [
+        "AMQP permite comunicación bidireccional eficiente entre clientes y brokers.",
+        "En AMQP, la multiplexación permite manejar múltiples sesiones en una sola conexión.",
+        "AMQP no es adecuado para dispositivos IoT debido a su alta latencia y falta de confiabilidad.",
+        "AMQP admite modelos de comunicación como Cliente a Cliente (P2P) y Broker a Broker.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Qué ventaja tiene AMQP en comparación con otros protocolos de mensajería como MQTT?",
+      "options": [
+        "Ofrece seguridad integrada con TLS y SASL.",
+        "Soporta múltiples patrones de mensajería, como Publicar/Suscribir y Petición/Respuesta.",
+        "Su arquitectura es más ligera y consume menos recursos que MQTT.",
+        "AMQP admite modelos de comunicación como Cliente a Cliente (P2P) y Broker a Broker.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuáles de las siguientes afirmaciones describen correctamente el funcionamiento y características del protocolo MQTT en sistemas IoT?",
+      "options": [
+        "MQTT utiliza una arquitectura basada en cliente-servidor tradicional, similar a HTTP, donde el cliente siempre conoce al receptor final del mensaje.",
+        "MQTT es un protocolo ligero y eficiente, diseñado para funcionar bien en redes poco fiables y con bajo ancho de banda.",
+        "MQTT no permite configurar niveles de calidad de servicio (QoS), lo que limita su fiabilidad en entornos inestables.",
+        "En MQTT, los clientes pueden actuar como publicadores o suscriptores, y utilizan tópicos para organizar la comunicación.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [1, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuáles de las siguientes afirmaciones describen correctamente funcionalidades específicas del protocolo MQTT?",
+      "options": [
+        "El sistema Last Will and Testament (LWT) permite que el cliente envíe un mensaje automáticamente si decide desconectarse voluntariamente.",
+        "El mecanismo Keep-Alive en MQTT utiliza mensajes PINGREQ y PINGRESP para verificar si la conexión entre cliente y broker sigue activa.",
+        "Las conexiones persistentes permiten que el broker almacene suscripciones y mensajes no entregados, facilitando la reconexión del cliente sin pérdida de datos.",
+        "Los mensajes retenidos (Retained messages) permiten que los nuevos suscriptores reciban de inmediato el último mensaje publicado en un tópico.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [1, 2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuáles de las siguientes afirmaciones describen correctamente los niveles de Calidad de Servicio (QoS) en MQTT?",
+      "options": [
+        "QoS 0 ofrece garantía de entrega mínima y puede provocar duplicados, ya que el mensaje puede reenviarse si no se confirma la recepción.",
+        "QoS 1 garantiza que el mensaje se entregue al menos una vez, pero puede provocar duplicados en el receptor.",
+        "QoS 2 es el nivel más fiable, garantiza que el mensaje se entregue exactamente una vez, utilizando un mecanismo de confirmación más complejo.",
+        "QoS 0 es ideal para aplicaciones críticas donde no se puede tolerar pérdida de mensajes, ya que asegura entrega exacta una vez.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [1, 2],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuáles de las siguientes afirmaciones describen correctamente los desafíos que enfrenta la comunicación en sistemas IoT?",
+      "options": [
+        "Los dispositivos IoT, por su gran capacidad de procesamiento, son capaces de ejecutar pilas de protocolos tradicionales como TCP/IP sin inconvenientes.",
+        "Los dispositivos IoT suelen utilizar tecnologías inalámbricas como WiFi, ya que ofrecen alta velocidad de transmisión y son energéticamente eficientes.",
+        "Las comunicaciones en IoT deben ser eficientes en ancho de banda y no depender de conexiones permanentes para evitar el uso excesivo de recursos.",
+        "La gran diversidad de dispositivos y fabricantes en IoT requiere que los protocolos de comunicación aseguren la interoperabilidad, a pesar de la existencia de soluciones propietarias y abiertas.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [2, 3],
+      "questionType": "multipleChoice"
+    },
+    {
+      "question": "¿Cuáles de las siguientes afirmaciones describen correctamente los modelos de comunicación M2M y Device-to-Gateway en sistemas IoT?",
+      "options": [
+        "En el modelo M2M, los dispositivos pueden comunicarse entre sí sin intervención humana, lo que permite automatización en entornos industriales como la Industria 4.0.",
+        "En el modelo dispositivo a puerta de enlace, los dispositivos IoT se conectan directamente a la nube sin intermediarios, lo que reduce la latencia.",
+        "Los gateways pueden realizar funciones como traducción de protocolos, almacenamiento temporal y mejora de la seguridad en la red IoT.",
+        "El modelo M2M requiere protocolos de red ligeros y autoorganizados como ZigBee o 6LoWPAN para garantizar interoperabilidad entre dispositivos.",
+        "Todas son correctas.",
+        "Todas son incorrectas."
+      ],
+      "correct_options": [0, 2, 3],
+      "questionType": "multipleChoice"
+    }
+  ]
+}
