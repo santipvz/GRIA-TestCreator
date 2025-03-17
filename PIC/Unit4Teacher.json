@@ -52,7 +52,7 @@
         "When frequent updates need to be sent asynchronously.",
         "When real-time bidirectional communication is needed."
       ],
-      "correct_options": [0, 2.3],
+      "correct_options": [0, 2, 3],
       "questionType": "multipleChoice"
     },
     {
