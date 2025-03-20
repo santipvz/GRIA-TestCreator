@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Examen</title>
-    <!-- Usamos un id para identificar la hoja de estilos -->
+    <!-- Hoja de estilos (el tema se cambia dinámicamente con JS) -->
     <link id="theme-link" rel="stylesheet" href="{{ style }}">
 </head>
 <body>
-    <!-- Botón de alternar tema con icono de sol/luna -->
+    <!-- Botón para alternar tema -->
     <button id="theme-toggle-btn" onclick="toggleTheme()" style="border:none; background:none; cursor:pointer;">
         <img id="theme-icon" src="assets/images/sun.png" alt="Toggle Theme" width="32">
     </button>
@@ -17,10 +17,14 @@
         {{ questions_html|safe }}
         <input id="submitButton" type="submit" value="Enviar respuestas">
     </form>
+
+    <!-- Aquí mostraremos el resultado final -->
     <p id="scoreDisplay"></p>
-    
+
+    <!-- Scripts -->
+    <!-- Lógica de formulario y preguntas -->
     <script src="assets/js/formLogic.js"></script>
-    <script src="assets/js/questionLogic.js"></script>
+    <!-- Lógica de tema (elige solo una de tus versiones preferidas) -->
     <script src="assets/js/themeToggle.js"></script>
 </body>
 </html>

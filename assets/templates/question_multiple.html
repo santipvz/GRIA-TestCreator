@@ -9,5 +9,10 @@
         </li>
     {% endfor %}
     </ul>
-    <p class="correct-answer" style="display:none;">Respuestas correctas: {{ correct_letter }}</p>
+    <!-- Oculto inicialmente por CSS; se muestra tras enviar -->
+    <p class="correct-answer" style="display:none;">
+        Respuestas correctas: {{ correct_letter }}
+    </p>
+    <!-- Input hidden con la(s) respuesta(s) correcta(s) separadas por comas -->
+    <input type="hidden" name="correct_{{ question_number }}" value="{{ correct_letter }}">
 </div>

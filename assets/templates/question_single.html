@@ -2,12 +2,13 @@
 <div class="singleChoice question">
     <p>{{ question_number }}: {{ question_text }}</p>
     <ul>
-    {% for option in options %}
-        <li>
-            <input type="radio" name="question_{{ question_number }}" value="{{ option.letter }}">
-            {{ option.letter }}) {{ option.text }}
-        </li>
+    {% for opt in options %}
+    <li>
+        <input type="radio" name="question_{{ question_number }}" value="{{ opt.letter }}">
+        {{ opt.letter }}) {{ opt.text }}
+    </li>
     {% endfor %}
-    </ul>
-    <p class="correct-answer" style="display:none;">Respuesta correcta: {{ correct_letter }}</p>
+    <p class="correct-answer">Respuesta correcta: {{ correct_letter }}</p>
+    <input type="hidden" name="correct_{{ question_number }}" value="{{ correct_letter }}">
+      
 </div>
