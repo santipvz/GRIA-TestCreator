@@ -1,3 +1,4 @@
+# UTILS/questionTypes.py
 from random import shuffle
 import os
 
@@ -83,7 +84,7 @@ def singleChoiceWriter(question: dict, nQuestion=int) -> str:
 
     return f"""
             <div class="{question['questionType']} question">
-                <p>{nQuestion + 1}: {question_text}</p>  <!-- Mostrar el número de pregunta -->
+                <p>{nQuestion + 1}: {question_text}</p>
                 {images}
                 <ul>
                     {option_html}
@@ -131,7 +132,6 @@ def multipleChoiceWriter(question: dict, nQuestion=int) -> str:
         for im in question["images"]:
             location = os.path.join(question["folder"], im)
             images += f'<img src="{location}" alt="imagen">'
-
     correct_options_str = ", ".join(
         sorted([chr(ord("A") + i) for i in correct_options])
     )
@@ -139,11 +139,12 @@ def multipleChoiceWriter(question: dict, nQuestion=int) -> str:
     correct_html = (
         f'<p class="correct-answer">Respuestas correctas: {correct_options_str}</p>'
     )
+
     correct_hidden_input = f'<input type="hidden" name="correct_{nQuestion}" value="{correct_options_str}">'
 
     return f"""
             <div class="{question['questionType']} question">
-                <p>{nQuestion + 1}: {question_text}</p>  <!-- Mostrar el número de pregunta -->
+                <p>{nQuestion + 1}: {question_text}</p>
                 {images}
                 <ul>
                     {option_html}

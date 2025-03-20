@@ -1,40 +1,35 @@
+/* assets/css/style.css */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&display=swap');
-
 body {
     font-family: 'Roboto', Arial, sans-serif;
-    background-color: #121212; /* Dark background */
-    color: #e0e0e0; /* Light text for contrast */
+    background-color: #f9f9f9;
+    color: #333;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
 }
-
 .correct {
-    color: #4caf50; /* Bright green for correct answers */
+    color: #28a745;
     font-weight: bold;
 }
-
 .incorrect {
-    color: #f44336; /* Bright red for incorrect answers */
+    color: #dc3545;
     font-weight: bold;
 }
-
 .question {
     margin-bottom: 20px;
     padding: 15px;
-    border: 1px solid #333; /* Darker border */
+    border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #1e1e1e; /* Slightly lighter dark background */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 .question p {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;
 }
-
 .question li {
     font-family: 'Roboto', Arial, sans-serif;
     font-weight: normal;
@@ -45,11 +40,9 @@ body {
     border-radius: 3px;
     transition: background-color 0.3s ease;
 }
-
 .question li:hover {
-    background-color: #333333; /* Highlight on hover */
+    background-color: #f1f1f1;
 }
-
 input[type="checkbox"] {
     width: 17px;
     height: 17px;
@@ -57,29 +50,24 @@ input[type="checkbox"] {
     margin-right: 10px;
     cursor: pointer;
 }
-
 .correct-answer {
     display: none;
     font-weight: bold;
     font-size: 16px;
 }
-
 .answered {
     pointer-events: none;
-    opacity: 0.7;
 }
-
 #testForm {
     max-width: 800px;
     margin: 0 auto;
-    background-color: #1e1e1e; /* Dark background for the form */
+    background-color: #fff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
 #submitButton {
-    background-color: #007bff; /* Bright blue button */
+    background-color: #007bff;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -88,15 +76,12 @@ input[type="checkbox"] {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 #submitButton:hover {
-    background-color: #0056b3; /* Darker blue on hover */
+    background-color: #0056b3;
 }
-
 #scoreDisplay {
     margin-top: 20px;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    color: #ffffff; /* White text for score display */
 }

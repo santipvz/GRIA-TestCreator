@@ -1,4 +1,6 @@
-body {font-family: Arial, sans-serif; 
+/* assets/css/legacy.css */
+body {
+    font-family: Arial, sans-serif;
 }
 .correct {
     color: green;

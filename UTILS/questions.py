@@ -1,3 +1,4 @@
+# UTILS/questions.py
 import random
 import json
 import copy
@@ -35,7 +36,7 @@ def questionGenerator(
         )
 
     # Need to generate the number of questions for each file
-    if questionsOfEachUnit == None:
+    if questionsOfEachUnit is None:
         questionsOfEachUnit = {key: 0 for key in questionsByFileDict.keys()}
 
         while sum(questionsOfEachUnit.values()) < numOfQuestions:
@@ -54,19 +55,14 @@ def questionGenerator(
 
     # Get the questions from each file
     for filePath in questionsOfEachUnit.keys():
-        with open(
-            filePath,
-            "r",
-            encoding="utf-8",
-        ) as file:
+        with open(filePath, "r", encoding="utf-8") as file:
             questionsData = json.load(file)
-
         numOfQuestionsInUnit = len(questionsData["questions"])
 
         if questionsOfEachUnit[filePath] < numOfQuestionsInUnit:
             choosenQuestions = random.sample(
                 questionsData["questions"], questionsOfEachUnit[filePath]
-            )  # No repeats
+            )
         else:
             choosenQuestions = [
                 copy.deepcopy(item)
@@ -84,7 +80,6 @@ def questionGenerator(
 
         # Add the questions to the list that will be returned
         questions.extend(choosenQuestions)
-
     return questions
 
 
