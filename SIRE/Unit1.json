@@ -87,6 +87,95 @@
       ],
       "correct_option": 1,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "En Lustre, ¿qué es un 'flujo' (stream)?",
+      "options": [
+        "Un archivo de texto que contiene datos de entrada.",
+        "Un tipo de nodo que procesa datos en tiempo real.",
+        "Una función matemática que transforma valores.",
+        "Una secuencia de valores del mismo tipo, que puede ser finita o infinita."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cómo activas el reloj en tiempo real en la simulación de Luciole?",
+      "options": [
+        "Modificando el código C generado.",
+        "Seleccionando la opción 'Real tiem clock' en el menú Clocks.",
+        "Ejecutando `lv6 abro.lus -real-clock`.",
+        "Agregando `clock=true` en el código Lustre."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Un estudiante intenta compilar un programa en Lustre pero olvida especificar el nodo principal con la opción `-n`. ¿Qué mensaje es más probable que reciba?",
+      "options": [
+        "Error: Can not find node EDGE.",
+        "This program is not syntactically correct.",
+        "No node set: use -n to set a node",
+        "This file doesn't exist."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Un estudiante quiere visualizar el comportamiento de un programa Lustre en tiempo real. ¿Qué herramienta debería usar?",
+      "options": [
+        "VirtualBox",
+        "Luciole",
+        "Gedit",
+        "Lustre"
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué describe mejor la funcionalidad del nodo ABRO en Lustre?",
+      "options": [
+        "Detectar cambios de estado en una señal.",
+        "Contar eventos de entrada.",
+        "Emitir una salida cuando las entradas A y B han ocurrido al menos una vez.",
+        "Sincronizar señales con un reloj externo."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si un estudiante usa la opción `-2c-exec` al compilar un programa en Lustre?",
+      "options": [
+        "Se genera un archivo binario ejecutable además del código C.",
+        "Se eliminan todos los archivos generados previamente.",
+        "El programa se ejecuta automáticamente en la máquina virtual.",
+        "Solo se verifica la sintaxis del programa."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Quieres compilar `mouse.lus` y obtener un ejecutable directamente. ¿Qué comando debes usar?",
+      "options": [
+        "`./MOUSE.exec`",
+        "`lv6 mouse.lus -node MOUSE -2c-exec`",
+        "`lv6 mouse.lus -exec`",
+        "`luciole mouse.lus MOUSE`"
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Un estudiante modifica el código de `edge.lus`, cambiando la línea que define la salida `Y` en el nodo `EDGE` de:<br><br> Y = R_EDGE(X) or R_EDGE(not(X));<br><br>a:<br><br>  Y = R_EDGE(X) and R_EDGE(not(X));<br><br>¿Qué consecuencia tendrá este cambio en el comportamiento del sistema?",
+      "options": [
+        "El sistema generará un error de compilación debido a la incompatibilidad de operadores.",
+        "El sistema solo detectará flancos cuando tanto `X` como `not(X)` tengan un flanco en el mismo ciclo, lo que es imposible, por lo que `Y` siempre será falso.",
+        "El sistema detectará flancos de subida y bajada correctamente, pero con un retraso de un ciclo.",
+        "El sistema detectará flancos de subida y bajada de manera más eficiente."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
     }
+    
   ]
 }
