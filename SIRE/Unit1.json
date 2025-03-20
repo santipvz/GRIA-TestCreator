@@ -123,12 +123,7 @@
     },
     {
       "question": "Un estudiante quiere visualizar el comportamiento de un programa Lustre en tiempo real. ¿Qué herramienta debería usar?",
-      "options": [
-        "VirtualBox",
-        "Luciole",
-        "Gedit",
-        "Lustre"
-      ],
+      "options": ["VirtualBox", "Luciole", "Gedit", "Lustre"],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
@@ -176,6 +171,5 @@
       "correct_option": 1,
       "questionType": "singleChoice"
     }
-    
   ]
 }
