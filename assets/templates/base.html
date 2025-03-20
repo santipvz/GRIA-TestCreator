@@ -1,0 +1,26 @@
+<!-- assets/templates/base.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Examen</title>
+    <!-- Usamos un id para identificar la hoja de estilos -->
+    <link id="theme-link" rel="stylesheet" href="{{ style }}">
+</head>
+<body>
+    <!-- Botón de alternar tema con icono de sol/luna -->
+    <button id="theme-toggle-btn" onclick="toggleTheme()" style="border:none; background:none; cursor:pointer;">
+        <img id="theme-icon" src="assets/images/sun.png" alt="Toggle Theme" width="32">
+    </button>
+
+    <form id="testForm" onsubmit="return submitForm()">
+        {{ questions_html|safe }}
+        <input id="submitButton" type="submit" value="Enviar respuestas">
+    </form>
+    <p id="scoreDisplay"></p>
+    
+    <script src="assets/js/formLogic.js"></script>
+    <script src="assets/js/questionLogic.js"></script>
+    <script src="assets/js/themeToggle.js"></script>
+</body>
+</html>
