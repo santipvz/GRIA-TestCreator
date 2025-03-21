@@ -23,7 +23,7 @@
         "Todas son correctas.",
         "Todas son incorrectas."
       ],
-      "correct_options": [2, 3, 4],
+      "correct_options": [1, 2, 3],
       "questionType": "multipleChoice"
     },
     {
