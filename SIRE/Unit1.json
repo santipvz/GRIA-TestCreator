@@ -1,6 +1,106 @@
 {
   "questions": [
     {
+      "question": "¿Cuál es la mejor manera de implementar la detección de un doble clic en la especificación MOUSE?",
+      "options": [
+        "No usar nodos internos como `COUNTER`.",
+        "Ignorar la señal `CLOCK` y solo usar `CLICK`.",
+        "Usar un contador para medir el tiempo entre clics.",
+        "Reiniciar el sistema después de cada clic."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En Lustre, ¿qué representa un \"node\"?",
+      "options": [
+        "Una herramienta gráfica para visualizar flujos de datos.",
+        "Un archivo de configuración para el compilador.",
+        "Un tipo de dato primitivo como un entero o booleano.",
+        "Un programa o subprograma que define una transformación de flujos de datos."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Un estudiante está implementando un programa en Lustre para detectar flancos de subida y bajada en una señal booleana. ¿Qué función debería usar para detectar un flanco de subida?",
+      "options": ["EDGE(X)", "R_EDGE(X)", "pre(X)", "X and Y"],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si se usa el operador `pre(X)` en el primer ciclo de ejecución de un programa Lustre?",
+      "options": [
+        "El programa entrará en un bucle infinito.",
+        "El valor de `pre(X)` será indefinido o un valor por defecto (dependiendo del contexto).",
+        "El programa generará un error de compilación.",
+        "El valor de `pre(X)` será igual al valor actual de `X`."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Un sistema de detección de eventos debe identificar transiciones de un botón de apagado/encendido.\n¿Qué nodo de Lustre se debe utilizar?",
+      "options": ["ABRO", "COUNTER", "EDGE", "MOUSE"],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de los siguientes archivos **NO** se genera al compilar `edge.lus` con `-2c`?",
+      "options": [
+        "edge_EDGE_loop.c",
+        "edge_EDGE.h",
+        "edge_MAKEFILE.c",
+        "edge_EDGE.c"
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué efecto tiene el operador `→` en Lustre?",
+      "options": [
+        "Detiene la ejecución del programa si la condición es falsa.",
+        "Reinicia el flujo a su valor inicial en cada ciclo.",
+        "Define un valor inicial para un flujo en el primer ciclo y luego sigue con la expresión dada.",
+        "Compara dos flujos y devuelve un valor booleano."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cómo activas el reloj en tiempo real en la simulación de Luciole?",
+      "options": [
+        "Seleccionando la opción \"Real time clock\" en el menú Clocks.",
+        "Ejecutando `lv6 abro.lus -real-clock`.",
+        "Agregando `clock=true` en el código Lustre.",
+        "Modificando el código C generado."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si un estudiante usa la opción `-2c-exec` al compilar un programa en Lustre?",
+      "options": [
+        "El programa se ejecuta automáticamente en la máquina virtual.",
+        "Solo se verifica la sintaxis del programa.",
+        "Se genera un archivo binario ejecutable además del código C.",
+        "Se eliminan todos los archivos generados previamente."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Un estudiante modifica el código de `edge.lus`, cambiando la línea que define la salida `Y` en el nodo `EDGE` de:\nY = R_EDGE(X) or R_EDGE(not(X));\na:\nY = R_EDGE(X) and R_EDGE(not(X));\n¿Qué consecuencia tendrá este cambio en el comportamiento del sistema?",
+      "options": [
+        "El sistema detectará flancos de subida y bajada de manera más eficiente.",
+        "El sistema generará un error de compilación debido a la incompatibilidad de operadores.",
+        "El sistema detectará flancos de subida y bajada correctamente, pero con un retraso de un ciclo.",
+        "El sistema solo detectará flancos cuando tanto `X` como `not(X)` tengan un flanco en el mismo ciclo, lo que es imposible, por lo que `Y` siempre será falso."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
       "question": "¿Por qué el primer ciclo de simulación en Lustre a menudo no produce una salida válida?",
       "options": [
         "Porque las variables de estado requieren una inicialización en el primer ciclo.",
@@ -42,17 +142,6 @@
         "Reiniciar la máquina virtual."
       ],
       "correct_option": 1,
-      "questionType": "singleChoice"
-    },
-    {
-      "question": "En Lustre, ¿qué representa un \"node\"?",
-      "options": [
-        "Un programa o subprograma que define una transformación de flujos de datos.",
-        "Una herramienta gráfica para visualizar flujos de datos.",
-        "Un tipo de dato primitivo como un entero o booleano.",
-        "Un archivo de configuración para el compilador."
-      ],
-      "correct_option": 0,
       "questionType": "singleChoice"
     },
     {
@@ -100,17 +189,6 @@
       "questionType": "singleChoice"
     },
     {
-      "question": "¿Cómo activas el reloj en tiempo real en la simulación de Luciole?",
-      "options": [
-        "Modificando el código C generado.",
-        "Seleccionando la opción 'Real tiem clock' en el menú Clocks.",
-        "Ejecutando `lv6 abro.lus -real-clock`.",
-        "Agregando `clock=true` en el código Lustre."
-      ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
-    },
-    {
       "question": "Un estudiante intenta compilar un programa en Lustre pero olvida especificar el nodo principal con la opción `-n`. ¿Qué mensaje es más probable que reciba?",
       "options": [
         "Error: Can not find node EDGE.",
@@ -136,17 +214,6 @@
         "Sincronizar señales con un reloj externo."
       ],
       "correct_option": 2,
-      "questionType": "singleChoice"
-    },
-    {
-      "question": "¿Qué ocurre si un estudiante usa la opción `-2c-exec` al compilar un programa en Lustre?",
-      "options": [
-        "Se genera un archivo binario ejecutable además del código C.",
-        "Se eliminan todos los archivos generados previamente.",
-        "El programa se ejecuta automáticamente en la máquina virtual.",
-        "Solo se verifica la sintaxis del programa."
-      ],
-      "correct_option": 0,
       "questionType": "singleChoice"
     },
     {
@@ -214,17 +281,6 @@
         "Detecta solo flancos de bajada en la señal `X`."
       ],
       "correct_option": 1,
-      "questionType": "singleChoice"
-    },
-    {
-      "question": "¿Qué ocurre si se usa el operador `pre(X)` en el primer ciclo de ejecución de un programa Lustre?",
-      "options": [
-        "El programa generará un error de compilación.",
-        "El programa entrará en un bucle infinito.",
-        "El valor de `pre(X)` será indefinido o un valor por defecto (dependiendo del contexto).",
-        "El valor de `pre(X)` será igual al valor actual de `X`."
-      ],
-      "correct_option": 2,
       "questionType": "singleChoice"
     }
   ]
