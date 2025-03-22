@@ -1,0 +1,72 @@
+{
+  "questions": [
+    {
+      "question": "En el código Lustre TrafficLight2, si Fase es 0 y el botón no se presiona, ¿qué estado muestra el semáforo?",
+      "options": [
+        "GREEN",
+        "WALK",
+        "YELLOW",
+        "RED",
+        "DONTWALK"
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el sistema de dos semáforos, si el semáforo 1 está en rojo y el semáforo 2 está en verde, ¿qué ocurre después de 4 segundos?",
+      "options": [
+        "El semáforo 2 permanece en verde.",
+        "Ambos semáforos se apagan.",
+        "El semáforo 1 pasa directamente a verde.",
+        "El semáforo 2 pasa a ámbar durante 1 segundo y luego a rojo."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el nodo TrafficLight, si el botón (BOTON) se presiona en la fase 0 (verde), ¿qué efecto tiene?",
+      "options": ["El semáforo pasa a la fase 1 (amarillo).", "El semáforo pasa directamente a la fase 3 (rojo y peatones pueden caminar).", "El semáforo permanece en verde.", "El semáforo se apaga."],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Analizando el código Lustre TrafficLight, ¿cuándo estará activa la señal WALK?",
+      "options": ["Cuando BOTON se presiona.", "Cuando Fase es 1.", "Cuando Fase es 3.", "Cuando Fase es 4."],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cómo se actualiza Fase en el código Lustre TrafficLight cuando BOTON no es presionado?",
+      "options": [
+        "Si Fase está entre 0 y 4, se incrementa en 1 en cada ciclo.",
+        "Fase solo cambia cuando BOTON se presiona.",
+        "Fase siempre aumenta en 1 en cada iteración.",
+        "Fase disminuye en cada ciclo si BOTON no es presionado."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Analizando el código Lustre TrafficLight, ¿qué sucede cuando el botón BOTON no se presiona y Fase es 0?",
+      "options": [
+        "El semáforo permanece en verde.",
+        "El semáforo cambia a amarillo.",
+        "La señal WALK se activa.",
+        "El semáforo cambia a rojo."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuándo se activará la señal WALK en el código Lustre TrafficLight2?",
+      "options": [
+        "Cuando Fase es 3.",
+        "Cuando Fase es 4.",
+        "Cuando Fase toma el valor 1.",
+        "Cuando BOTON es presionado."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    }
+  ]
+}
