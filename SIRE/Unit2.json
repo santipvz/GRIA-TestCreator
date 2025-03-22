@@ -2,13 +2,7 @@
   "questions": [
     {
       "question": "En el código Lustre TrafficLight2, si Fase es 0 y el botón no se presiona, ¿qué estado muestra el semáforo?",
-      "options": [
-        "GREEN",
-        "WALK",
-        "YELLOW",
-        "RED",
-        "DONTWALK"
-      ],
+      "options": ["GREEN", "WALK", "YELLOW", "RED", "DONTWALK"],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
@@ -25,13 +19,23 @@
     },
     {
       "question": "En el nodo TrafficLight, si el botón (BOTON) se presiona en la fase 0 (verde), ¿qué efecto tiene?",
-      "options": ["El semáforo pasa a la fase 1 (amarillo).", "El semáforo pasa directamente a la fase 3 (rojo y peatones pueden caminar).", "El semáforo permanece en verde.", "El semáforo se apaga."],
+      "options": [
+        "El semáforo pasa a la fase 1 (amarillo).",
+        "El semáforo pasa directamente a la fase 3 (rojo y peatones pueden caminar).",
+        "El semáforo permanece en verde.",
+        "El semáforo se apaga."
+      ],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
     {
       "question": "Analizando el código Lustre TrafficLight, ¿cuándo estará activa la señal WALK?",
-      "options": ["Cuando BOTON se presiona.", "Cuando Fase es 1.", "Cuando Fase es 3.", "Cuando Fase es 4."],
+      "options": [
+        "Cuando BOTON se presiona.",
+        "Cuando Fase es 1.",
+        "Cuando Fase es 3.",
+        "Cuando Fase es 4."
+      ],
       "correct_option": 2,
       "questionType": "singleChoice"
     },
