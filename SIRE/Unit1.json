@@ -40,29 +40,12 @@
       "questionType": "singleChoice"
     },
     {
-      "question": "Un sistema de detección de eventos debe identificar transiciones de un botón de apagado/encendido.\n¿Qué nodo de Lustre se debe utilizar?",
-      "options": ["ABRO", "COUNTER", "EDGE", "MOUSE"],
-      "correct_option": 2,
-      "questionType": "singleChoice"
-    },
-    {
       "question": "¿Cuál de los siguientes archivos **NO** se genera al compilar `edge.lus` con `-2c`?",
       "options": [
         "edge_EDGE_loop.c",
         "edge_EDGE.h",
         "edge_MAKEFILE.c",
         "edge_EDGE.c"
-      ],
-      "correct_option": 2,
-      "questionType": "singleChoice"
-    },
-    {
-      "question": "¿Qué efecto tiene el operador `→` en Lustre?",
-      "options": [
-        "Detiene la ejecución del programa si la condición es falsa.",
-        "Reinicia el flujo a su valor inicial en cada ciclo.",
-        "Define un valor inicial para un flujo en el primer ciclo y luego sigue con la expresión dada.",
-        "Compara dos flujos y devuelve un valor booleano."
       ],
       "correct_option": 2,
       "questionType": "singleChoice"
@@ -87,17 +70,6 @@
         "Se eliminan todos los archivos generados previamente."
       ],
       "correct_option": 2,
-      "questionType": "singleChoice"
-    },
-    {
-      "question": "Un estudiante modifica el código de `edge.lus`, cambiando la línea que define la salida `Y` en el nodo `EDGE` de:\nY = R_EDGE(X) or R_EDGE(not(X));\na:\nY = R_EDGE(X) and R_EDGE(not(X));\n¿Qué consecuencia tendrá este cambio en el comportamiento del sistema?",
-      "options": [
-        "El sistema detectará flancos de subida y bajada de manera más eficiente.",
-        "El sistema generará un error de compilación debido a la incompatibilidad de operadores.",
-        "El sistema detectará flancos de subida y bajada correctamente, pero con un retraso de un ciclo.",
-        "El sistema solo detectará flancos cuando tanto `X` como `not(X)` tengan un flanco en el mismo ciclo, lo que es imposible, por lo que `Y` siempre será falso."
-      ],
-      "correct_option": 3,
       "questionType": "singleChoice"
     },
     {
@@ -295,30 +267,26 @@
       "questionType": "singleChoice"
     },
     {
-      "questions": [
-        {
-          "question": "Se está compilando un programa en Lustre utilizando el comando `lv6 edge.lus -n EDGE -2c`. ¿Qué debería hacer si el compilador devuelve un mensaje que dice \"This program is syntactically correct\"?",
-          "options": [
-            "Eliminar el archivo y comenzar de nuevo.",
-            "Continuar con la generación del código C utilizando la opción `-cc`.",
-            "Ignorar el mensaje y ejecutar el programa directamente.",
-            "Detener el proceso, ya que el programa no necesita más acciones."
-          ],
-          "correct_option": 1,
-          "questionType": "singleChoice"
-        },
-        {
-          "question": "Has notado que el primer ciclo de ejecución en Lustre no produce salida. ¿Qué debes hacer para evitarlo?",
-          "options": [
-            "Inicializar las variables correctamente en el primer ciclo.",
-            "Cambiar el tipo de variable a float.",
-            "Agregar una condición de reseteo.",
-            "Ejecutar el código con la opción `-exec`."
-          ],
-          "correct_option": 0,
-          "questionType": "singleChoice"
-        }
-      ]
+      "question": "Se está compilando un programa en Lustre utilizando el comando `lv6 edge.lus -n EDGE -2c`. ¿Qué debería hacer si el compilador devuelve un mensaje que dice \"This program is syntactically correct\"?",
+      "options": [
+        "Eliminar el archivo y comenzar de nuevo.",
+        "Continuar con la generación del código C utilizando la opción `-cc`.",
+        "Ignorar el mensaje y ejecutar el programa directamente.",
+        "Detener el proceso, ya que el programa no necesita más acciones."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Has notado que el primer ciclo de ejecución en Lustre no produce salida. ¿Qué debes hacer para evitarlo?",
+      "options": [
+        "Inicializar las variables correctamente en el primer ciclo.",
+        "Cambiar el tipo de variable a float.",
+        "Agregar una condición de reseteo.",
+        "Ejecutar el código con la opción `-exec`."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
     }
   ]
 }
