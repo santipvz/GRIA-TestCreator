@@ -295,30 +295,30 @@
       "questionType": "singleChoice"
     },
     {
-  "questions": [
-    {
-      "question": "Se está compilando un programa en Lustre utilizando el comando `lv6 edge.lus -n EDGE -2c`. ¿Qué debería hacer si el compilador devuelve un mensaje que dice \"This program is syntactically correct\"?",
-      "options": [
-        "Eliminar el archivo y comenzar de nuevo.",
-        "Continuar con la generación del código C utilizando la opción `-cc`.",
-        "Ignorar el mensaje y ejecutar el programa directamente.",
-        "Detener el proceso, ya que el programa no necesita más acciones."
-      ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
-    },
-    {
-      "question": "Has notado que el primer ciclo de ejecución en Lustre no produce salida. ¿Qué debes hacer para evitarlo?",
-      "options": [
-        "Inicializar las variables correctamente en el primer ciclo.",
-        "Cambiar el tipo de variable a float.",
-        "Agregar una condición de reseteo.",
-        "Ejecutar el código con la opción `-exec`."
-      ],
-      "correct_option": 0,
-      "questionType": "singleChoice"
+      "questions": [
+        {
+          "question": "Se está compilando un programa en Lustre utilizando el comando `lv6 edge.lus -n EDGE -2c`. ¿Qué debería hacer si el compilador devuelve un mensaje que dice \"This program is syntactically correct\"?",
+          "options": [
+            "Eliminar el archivo y comenzar de nuevo.",
+            "Continuar con la generación del código C utilizando la opción `-cc`.",
+            "Ignorar el mensaje y ejecutar el programa directamente.",
+            "Detener el proceso, ya que el programa no necesita más acciones."
+          ],
+          "correct_option": 1,
+          "questionType": "singleChoice"
+        },
+        {
+          "question": "Has notado que el primer ciclo de ejecución en Lustre no produce salida. ¿Qué debes hacer para evitarlo?",
+          "options": [
+            "Inicializar las variables correctamente en el primer ciclo.",
+            "Cambiar el tipo de variable a float.",
+            "Agregar una condición de reseteo.",
+            "Ejecutar el código con la opción `-exec`."
+          ],
+          "correct_option": 0,
+          "questionType": "singleChoice"
+        }
+      ]
     }
-  ]
-}
   ]
 }
