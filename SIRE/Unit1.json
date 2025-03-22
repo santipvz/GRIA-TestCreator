@@ -287,6 +287,29 @@
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "Si `lv6 edge.lus -n EDGE` muestra un error de sintaxis, ¿qué sucederá?",
+      "options": [
+        "El compilador no generará código y mostrará un mensaje de error.",
+        "Se generará el código C de todas formas.",
+        "El código se ejecutará con advertencias.",
+        "Lustre ignorará los errores menores y continuará."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Un sistema de control de ascensores necesita detectar cuando un usuario pulsa y suelta el botón.¿Qué nodo de Lustre es adecuado para este propósito?",
+      "options": [
+        "MOUSE",
+        "EDGE",
+        "ABRO",
+        "COUNTER"
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
     }
+    
   ]
 }
