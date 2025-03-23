@@ -24,12 +24,7 @@
     },
     {
       "question": "Un estudiante está implementando un programa en Lustre para detectar flancos de subida y bajada en una señal booleana. ¿Qué función debería usar para detectar un flanco de subida?",
-      "options": [
-        "EDGE(X)",
-        "R_EDGE(X)",
-        "pre(X)",
-        "X and Y"
-      ],
+      "options": ["EDGE(X)", "R_EDGE(X)", "pre(X)", "X and Y"],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
@@ -178,12 +173,7 @@
     },
     {
       "question": "Un estudiante quiere visualizar el comportamiento de un programa Lustre en tiempo real. ¿Qué herramienta debería usar?",
-      "options": [
-        "VirtualBox",
-        "Luciole",
-        "Gedit",
-        "Lustre"
-      ],
+      "options": ["VirtualBox", "Luciole", "Gedit", "Lustre"],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
@@ -233,23 +223,13 @@
     },
     {
       "question": "Un estudiante está implementando un nodo en Lustre para detectar flancos de subida en una señal booleana. ¿Qué operador debería usar para comparar el valor actual con el valor anterior de la señal?",
-      "options": [
-        "X and Y",
-        "pre(X)",
-        "X or Y",
-        "not(X)"
-      ],
+      "options": ["X and Y", "pre(X)", "X or Y", "not(X)"],
       "correct_option": 1,
       "questionType": "singleChoice"
     },
     {
       "question": "Un sistema de detección de eventos debe identificar transiciones de un botón de apagado/encendido. ¿Qué nodo de Lustre se debe utilizar?",
-      "options": [
-        "EDGE",
-        "ABRO",
-        "MOUSE",
-        "COUNTER"
-      ],
+      "options": ["EDGE", "ABRO", "MOUSE", "COUNTER"],
       "correct_option": 0,
       "questionType": "singleChoice"
     },

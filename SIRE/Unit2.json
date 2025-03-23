@@ -2,13 +2,7 @@
   "questions": [
     {
       "question": "En el código Lustre TrafficLight2, si Fase es 0 y el botón no se presiona, ¿qué estado muestra el semáforo?",
-      "options": [
-        "GREEN",
-        "WALK",
-        "YELLOW",
-        "RED",
-        "DONTWALK"
-      ],
+      "options": ["GREEN", "WALK", "YELLOW", "RED", "DONTWALK"],
       "correct_option": 0,
       "questionType": "singleChoice"
     },
