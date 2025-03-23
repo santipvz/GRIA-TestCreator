@@ -210,17 +210,6 @@
       "questionType": "singleChoice"
     },
     {
-      "question": "Un estudiante modifica el código de `edge.lus`, cambiando la línea que define la salida `Y` en el nodo `EDGE` de:<br><br> Y = R_EDGE(X) or R_EDGE(not(X));<br><br>a:<br><br>  Y = R_EDGE(X) and R_EDGE(not(X));<br><br>¿Qué consecuencia tendrá este cambio en el comportamiento del sistema?",
-      "options": [
-        "El sistema generará un error de compilación debido a la incompatibilidad de operadores.",
-        "El sistema solo detectará flancos cuando tanto `X` como `not(X)` tengan un flanco en el mismo ciclo, lo que es imposible, por lo que `Y` siempre será falso.",
-        "El sistema detectará flancos de subida y bajada correctamente, pero con un retraso de un ciclo.",
-        "El sistema detectará flancos de subida y bajada de manera más eficiente."
-      ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
-    },
-    {
       "question": "Un estudiante implementa la especificación ABRO pero olvida incluir la señal `R` en la reinicialización del sistema. ¿Qué consecuencia es más probable?",
       "options": [
         "El programa generará un error de sintaxis.",
