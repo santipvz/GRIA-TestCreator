@@ -159,6 +159,40 @@
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "Analizando el código Lustre TrafficLight2, si el botón BOTON se presiona y DONTWALK era falso en el ciclo anterior, ¿a qué valor cambiará Fase en el siguiente ciclo?",
+      "options": ["1", "2", "3", "0"],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Pregunta 16:\nEn el nodo TrafficLight, si el botón (BOTON) se presiona en la fase 4 (rojo y peatones deben prepararse para detenerse), ¿qué efecto tiene?Pregunta 5Respuesta",
+      "options": [
+        "El semáforo regresa a la fase 0 (verde).",
+        "El semáforo avanza a la fase 5.",
+        "El semáforo permanece en la fase 4.",
+        "El semáforo se apaga."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Pregunta 13:\nEn el sistema de dos semáforos, si el semáforo 1 está en verde y el semáforo 2 está en rojo, ¿qué ocurre si se detecta un coche en el semáforo 2 (carSensor = true)?",
+      "options": [
+        "El semáforo 1 permanece en verde.",
+        "El semáforo 1 pasa a ámbar durante 1 segundo y luego a rojo.",
+        "El semáforo 2 pasa directamente a verde sin esperar.",
+        "Ambos semáforos se apagan."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el código Lustre TrafficLight2, si BOTON se presiona y la señal DONTWALK era falsa en el ciclo anterior, ¿qué valor tomará Fase en el siguiente ciclo?",
+      "options": ["2", "1", "0", "3"],
+      "correct_option": 1,
+      "questionType": "singleChoice"
     }
   ]
 }
