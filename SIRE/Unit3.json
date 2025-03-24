@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "question": "¿Cuál es la principal consecuencia de no reinicializar las señales en el programa en C antes de cada ciclo?",
+      "options": [
+        "No tendrá impacto en la ejecución.",
+        "El programa reiniciará la ejecución desde el inicio.",
+        "El código se detendrá automáticamente hasta que se reinicien las señales.",
+        "Las señales previas pueden seguir activas y provocar errores en la lógica de Lustre."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Se ejecuta el código en C sin errores, pero los resultados de la función Lustre son inconsistentes. ¿Cuál puede ser la causa?",
+      "options": [
+        "El compilador de C no es compatible con Lustre.",
+        "El código Lustre no permite operaciones numéricas.",
+        "Las variables en C no están correctamente inicializadas antes de llamar a Lustre.",
+        "El código en C tiene un error de sintaxis."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "El programa en C genera un error de compilación que menciona una función no definida. ¿Qué podría estar pasando?",
+      "options": [
+        "El código Lustre está mal estructurado.",
+        "El código generado por Lustre no se incluyó en la compilación del programa en C.",
+        "El código C tiene una sintaxis incorrecta.",
+        "El compilador de C no es compatible con Lustre."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué técnica es la más recomendable para depurar un programa en C que interactúa con Lustre?",
+      "options": [
+        "Modificar el código Lustre sin verificar la integración con C.",
+        "Usar una versión antigua de Lustre para evitar errores.",
+        "Ejecutar el código sin ninguna prueba previa.",
+        "Imprimir los valores de entrada y salida en cada ciclo de ejecución."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Después de compilar el código Lustre, intentas ejecutarlo en C, pero obtienes un error de tipo en una variable. ¿Qué puede estar pasando?",
+      "options": [
+        "El código C no está importando el archivo generado por Lustre.",
+        "El código Lustre tiene errores de sintaxis.",
+        "El compilador de C no reconoce los tipos de datos de Lustre.",
+        "El tipo de dato en C no coincide con el tipo de salida generado por Lustre."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué hace el siguiente código en la simulación?\nif (opcion == 'a') {    A = true;    B = false;    R = false;  }",
+      "options": [
+        "Activa la señal B y desactiva A y R.",
+        "No tiene efecto en la ejecución del programa.",
+        "Activa las tres señales A, B y R.",
+        "Activa la señal A y desactiva B y R."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Un estudiante informa que el programa en C se ejecuta, pero los valores calculados no cambian aunque se ingresen nuevos datos. ¿Cuál podría ser la causa?",
+      "options": [
+        "Las señales de actualización en Lustre no se están activando correctamente.",
+        "El programa C no está compilado correctamente.",
+        "El código Lustre está generando un error de compilación.",
+        "El archivo generado por Lustre está corrupto."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor la relación entre Lustre y C?",
+      "options": [
+        "C puede compilar código Lustre sin modificaciones.",
+        "Lustre se usa solo para especificar modelos sin ejecutarlos en C.",
+        "El código Lustre solo se puede ejecutar en simuladores, no en C.",
+        "Se pueden generar funciones en C que llamen el código Lustre y luego integrarlas en un programa en C."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es el parámetro correcto para la señal de salida en `abro_ABRO_step`?",
+      "options": [
+        "&abro_ABRO_O",
+        "&output",
+        "O",
+        "&O"
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué podría causar que el resultado de la suma en el programa C del ejemplo sea cero independientemente de los valores insertados?",
+      "options": [
+        "La suma en Lustre no permite valores negativos.",
+        "Se pasó un puntero incorrecto a la función Lustre.",
+        "El programa Lustre no genera código C.",
+        "El compilador de C no es compatible con Lustre."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    }
+  ]
+}
