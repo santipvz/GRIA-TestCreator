@@ -109,6 +109,72 @@
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si aplicamos `map` sobre un array de sensores con una función que devuelve un booleano?",
+      "options": [
+        "El programa no compilará porque `map` solo funciona con números.",
+        "La función fallará si el booleano no está dentro de una estructura.",
+        "El resultado será un único valor booleano en vez de un array.",
+        "Se generará un array de booleanos del mismo tamaño que el array original."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Imagina que estás implementando un sistema en Lustre que almacena las temperaturas de cinco sensores en un array.\n\n¿Cuál de las siguientes opciones representa correctamente la definición de un array de estructuras en Lustre?",
+      "options": [
+        "type array_sensores = (sensorTemp, sensorTemp, sensorTemp, sensorTemp, sensorTemp);",
+        "type array_sensores = sensorTemp^5;",
+        "type array_sensores = [sensorTemp; 5];",
+        "type array_sensores = real^5;"
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué sucede si se usa `current(temp) when clk_lento` en un sistema de control de temperatura?",
+      "options": [
+        "Se eliminan valores de temperatura previos al ciclo actual.",
+        "Se mantiene la última temperatura registrada cuando clk_lento está activo.",
+        "La temperatura solo se actualiza cuando clk_rapido está activo.",
+        "Se fusionan los valores de temp con dos señales de reloj."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el nodo activar_alarma, ¿qué significa el true en clock_lento = merge clk_lento (true->temp_sincronizada>28.0) (false->false);?",
+      "options": [
+        "Es el caso afirmativo que se tiene que ejecutar cuando se cumple la condición clk_lento.",
+        "Se está inicializando el valor de temp_sincronizada.",
+        "Es un parámetro más dentro del nodo merge.",
+        "Se está inicializando el valor de temp_sincronizada>28.0."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si usamos `merge clk_rapido (true->true) (false->false)`?",
+      "options": [
+        "El código generará un error de tipo.",
+        "El resultado será true solo cuando clk_rapido esté activo.",
+        "Se sincronizarán dos variables de diferente reloj.",
+        "Se fusionarán dos señales de reloj en una sola."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué error podría ocurrir si sincronizamos una variable con `current(temp) when clk_lento`?",
+      "options": [
+        "El código no compilará porque `current` solo funciona con booleanos.",
+        "La sincronización ocurrirá correctamente sin restricciones.",
+        "Se pierde información porque `current` descarta valores previos.",
+        "Si `temp` tiene una restricción de reloj distinta, habrá un error de compatibilidad."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
     }
   ]
 }
