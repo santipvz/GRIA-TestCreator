@@ -104,6 +104,39 @@
       ],
       "correct_option": 1,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Por qué es necesario enlazar el código generado en Lustre con el programa en C?",
+      "options": [
+        "Para mejorar la velocidad de ejecución en Lustre.",
+        "Para evitar errores en la ejecución del código Lustre.",
+        "Para convertir automáticamente el código Lustre a C sin intervención.",
+        "Para que las funciones de Lustre puedan ser llamadas desde C."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué pasa si olvidamos llamar a `abro_ABRO_ctx_reset` antes de usar `abro_ABRO_step`?",
+      "options": [
+        "El contexto no se inicializa correctamente y el programa puede producir resultados inesperados.",
+        "El programa no compilará.",
+        "Las señales de entrada se reiniciarán automáticamente.",
+        "No habrá ningún efecto negativo."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué archivo de cabecera es necesario incluir para usar el código generado por Lustre?",
+      "options": [
+        "stdbool.h",
+        "stdio.h",
+        "abro_ABRO.h",
+        "stdlib.h"
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
     }
   ]
 }
