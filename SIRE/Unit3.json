@@ -90,12 +90,7 @@
     },
     {
       "question": "¿Cuál es el parámetro correcto para la señal de salida en `abro_ABRO_step`?",
-      "options": [
-        "&abro_ABRO_O",
-        "&output",
-        "O",
-        "&O"
-      ],
+      "options": ["&abro_ABRO_O", "&output", "O", "&O"],
       "correct_option": 3,
       "questionType": "singleChoice"
     },
