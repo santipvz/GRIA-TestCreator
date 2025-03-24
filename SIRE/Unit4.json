@@ -52,7 +52,7 @@
         "El código no compilará y generará un error de índice fuera de rango.",
         "El compilador ajustará el índice automáticamente para evitar errores."
       ],
-      "correct_option": 0,
+      "correct_option": 2,
       "questionType": "singleChoice"
     },
     {
