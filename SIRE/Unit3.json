@@ -90,12 +90,7 @@
     },
     {
       "question": "¿Cuál es el parámetro correcto para la señal de salida en `abro_ABRO_step`?",
-      "options": [
-        "&abro_ABRO_O",
-        "&output",
-        "O",
-        "&O"
-      ],
+      "options": ["&abro_ABRO_O", "&output", "O", "&O"],
       "correct_option": 3,
       "questionType": "singleChoice"
     },
@@ -134,12 +129,7 @@
     },
     {
       "question": "¿Qué archivo de cabecera es necesario incluir para usar el código generado por Lustre?",
-      "options": [
-        "stdbool.h",
-        "stdio.h",
-        "abro_ABRO.h",
-        "stdlib.h"
-      ],
+      "options": ["stdbool.h", "stdio.h", "abro_ABRO.h", "stdlib.h"],
       "correct_option": 2,
       "questionType": "singleChoice"
     },
@@ -167,12 +157,7 @@
     },
     {
       "question": "¿Qué tipo de datos usa Lustre para representar señales booleanas en C?",
-      "options": [
-        "char",
-        "bool",
-        "int",
-        "_boolean"
-      ],
+      "options": ["char", "bool", "int", "_boolean"],
       "correct_option": 3,
       "questionType": "singleChoice"
     },

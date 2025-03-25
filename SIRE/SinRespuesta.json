@@ -1,15 +1,15 @@
 {
-    "questions": [
-        {
-            "question": "En el nodo activar_alarma, ¿qué ocurriría si en clock_rapido se hubiese puesto que era igual a merge clk_lento (true->temp_sincronizada>28.0) (false->false);?",
-            "options": [
-            "Compila perfectamente.",
-            "Devuleve una problema de asignación del merge.",
-            "No sucede nada.",
-            "Devuelve una incompatibilidad de relojes."
-            ],
-            "correct_option": -1,
-            "questionType": "singleChoice"
-        }
-    ]
+  "questions": [
+    {
+      "question": "En el nodo activar_alarma, ¿qué ocurriría si en clock_rapido se hubiese puesto que era igual a merge clk_lento (true->temp_sincronizada>28.0) (false->false);?",
+      "options": [
+        "Compila perfectamente.",
+        "Devuleve una problema de asignación del merge.",
+        "No sucede nada.",
+        "Devuelve una incompatibilidad de relojes."
+      ],
+      "correct_option": -1,
+      "questionType": "singleChoice"
+    }
+  ]
 }
