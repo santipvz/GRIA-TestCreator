@@ -122,17 +122,6 @@
       "questionType": "singleChoice"
     },
     {
-      "question": "Imagina que estás implementando un sistema en Lustre que almacena las temperaturas de cinco sensores en un array.\n\n¿Cuál de las siguientes opciones representa correctamente la definición de un array de estructuras en Lustre?",
-      "options": [
-        "type array_sensores = (sensorTemp, sensorTemp, sensorTemp, sensorTemp, sensorTemp);",
-        "type array_sensores = sensorTemp^5;",
-        "type array_sensores = [sensorTemp; 5];",
-        "type array_sensores = real^5;"
-      ],
-      "correct_option": 1,
-      "questionType": "singleChoice"
-    },
-    {
       "question": "¿Qué sucede si se usa `current(temp) when clk_lento` en un sistema de control de temperatura?",
       "options": [
         "Se eliminan valores de temperatura previos al ciclo actual.",
@@ -174,6 +163,39 @@
         "Si `temp` tiene una restricción de reloj distinta, habrá un error de compatibilidad."
       ],
       "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Tienes el siguiente array en Lustre:\narray = [sensor(1, 25.0), sensor(2, 30.5), sensor(3, 28.3)];\nSi aplicamos la función map<>(array);, ¿qué sucederá?",
+      "options": [
+        "El array original se modificará, eliminando los identificadores de los sensores.",
+        "El programa generará un error porque `map` solo funciona con números enteros.",
+        "El programa fallará porque `map` no puede usarse con estructuras.",
+        "Se generará un nuevo array con solo los valores de temperatura de los sensores."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Imagina que estás implementando un sistema en Lustre que almacena las temperaturas de cinco sensores en un array.\n¿Cuál de las siguientes opciones representa correctamente la definición de un array de estructuras en Lustre?",
+      "options": [
+        "type array_sensores = sensorTemp^5;",
+        "type array_sensores = (sensorTemp, sensorTemp, sensorTemp, sensorTemp, sensorTemp);",
+        "type array_sensores = real^5;",
+        "type array_sensores = [sensorTemp; 5];"
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el nodo activar_alarma, ¿qué ocurriría si en clock_rapido se hubiese puesto que era igual a merge clk_lento (true->temp_sincronizada>28.0) (false->false);?",
+      "options": [
+        "Compila perfectamente.",
+        "Devuleve una problema de asignación del merge.",
+        "No sucede nada.",
+        "Devuelve una incompatibilidad de relojes."
+      ],
+      "correct_option": -1,
       "questionType": "singleChoice"
     }
   ]

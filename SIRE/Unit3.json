@@ -90,7 +90,12 @@
     },
     {
       "question": "¿Cuál es el parámetro correcto para la señal de salida en `abro_ABRO_step`?",
-      "options": ["&abro_ABRO_O", "&output", "O", "&O"],
+      "options": [
+        "&abro_ABRO_O",
+        "&output",
+        "O",
+        "&O"
+      ],
       "correct_option": 3,
       "questionType": "singleChoice"
     },
@@ -129,8 +134,57 @@
     },
     {
       "question": "¿Qué archivo de cabecera es necesario incluir para usar el código generado por Lustre?",
-      "options": ["stdbool.h", "stdio.h", "abro_ABRO.h", "stdlib.h"],
+      "options": [
+        "stdbool.h",
+        "stdio.h",
+        "abro_ABRO.h",
+        "stdlib.h"
+      ],
       "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué práctica es la mejor para asegurar que los valores insertados sean correctos en el programa en C?",
+      "options": [
+        "Depurar Lustre en lugar de validar los datos en C.",
+        "No validar los valores y dejar que Lustre maneje los errores.",
+        "Usar solo valores enteros para evitar problemas con los flotantes.",
+        "Validar los valores antes de enviarlos a Lustre y asegurarse de que están en el rango adecuado."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la estructura correcta para declarar el contexto del nodo ABRO?",
+      "options": [
+        "abro_ABRO abro_ctx;",
+        "struct abro_ABRO_ctx_type abro_ctx;",
+        "abro_ABRO_ctx_type abro_ctx;",
+        "ABRO_ctx_type abro_ctx;"
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué tipo de datos usa Lustre para representar señales booleanas en C?",
+      "options": [
+        "char",
+        "bool",
+        "int",
+        "_boolean"
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué error es común al compilar el código Lustre?",
+      "options": [
+        "Intentar ejecutar el código Lustre directamente en C.",
+        "Olvidar usar el comando correcto para generar los archivos C.",
+        "Compilar el código sin haber escrito la función en Lustre.",
+        "No declarar variables en C antes de usarlas."
+      ],
+      "correct_option": 1,
       "questionType": "singleChoice"
     }
   ]
