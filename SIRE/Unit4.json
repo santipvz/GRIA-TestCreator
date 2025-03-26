@@ -197,6 +197,17 @@
       ],
       "correct_option": -1,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Quieres calcular la temperatura media de un conjunto de sensores. ¿Qué combinación de iteradores en Lustre es más eficiente para este cálculo?\n\nPregunta 10Respuesta",
+      "options": [
+        "fillred para extraer las temperaturas y red para sumarlas",
+        "red para extraer las temperaturas y map para sumarlas",
+        "red para extraer las temperaturas y fillred para sumarlas",
+        "map para extraer las temperaturas y red para sumarlas"
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
     }
   ]
 }

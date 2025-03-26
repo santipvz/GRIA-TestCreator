@@ -171,6 +171,17 @@
       ],
       "correct_option": 1,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Por qué el código usa punteros en la llamada a abro_ABRO_step?",
+      "options": [
+        "Para evitar errores de compilación en C.",
+        "No es necesario, se puede pasar sin punteros.",
+        "Para modificar directamente la variable de salida O.",
+        "Para mejorar la velocidad de ejecución del programa."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
     }
   ]
 }
