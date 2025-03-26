@@ -193,6 +193,17 @@
       "options": ["2", "1", "0", "3"],
       "correct_option": 1,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "Cause-effect multiple choice\nPregunta 3:\nSi en el nodo TrafficLight el botón (BOTON) se presiona mientras el semáforo está en la fase 2 (rojo para vehículos), ¿qué efecto tiene?",
+      "options": [
+        "El semáforo pasa a la fase 3 inmediatamente.",
+        "El semáforo vuelve a la fase 0 (verde).",
+        "El semáforo continúa su ciclo normal y avanza a la fase 3 después de completar la fase 2.",
+        "El semáforo se bloquea."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
     }
   ]
 }
