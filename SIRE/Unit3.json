@@ -182,6 +182,34 @@
       ],
       "correct_option": 2,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "Si el código en C no llama correctamente a la función generada en Lustre, ¿qué ocurrirá?",
+      "options": [
+        "El código C no podrá ser compilado.",
+        "Lustre generará un error automático en la ejecución.",
+        "El programa en C compilará, pero la lógica de Lustre no se ejecutará.",
+        "El programa funcionará correctamente sin la función de Lustre."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué tipo de dato usa la función `abro_ABRO_step` para sus parámetros de entrada?",
+      "options": ["_boolean", "float", "int", "bool"],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Un desarrollador intenta compilar el código Lustre, pero recibe un error indicando que la función principal no está definida. ¿Qué podría estar fallando?",
+      "options": [
+        "El código Lustre no permite definir funciones.",
+        "No se ha definido el nodo principal en Lustre.",
+        "El código C tiene un error de sintaxis.",
+        "El compilador de Lustre no permite la compilación."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
     }
   ]
 }

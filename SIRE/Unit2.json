@@ -204,6 +204,34 @@
       ],
       "correct_option": 2,
       "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Por qué se usa el formato RIF en la simulación de sistemas reactivos?",
+      "options": [
+        "Para gestionar la comunicación entre las entradas y salidas del sistema.",
+        "Para visualizar los estados del sistema en tiempo real.",
+        "Para optimizar el rendimiento del código en hardware específico.",
+        "Para compilar código Lustre más eficientemente."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la función principal del formato RIF en la simulación de sistemas reactivos?",
+      "options": [
+        "Ejecutar directamente programas Lustre sin necesidad de compilación.",
+        "Traducir código Lustre a un lenguaje gráfico.",
+        "Proporcionar un entorno interactivo para escribir código Lustre.",
+        "Servir como un puente para la lectura de entradas y escritura de salidas en simulaciones."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el nodo TrafficLight, ¿cuál es la fase en la que el semáforo para vehículos está en amarillo?",
+      "options": ["Fase 0.", "Fase 3.", "Fase 2.", "Fase 1."],
+      "correct_option": 3,
+      "questionType": "singleChoice"
     }
   ]
 }
