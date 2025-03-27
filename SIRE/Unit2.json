@@ -229,12 +229,7 @@
     },
     {
       "question": "En el nodo TrafficLight, ¿cuál es la fase en la que el semáforo para vehículos está en amarillo?",
-      "options": [
-        "Fase 0.",
-        "Fase 3.",
-        "Fase 2.",
-        "Fase 1."
-      ],
+      "options": ["Fase 0.", "Fase 3.", "Fase 2.", "Fase 1."],
       "correct_option": 3,
       "questionType": "singleChoice"
     }
