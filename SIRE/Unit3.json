@@ -196,11 +196,7 @@
     },
     {
       "question": "¿Qué tipo de dato usa la función `abro_ABRO_step` para sus parámetros de entrada?",
-      "options": [
-        "_boolean",
-        "float",
-        "int",
-        "bool"
+      "options": ["_boolean", "float", "int", "bool"
       ],
       "correct_option": 0,
       "questionType": "singleChoice"
