@@ -225,7 +225,7 @@
         "Servir como un puente para la lectura de entradas y escritura de salidas en simulaciones."
       ],
       "correct_option": 3,
-      "questionType":"singleChoice"
+      "questionType": "singleChoice"
     },
     {
       "question": "En el nodo TrafficLight, ¿cuál es la fase en la que el semáforo para vehículos está en amarillo?",
@@ -235,7 +235,8 @@
         "Fase 2.",
         "Fase 1."
       ],
-      "correct_option": 3
+      "correct_option": 3,
+      "questionType": "singleChoice"
     }
   ]
 }
