@@ -491,7 +491,7 @@
         "All of them.",
         "None of them."
       ],
-      "correct_options": [0, 2, 3],
+      "correct_options": [2, 3],
       "questionType": "multipleChoice"
     },
     {
