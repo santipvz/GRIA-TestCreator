@@ -215,7 +215,7 @@
         "RAM.",
         "GPIO (General Purpose Input/Output).",
         "RTOS.",
-        "IPS"
+        "IPS."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
