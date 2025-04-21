@@ -3,10 +3,10 @@
     {
       "question": "¿Cuál de los siguientes sensores es más adecuado para detectar fugas de gas en una planta química?",
       "options": [
-        "Sensor ultrasónico",
-        "Sensor MQ-135",
-        "Sensor Hall Effect",
-        "Fotodiodo"
+        "Sensor ultrasónico.",
+        "Sensor MQ-135.",
+        "Sensor Hall Effect.",
+        "Fotodiodo."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -14,10 +14,10 @@
     {
       "question": "En un proyecto de domótica para controlar la iluminación según la luminosidad ambiental, ¿qué tipo de sensor sería el más apropiado?",
       "options": [
-        "Sensor térmico DS18B20",
-        "Fotodiodo",
-        "Acelerómetro MPU-6050",
-        "Sensor ultrasónico"
+        "Sensor térmico DS18B20.",
+        "Fotodiodo.",
+        "Acelerómetro MPU-6050.",
+        "Sensor ultrasónico."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -25,10 +25,10 @@
     {
       "question": "¿Qué criterio técnico es fundamental al seleccionar un sensor para un dron que requiere mediciones en tiempo real?",
       "options": [
-        "Costo inicial bajo",
-        "Tiempo de respuesta rápido",
-        "Gran tamaño físico",
-        "Interfaz analógica exclusiva"
+        "Costo inicial bajo.",
+        "Tiempo de respuesta rápido.",
+        "Gran tamaño físico.",
+        "Interfaz analógica exclusiva."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -36,10 +36,10 @@
     {
       "question": "¿Cuál de estos actuadores se utiliza comúnmente en sistemas de riego automatizado para controlar el flujo de agua?",
       "options": [
-        "Servomotor",
-        "Solenoide",
-        "Válvula proporcional neumática",
-        "Calefactor PTC"
+        "Servomotor.",
+        "Solenoide.",
+        "Válvula proporcional neumática.",
+        "Calefactor PTC."
       ],
       "correct_options": [2],
       "questionType": "multipleChoice"
@@ -47,10 +47,10 @@
     {
       "question": "¿Qué ventaja principal tiene Raspberry Pi frente a Arduino en proyectos IoT avanzados?",
       "options": [
-        "Mayor número de pines GPIO",
-        "Capacidad de ejecutar un sistema operativo completo",
-        "Menor consumo de energía",
-        "Programación exclusiva en C++"
+        "Mayor número de pines GPIO.",
+        "Capacidad de ejecutar un sistema operativo completo.",
+        "Menor consumo de energía.",
+        "Programación exclusiva en C++."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -58,10 +58,10 @@
     {
       "question": "¿Cuál de las siguientes opciones describe mejor a un Smart Object?",
       "options": [
-        "Una aplicación en la nube que procesa datos de sensores",
-        "Un dispositivo físico capaz de sensar, actuar y comunicarse",
-        "Un router que conecta dispositivos a Internet",
-        "Un servidor web que almacena datos"
+        "Una aplicación en la nube que procesa datos de sensores.",
+        "Un dispositivo físico capaz de sensar, actuar y comunicarse.",
+        "Un router que conecta dispositivos a Internet.",
+        "Un servidor web que almacena datos."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -69,10 +69,10 @@
     {
       "question": "¿Qué componentes suelen formar parte de un Smart Object?",
       "options": [
-        "Sensor o actuador",
-        "Módulo de comunicación",
-        "Conexión a la red eléctrica",
-        "Unidad de procesamiento"
+        "Sensor o actuador.",
+        "Módulo de comunicación.",
+        "Conexión a la red eléctrica.",
+        "Unidad de procesamiento."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
@@ -80,10 +80,10 @@
     {
       "question": "En un sistema de monitoreo de vibraciones en maquinaria industrial, ¿qué sensor sería el más adecuado?",
       "options": [
-        "Sensor magnético Hall Effect",
-        "Sensor acústico MEMS",
-        "Termopar tipo K",
-        "Celda de carga"
+        "Sensor magnético Hall Effect.",
+        "Sensor acústico MEMS.",
+        "Termopar tipo K.",
+        "Celda de carga."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -91,10 +91,10 @@
     {
       "question": "¿Qué característica es común entre los protocolos CoAP, MQTT y 6LoWPAN?",
       "options": [
-        "Están diseñados para dispositivos potentes",
-        "Requieren siempre conexión 5G",
-        "Son ligeros y adecuados para redes de baja potencia",
-        "Solo funcionan con redes LoRaWAN"
+        "Están diseñados para dispositivos potentes.",
+        "Requieren siempre conexión 5G.",
+        "Son ligeros y adecuados para redes de baja potencia.",
+        "Solo funcionan con redes LoRaWAN."
       ],
       "correct_options": [2],
       "questionType": "multipleChoice"
@@ -102,10 +102,10 @@
     {
       "question": "¿Qué consume más energía en un Smart Object típico?",
       "options": [
-        "La lectura del sensor",
-        "El procesador",
-        "El modo de reposo",
-        "La comunicación inalámbrica"
+        "La lectura del sensor.",
+        "El procesador.",
+        "El modo de reposo.",
+        "La comunicación inalámbrica."
       ],
       "correct_options": [3],
       "questionType": "multipleChoice"
@@ -113,9 +113,9 @@
     {
       "question": "¿Qué ventajas ofrece el protocolo MQTT para dispositivos IoT?",
       "options": [
-        "Bajo consumo de ancho de banda",
-        "Modelo de comunicación publish/subscribe",
-        "Seguridad integrada por defecto",
+        "Bajo consumo de ancho de banda.",
+        "Modelo de comunicación publish/subscribe.",
+        "Seguridad integrada por defecto.",
         "Muy buena para sensores que reportan datos periódicamente"
       ],
       "correct_options": [0, 1, 3],
@@ -124,10 +124,10 @@
     {
       "question": "¿Cuál es la principal diferencia entre un Smart Object y un Dispositivo IoT?",
       "options": [
-        "El smart object es más caro",
-        "El dispositivo IoT incluye conectividad y funciones completas",
-        "El smart object siempre está conectado a la nube",
-        "El dispositivo IoT no tiene sensores ni actuadores"
+        "El smart object es más caro.",
+        "El dispositivo IoT incluye conectividad y funciones completas.",
+        "El smart object siempre está conectado a la nube.",
+        "El dispositivo IoT no tiene sensores ni actuadores."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -135,10 +135,10 @@
     {
       "question": "¿Qué estrategias ayudan a reducir el consumo energético en dispositivos IoT?",
       "options": [
-        "Usar protocolos como CoAP",
-        "Transmitir constantemente los datos",
-        "Entrar en modo sleep",
-        "Procesar datos localmente antes de enviar"
+        "Usar protocolos como CoAP.",
+        "Transmitir constantemente los datos.",
+        "Entrar en modo sleep.",
+        "Procesar datos localmente antes de enviar."
       ],
       "correct_options": [2],
       "questionType": "multipleChoice"
@@ -146,10 +146,10 @@
     {
       "question": "¿Qué sistemas operativos se pueden usar en una Raspberry Pi?",
       "options": [
-        "Raspberry Pi OS (Raspbian)",
-        "Windows 10 IoT Core",
-        "iOS",
-        "Ubuntu"
+        "Raspberry Pi OS (Raspbian).",
+        "Windows 10 IoT Core.",
+        "iOS.",
+        "Ubuntu."
       ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
@@ -157,10 +157,10 @@
     {
       "question": "¿Qué tareas puede realizar un Smart Object en una red IoT?",
       "options": [
-        "Medir parámetros del entorno",
-        "Ejecutar acciones como mover motores",
-        "Analizar grandes volúmenes de datos en la nube",
-        "Enviar datos de forma autónoma a otros dispositivos"
+        "Medir parámetros del entorno.",
+        "Ejecutar acciones como mover motores.",
+        "Analizar grandes volúmenes de datos en la nube.",
+        "Enviar datos de forma autónoma a otros dispositivos."
       ],
       "correct_options": [3],
       "questionType": "multipleChoice"
@@ -168,10 +168,10 @@
     {
       "question": "¿Cuál de las siguientes afirmaciones sobre 6LoWPAN es correcta?",
       "options": [
-        "Es un protocolo de aplicación como MQTT",
-        "Permite a dispositivos pequeños usar IPv6 de forma eficiente",
-        "Solo funciona con WiFi",
-        "Es exclusivo de redes cableadas"
+        "Es un protocolo de aplicación como MQTT.",
+        "Permite a dispositivos pequeños usar IPv6 de forma eficiente.",
+        "Solo funciona con WiFi.",
+        "Es exclusivo de redes cableadas."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -179,10 +179,10 @@
     {
       "question": "¿Qué función principal tienen los actuadores en sistemas electrónicos?",
       "options": [
-        "Capturar información del entorno",
-        "Transformar señales eléctricas en acciones físicas",
-        "Procesar datos generados por sensores",
-        "Generar energía para otros dispositivos"
+        "Capturar información del entorno.",
+        "Transformar señales eléctricas en acciones físicas.",
+        "Procesar datos generados por sensores.",
+        "Generar energía para otros dispositivos."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -190,10 +190,10 @@
     {
       "question": "¿Cuál es una característica clave de los sistemas embebidos en cuanto a gestión de energía?",
       "options": [
-        "Funcionan constantemente a máxima potencia",
-        "Tienen almacenamiento masivo integrado",
-        "Implementan modos de bajo consumo como 'sleep' o 'deep sleep'",
-        "No permiten la desactivación de periféricos"
+        "Funcionan constantemente a máxima potencia.",
+        "Tienen almacenamiento masivo integrado.",
+        "Implementan modos de bajo consumo como 'sleep' o 'deep sleep'.",
+        "No permiten la desactivación de periféricos."
       ],
       "correct_options": [2],
       "questionType": "multipleChoice"
@@ -201,27 +201,27 @@
     {
       "question": "¿Qué tipo de actuador se utiliza para generar sonido en sistemas electrónicos?",
       "options": [
-        "Sensores piezoeléctricos",
-        "Buzzers y altavoces",
-        "Fotoresistencias",
-        "Motores paso a paso"
+        "Sensores piezoeléctricos.",
+        "Buzzers y altavoces.",
+        "Fotoresistencias.",
+        "Motores paso a paso."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
     },
     {
       "question": "¿Qué componente de un microcontrolador permite la conexión de sensores y actuadores?",
-      "options": ["RAM", "GPIO (General Purpose Input/Output)", "RTOS", "IPS"],
+      "options": ["RAM.", "GPIO (General Purpose Input/Output).", "RTOS.", "IPS"],
       "correct_options": [1],
       "questionType": "multipleChoice"
     },
     {
       "question": "¿Cuál es una ventaja de los microcontroladores en sistemas embebidos?",
       "options": [
-        "Siempre requieren conexión a una PC para funcionar",
-        "Consumen poca energía y son altamente eficientes",
-        "No pueden conectarse a sensores y actuadores",
-        "Son más costosos que los procesadores de computadoras"
+        "Siempre requieren conexión a una PC para funcionar.",
+        "Consumen poca energía y son altamente eficientes.",
+        "No pueden conectarse a sensores y actuadores.",
+        "Son más costosos que los procesadores de computadoras."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
@@ -229,9 +229,9 @@
     {
       "question": "¿Cuál es la principal limitación de los sensores pasivos en comparación con los activos?",
       "options": [
-        "Requieren más energía para operar",
-        "No pueden generar señales propias y dependen del entorno",
-        "Tienen mayor latencia en la transmisión de datos",
+        "Requieren más energía para operar.",
+        "No pueden generar señales propias y dependen del entorno.",
+        "Tienen mayor latencia en la transmisión de datos.",
         "Son más costosos y difíciles de calibrar."
       ],
       "correct_options": [1],
@@ -254,7 +254,7 @@
         "Frecuencia de respuesta.",
         "Rango de medición.",
         "Histéresis.",
-        "Drift"
+        "Drift."
       ],
       "correct_options": [0],
       "questionType": "multipleChoice"
@@ -273,9 +273,9 @@
     {
       "question": "¿Qué actuador sería más eficiente para controlar una válvula de flujo en un sistema de alta presión?",
       "options": [
-        "Electromecánico",
-        "Hidráulico",
-        "Neumático",
+        "Electromecánico.",
+        "Hidráulico.",
+        "Neumático.",
         "Piezoeléctrico."
       ],
       "correct_options": [1],
@@ -306,10 +306,10 @@
     {
       "question": "En un sistema industrial de alta precisión, ¿qué sensor de temperatura sería más adecuado para mediciones estables y exactas en un rango moderado de temperatura?",
       "options": [
-        "Termopar",
-        "RTD (Detector de Temperatura por Resistencia)",
-        "Termistor NTC",
-        "Termistor PTC"
+        "Termopar.",
+        "RTD (Detector de Temperatura por Resistencia).",
+        "Termistor NTC.",
+        "Termistor PTC."
       ],
       "correct_options": [1],
       "questionType": "multipleChoice"
