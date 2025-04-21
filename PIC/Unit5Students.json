@@ -211,7 +211,12 @@
     },
     {
       "question": "¿Qué componente de un microcontrolador permite la conexión de sensores y actuadores?",
-      "options": ["RAM.", "GPIO (General Purpose Input/Output).", "RTOS.", "IPS"],
+      "options": [
+        "RAM.",
+        "GPIO (General Purpose Input/Output).",
+        "RTOS.",
+        "IPS"
+      ],
       "correct_options": [1],
       "questionType": "multipleChoice"
     },
