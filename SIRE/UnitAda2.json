@@ -1,0 +1,114 @@
+{
+  "questions": [
+    {
+      "question": "¿Qué garantiza el uso de objetos protegidos en Ada?",
+      "options": [
+        "Acceso seguro a datos compartidos mediante exclusión mutua.",
+        "Requiere menos memoria que usar tareas.",
+        "Evita la necesidad de declarar entradas.",
+        "Permite ejecutar múltiples tareas en paralelo sin restricciones."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la ventaja de combinar `select`, `guardas` y `delay`?",
+      "options": [
+        "Se puede ejecutar código en paralelo sin sincronización.",
+        "Permite crear tareas reactivas y no bloqueantes.",
+        "Se garantiza que las tareas terminen en menos de 1 segundo.",
+        "Se evita el uso de tipos de datos."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué sucede si una entrada es llamada y la guarda no se cumple?",
+      "options": [
+        "La barrera se ignora.",
+        "Se lanza una advertencia del compilador.",
+        "La tarea queda bloqueada en una cola de espera.",
+        "La entrada se ejecuta parcialmente."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Es posible escribir una instrucción `select` en Ada que tenga una rama con `delay` y otra con `terminate`?",
+      "options": [
+        "Sí, si se usa dentro de un objeto protegido.",
+        "No, Ada no permite combinar `delay` y `terminate` en ramas separadas de un mismo `select ... or`.",
+        "Sí, pero solo si no hay más de dos ramas.",
+        "Sí, siempre que `terminate` vaya al final."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Por qué es útil usar `when Dato /= 0` en una entrada de tipo `Extraer`?",
+      "options": [
+        "Evita que se intente extraer del buffer cuando está vacío.",
+        "Elimina la necesidad de tareas consumidoras.",
+        "Obliga al productor a producir más rápido.",
+        "Reduce el uso de memoria."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué componente define la condición de activación de una entrada?",
+      "options": [
+        "La cláusula `or`.",
+        "El tipo de dato de entrada.",
+        "El cuerpo del `accept`.",
+        "La guarda (`when`)."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si se eliminan las guardas en el buffer?",
+      "options": [
+        "Las tareas se ejecutan más rápido.",
+        "El sistema se vuelve más eficiente.",
+        "El buffer se limpia automáticamente.",
+        "El sistema puede quedar bloqueado o generar errores."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la principal diferencia entre un procedimiento y una entrada?",
+      "options": [
+        "La entrada no permite condiciones.",
+        "El procedimiento no necesita parámetros.",
+        "La entrada no puede tener cuerpo.",
+        "La entrada puede sincronizar tareas; el procedimiento no."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué permiten las guardas (`when`) en una entrada?",
+      "options": [
+        "Evitan la creación de entradas duplicadas.",
+        "Habilitan o deshabilitan dinámicamente una entrada según una condición.",
+        "Hacen que una entrada se ejecute automáticamente.",
+        "Permiten que varias tareas compartan una entrada."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Por qué es importante la temporización en tareas concurrentes?",
+      "options": [
+        "Evita bloqueos y permite balancear la carga entre tareas.",
+        "Asegura que todas las tareas finalicen en orden alfabético.",
+        "Permite que las tareas no usen memoria.",
+        "Evita que se ejecuten los `accept`."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    }
+  ]
+}
