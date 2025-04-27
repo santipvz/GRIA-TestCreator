@@ -388,7 +388,13 @@
     },
     {
       "question": "Which sensors operate as transducers?",
-      "options": ["Strain gauge.", "Microphone.", "LED.", "Loudspeaker.", "EEPROM."],
+      "options": [
+        "Strain gauge.",
+        "Microphone.",
+        "LED.",
+        "Loudspeaker.",
+        "EEPROM."
+      ],
       "correct_options": [0, 1, 3],
       "questionType": "multipleChoice"
     },
