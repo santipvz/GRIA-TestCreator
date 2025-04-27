@@ -1,0 +1,1250 @@
+{
+  "questions": [
+      {
+          "question": "In a low-power, solar-powered environmental monitoring system with strict energy constraints, which microcontroller configuration is most appropriate?",
+          "options": [
+              "A 32-bit ARM Cortex MCU with hardware-accelerated floating-point unit and 200 MHz clock",
+              "An 8-bit AVR microcontroller with sleep modes and disabled ADC during idle",
+              "A 16-bit RISC microcontroller running at 100% duty cycle",
+              "A Raspberry Pi Zero used for sensor polling in periodic loops"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What distinguishes a Raspberry Pi from an Arduino?",
+          "options": [
+              "Raspberry Pi has analog input support built-in",
+              "Arduino supports high-definition video output",
+              "Raspberry Pi runs a full OS and supports high-level languages",
+              "Arduino has a faster processor than Raspberry Pi"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are designing an industrial monitoring system that must control high-voltage machinery using microcontroller output. Which elements are likely necessary?",
+          "options": [
+              "A DC motor",
+              "A solid-state relay",
+              "An electromechanical relay with NO configuration",
+              "A MOSFET directly connected to AC load",
+              "An isolated driver circuit between microcontroller and actuator"
+          ],
+          "correct_options": [
+              1,
+              2,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What is the reason raw image data from a vision system is not streamed to the cloud in most cases?",
+          "options": [
+              "The cloud has no capability to process image data",
+              "Image data cannot be digitized",
+              "Bandwidth and latency constraints make local processing essential",
+              "Edge devices lack support for compression"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which dynamic sensor system oscillates before settling at its final value?",
+          "options": [
+              "Zero-order system",
+              "First-order system",
+              "Second-order system",
+              "Linearized system"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "In selecting a microcontroller for a real-time industrial automation controller, which features are essential?",
+          "options": [
+              "Interrupt-enabled GPIOs",
+              "Support for floating-point arithmetic",
+              "Fast I/O switching capability",
+              "Real-time clock (RTC) with battery backup",
+              "Integrated wireless radio"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are designing a wearable fall-detection device for elderly people. Which sensing strategy provides the most reliable detection capability?",
+          "options": [
+              "Pressure sensor in the shoe sole",
+              "GNSS + altimeter",
+              "3-axis accelerometer with threshold-based detection",
+              "Ultrasonic proximity sensor"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What are valid methods to compensate or manage drift in sensors?",
+          "options": [
+              "Periodic recalibration",
+              "Hardware replacement",
+              "Algorithmic offset correction",
+              "Disabling sensor during idle states",
+              "Using redundant sensors"
+          ],
+          "correct_options": [
+              0,
+              2,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "In a real-time system such as an automotive airbag controller, which operating behavior is mandatory?",
+          "options": [
+              "Execution of user interfaces with sub-second latency",
+              "Use of preemptive multitasking to prioritize emergency routines",
+              "Use of cooperative multitasking for fair CPU sharing",
+              "Minimizing use of hardware interrupts to avoid jitter"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which sensor characteristics directly affect real-time responsiveness in an IoT application?",
+          "options": [
+              "Response time",
+              "Stability",
+              "Error",
+              "Range",
+              "Sensitivity"
+          ],
+          "correct_options": [
+              0,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are designing a system that needs precise indoor tracking of individuals within a hospital. Which method is the best fit, considering both accuracy and infrastructure?",
+          "options": [
+              "GNSS with differential correction",
+              "RSSI-based WiFi trilateration",
+              "Bluetooth beacon fingerprinting",
+              "Hall effect sensors at doorways"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following statements about piezoelectric buzzers and loudspeakers is/are correct?",
+          "options": [
+              "Piezoelectric buzzers operate based on crystal oscillation.",
+              "Electromechanical buzzers rely on rapidly switching relays.",
+              "Piezoelectric buzzers can generate a full range of audio frequencies with high volume.",
+              "Loudspeakers typically use electromagnetic membrane deflection.",
+              "Both piezoelectric buzzers and loudspeakers are connected via two-wire configurations."
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "In which scenarios would a polling strategy be preferable over interrupts?",
+          "options": [
+              "Reading a non-critical sensor every 10 seconds",
+              "Debouncing a mechanical button",
+              "Receiving high-frequency serial communication",
+              "Monitoring an event where timing isn't critical",
+              "Detecting a fast, rare edge signal"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following are mechanical signals used in sensing?",
+          "options": [
+              "Torque",
+              "Velocity",
+              "Current",
+              "Pressure",
+              "Stress"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What characterizes hard real-time behavior in embedded systems?",
+          "options": [
+              "Response must occur within a deterministic time bound",
+              "Failure to meet deadlines may cause critical failure",
+              "Suitable for video streaming or sensor data logging",
+              "Requires fixed-priority or preemptive scheduling",
+              "Can be implemented entirely through polling"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are designing a precision irrigation system for agriculture. Which combination is most suitable?",
+          "options": [
+              "Passive soil sensors + cloud dashboard",
+              "Soil sensors + electrically controlled valve actuators",
+              "Wireless temperature sensors + fans",
+              "Pressure sensors + thermal actuators"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "An IoT weather station must emit an audible warning when wind speed exceeds a threshold. Power availability is limited and no amplification is available. Which actuator is most appropriate?",
+          "options": [
+              "A loudspeaker",
+              "An electromechanical buzzer",
+              "A piezoelectric buzzer",
+              "A vibration motor"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What is the primary reason that Arduino boards are rarely used in commercial products?",
+          "options": [
+              "They cannot support analog input",
+              "Their processors cannot run real-time operating systems",
+              "They are too large and power-inefficient for most production use cases",
+              "Their GPIO pins are not programmable",
+              "What are you talking about ??? They are used in commercial products!!"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following best describes the relationship between microcontroller architecture and vendor?",
+          "options": [
+              "All architectures are proprietary and manufactured by a single vendor",
+              "Architectures like AVR and PIC are design standards licensed to third parties",
+              "Architectures like ARM are licensed, while AVR and PIC are vendor-specific",
+              "Architecture choice only affects the number of GPIOs on the device"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which actuator type is most suitable for fine, linear motion in a 3D printer?",
+          "options": [
+              "Hydraulic actuator",
+              "Pneumatic actuator",
+              "Stepper motor",
+              "Electric linear actuator"
+          ],
+          "correct_options": [
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What features of GPIO pins affect their integration in embedded applications?",
+          "options": [
+              "PWM support",
+              "Interrupt enablement",
+              "Presence of internal pull-up/down resistors",
+              "Default ADC voltage reference level",
+              "Input impedance"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What distinguishes a sensor from an actuator in an IoT system?",
+          "options": [
+              "A sensor controls a physical process based on digital input; an actuator collects data",
+              "A sensor emits digital stimuli; an actuator stores data",
+              "A sensor converts real-world phenomena to digital data; an actuator does the opposite",
+              "A sensor receives signals from the internet; an actuator transmits them"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You need to design a chemical sensing device to detect presence of ethanol vapor in a factory. Power usage is not a concern. Which sensor type is most appropriate?",
+          "options": [
+              "Photoresistor with UV filter",
+              "Catalytic gas sensor",
+              "Capacitive soil humidity sensor",
+              "Thermocouple with alumel-chromel wires"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which factors should influence the choice between an AVR and a PIC microcontroller for the same task?",
+          "options": [
+              "Preferred development toolchain",
+              "Instruction set performance",
+              "Cost per unit at scale",
+              "Number of UART interfaces",
+              "Compatibility with general-purpose OSs"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You need to measure distance to an object in front of a robot with low interference from ambient light. Which sensor would you use?",
+          "options": [
+              "Photodiode",
+              "Infrared proximity sensor",
+              "Ultrasonic sensor",
+              "Capacitive sensor"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What challenges are introduced when scaling smart object networks to hundreds or thousands of nodes?",
+          "options": [
+              "Interference and channel contention",
+              "Increased energy demand at aggregation nodes",
+              "Duplicate hardware IDs across manufacturers",
+              "Increased probability of hardware failure",
+              "Incompatibility with analog sensors"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following can be functions of embedded firmware in smart objects?",
+          "options": [
+              "Handling ADC reads",
+              "Managing sleep/wake cycles",
+              "Executing communication protocols",
+              "Performing edge inference or classification",
+              "Virtualization of physical hardware"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are deploying an indoor air quality monitoring system with multiple gas sensors. The devices are battery-powered. Which communication strategy is most power-efficient?",
+          "options": [
+              "Keep the radio on continuously for real-time access",
+              "Use a fixed-rate polling approach with long-range Wi-Fi",
+              "Employ event-triggered reporting with LoRa or BLE",
+              "Transmit every second using HTTP POST requests"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are designing a room occupancy monitor for a smart building. Which sensor configuration is most appropriate?",
+          "options": [
+              "Ultrasonic sensor facing the doorway",
+              "Magnetic field sensor on the wall",
+              "Photogate sensor across the door frame",
+              "Thermistor embedded in the ceiling"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which mechanisms can a firmware engineer use to wake a microcontroller from a deep sleep mode?",
+          "options": [
+              "Timer overflow",
+              "External GPIO interrupt",
+              "Software-driven interrupt request",
+              "UART signal edge detection",
+              "Reset via watchdog timer"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following are static characteristics of sensors?",
+          "options": [
+              "Accuracy",
+              "Resolution",
+              "Sensitivity",
+              "Rise time",
+              "Drift"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following are true about microcontroller bus width?",
+          "options": [
+              "A 32-bit microcontroller can execute 16-bit operations in fewer cycles than an 8-bit controller",
+              "Bus width determines the precision of ADC conversions",
+              "A larger bus width often allows addressing more memory",
+              "8-bit MCUs are typically more cost-effective for simple automation tasks",
+              "Bus width is irrelevant when evaluating microcontroller performance"
+          ],
+          "correct_options": [
+              0,
+              2,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following are valid environmental criteria when selecting a sensor?",
+          "options": [
+              "Power consumption",
+              "Interference from nearby sensors",
+              "Cost of ownership",
+              "Sensor range",
+              "Sensor size"
+          ],
+          "correct_options": [
+              0,
+              1,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following power optimization strategies apply to smart objects?",
+          "options": [
+              "Use low-power radios with sleep modes",
+              "Reduce sensing frequency",
+              "Buffer data before transmission",
+              "Use full TCP/IP stack to optimize retransmission",
+              "Switch to deep sleep whenever idle"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which sensors operate as transducers?",
+          "options": [
+              "Strain gauge",
+              "Microphone",
+              "LED",
+              "Loudspeaker",
+              "EEPROM"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What is the biggest power drain in a typical smart object?",
+          "options": [
+              "Sensor sampling",
+              "Sleep mode",
+              "Communication module",
+              "Actuator response"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following factors influence power consumption in microcontroller systems?",
+          "options": [
+              "Operating clock speed",
+              "Number of enabled peripherals (e.g., ADC, UART)",
+              "GPIO logic levels (high vs low)",
+              "Use of hardware interrupts",
+              "Time spent in sleep modes"
+          ],
+          "correct_options": [
+              0,
+              1,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which trade-offs must you consider when choosing between an 8-bit and a 32-bit microcontroller?",
+          "options": [
+              "Execution speed",
+              "Memory size and addressing",
+              "Peripheral support",
+              "Availability of floating-point hardware",
+              "Cost and power consumption"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which sensors produce an analog output?",
+          "options": [
+              "Thermistor",
+              "LDR",
+              "DS1620",
+              "PIR sensor",
+              "Hall-effect sensor (analog type)"
+          ],
+          "correct_options": [
+              0,
+              1,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What is the role of the bootloader in microcontroller-based systems?",
+          "options": [
+              "It encrypts all machine code before execution",
+              "It maps ADC channels to GPIO ports",
+              "It loads and starts user code after reset or power-up",
+              "It schedules interrupt service routines"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following are active sensing systems?",
+          "options": [
+              "LiDAR",
+              "Hall-effect current sensor",
+              "Thermistor",
+              "Radar",
+              "PIR sensor"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are developing firmware for a wireless sensor node that must monitor a digital signal and immediately log a timestamp when it goes high. What is the best implementation strategy?",
+          "options": [
+              "Use a while-loop with GPIO reads and log when the state changes",
+              "Use a timer to poll the GPIO line periodically",
+              "Tie a rising-edge interrupt to a timestamping ISR",
+              "Use a cooperative multitasking system to alternate between monitoring and logging"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "A factory needs to detect leaks of various organic solvents (ethanol, methanol, etc.). Which sensor characteristics or technologies are relevant?",
+          "options": [
+              "Catalytic oxidation capability",
+              "ISFET with solvent-specific membrane",
+              "Pore-filtering for molecular selectivity",
+              "Requirement for heating element",
+              "Use of infrared pyrometer for gas detection"
+          ],
+          "correct_options": [
+              0,
+              2,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following sensors is best suited to estimate elevation changes within a building for an indoor positioning application?",
+          "options": [
+              "Magnetometer",
+              "Thermistor",
+              "Barometric pressure sensor",
+              "Ultrasonic rangefinder"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are designing a smoke detector with discrimination between vapor, dust, and combustion. Which sensor combination is most effective?",
+          "options": [
+              "Photoelectric sensor only",
+              "Ionization chamber only",
+              "Catalytic sensor + CO sensor + photoelectric sensor",
+              "Thermocouple + LDR"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which development step is unique to microcontroller programming (compared to general-purpose OS-based programming)?",
+          "options": [
+              "Writing code in high-level languages like C/C++",
+              "Compiling source code into machine code",
+              "Uploading binary via bootloader to flash memory",
+              "Debugging with breakpoints"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following limitations or trade-offs apply to stepper motors?",
+          "options": [
+              "High power consumption",
+              "Difficult control at high speeds",
+              "High torque at low resolution",
+              "Requires AC input exclusively",
+              "Often requires specific driver circuits"
+          ],
+          "correct_options": [
+              0,
+              1,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which trade-offs should be considered when selecting between analog and digital sensors?",
+          "options": [
+              "Noise immunity",
+              "Complexity of signal routing",
+              "Requirement for signal conditioning",
+              "Scalability across networked nodes",
+              "Data format compatibility with machine learning models"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are designing a low-power IoT sensor node that must visually indicate three different states (e.g., idle, transmitting, error) with minimal power consumption and only two available GPIO pins. Which output component strategy is most appropriate?",
+          "options": [
+              "A monochrome LCD display with SPI interface",
+              "Three individual monochromatic LEDs",
+              "An RGB LED in common cathode configuration",
+              "An RGB LED driven via charlieplexing"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "A garbage collection system needs to know if a dumpster is full. Which sensor would be best?",
+          "options": [
+              "Hall effect sensor",
+              "Light-dependent resistor",
+              "Ultrasonic distance sensor",
+              "Capacitive humidity sensor"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You need to design an IoT-controlled lock system for a storage cabinet. The system must allow opening on command and maintain its position without continuous power. Which of the following components are suitable or required?",
+          "options": [
+              "A solenoid with a spring return",
+              "A stepper motor with holding torque",
+              "A servo motor configured for angle locking",
+              "An electromechanical relay in SPDT mode",
+              "A piezoelectric vibration motor"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What is a key benefit of using digital sensors over analog sensors in IoT?",
+          "options": [
+              "Reduced sampling rate",
+              "Greater need for amplification",
+              "Immunity to signal degradation over long wires",
+              "Incompatibility with microcontrollers"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which features distinguish Raspberry Pi from Arduino?",
+          "options": [
+              "Capable of running full Linux OS",
+              "Contains built-in ADC",
+              "Supports HDMI output and USB peripherals",
+              "Better suited for low-latency sensor actuation",
+              "Suitable for edge computing with complex logic"
+          ],
+          "correct_options": [
+              0,
+              2,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "In an energy-constrained microcontroller application that operates periodically based on external triggers, what is the most effective strategy to conserve energy?",
+          "options": [
+              "Keep the processor in a while-loop with a `NOP` instruction until the trigger arrives",
+              "Lower the clock speed but keep peripherals active",
+              "Rely on interrupts to wake the controller from deep sleep",
+              "Disable all I/O lines and wait for a user-defined polling interval"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are tasked with building a smart environmental monitoring station to measure air quality. Which sensors/components are relevant?",
+          "options": [
+              "Laser-based particle counter",
+              "UV photo diode",
+              "Thermocouple (Type K)",
+              "CO catalytic sensor",
+              "Piezoelectric buzzer"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which sensor classification refers to the dependence on direction/orientation?",
+          "options": [
+              "Passive vs. Active",
+              "Analog vs. Digital",
+              "Scalar vs. Vector",
+              "Contact vs. Non-contact"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following are typical use cases for digital temperature sensors (vs. analog)?",
+          "options": [
+              "Remote monitoring over industrial field buses",
+              "High-precision laboratory thermometry",
+              "Embedded systems with no ADC available",
+              "Systems requiring factory calibration",
+              "Ultra-fast response in high-speed control loops"
+          ],
+          "correct_options": [
+              0,
+              2,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following are common weaknesses of low-cost MEMS-based IMUs?",
+          "options": [
+              "Sensor drift over time",
+              "Incompatibility with hardware interfaces like I2C",
+              "Need for computational filtering (e.g., Kalman)",
+              "Large physical footprint",
+              "Sensitivity to vibration"
+          ],
+          "correct_options": [
+              0,
+              2,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which core components are part of a typical smart object's internal architecture?",
+          "options": [
+              "Sensing/actuation element",
+              "Analog signal conditioning stage",
+              "Communication interface",
+              "Application-layer protocol stack",
+              "Human-machine interface (HMI)"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "In an industrial control system with several sensor readings and a few critical emergency triggers, which structure provides the best compromise between responsiveness and control flow?",
+          "options": [
+              "All logic handled in a single super-loop",
+              "All logic inside interrupt handlers",
+              "Time-triggered polling for all inputs",
+              "Mixed design: polling for regular data, interrupts for urgent events"
+          ],
+          "correct_options": [
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following software-level actions can reduce power consumption in microcontrollers?",
+          "options": [
+              "Disabling unused peripherals like ADC or DAC",
+              "Replacing `delay()` calls with sleep instructions",
+              "Increasing the processor clock to complete tasks faster",
+              "Grounding unused GPIO pins",
+              "Using reference voltage comparison modules at all times"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What makes piezoelectric motors particularly useful in scientific instrumentation?",
+          "options": [
+              "Their ability to convert AC to DC internally without electromagnetic interference",
+              "Their precision in displacing payloads at nanometer scales",
+              "Their compatibility with standard PWM control without additional logic",
+              "Their capability to generate sinusoidal magnetic fields through direct voltage input"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which techniques are used in indoor localization systems that aim for sub-meter resolution?",
+          "options": [
+              "Time-of-flight using synchronized base stations",
+              "RSSI fingerprinting from known WiFi beacons",
+              "Triangulation based on magnetometer heading",
+              "Angle-of-arrival using antenna arrays",
+              "Bluetooth beacon averaging over time"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What is the primary function of the EEPROM in an Arduino board?",
+          "options": [
+              "Store compiled sketches before uploading",
+              "Provide temporary storage for sensor readings",
+              "Store runtime variables",
+              "Provide non-volatile storage for configuration data"
+          ],
+          "correct_options": [
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are designing a low-cost soil moisture monitoring system using Arduino. Which sensor configuration is most appropriate?",
+          "options": [
+              "Digital capacitive sensor connected to digital pin with PWM",
+              "Analog capacitive sensor connected to an ADC pin",
+              "Thermistor connected to A0",
+              "Ultrasonic sensor measuring ground reflection time"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are building a prototype smart irrigation system. Which combination of device and sensor makes the most sense?",
+          "options": [
+              "Raspberry Pi + PIR motion sensor",
+              "Arduino + capacitive soil moisture sensor",
+              "Raspberry Pi + photogate",
+              "Arduino + accelerometer"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are programming a microcontroller-based vending machine. It must update its internal state when a button is pressed, even while checking temperature and stock levels. Which strategies enable correct operation?",
+          "options": [
+              "Assign button press to an interrupt line",
+              "Use preemptive multitasking with prioritized threads",
+              "Poll GPIO pins every 10 seconds",
+              "Use cooperative multitasking with non-blocking code",
+              "Rely on hardware timers for stock level checks"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following sensors are active?",
+          "options": [
+              "Camera with flash",
+              "Radar",
+              "Thermistor",
+              "Soil moisture sensor",
+              "PIR sensor"
+          ],
+          "correct_options": [
+              0,
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following are limitations of prototyping boards like Arduino UNO in professional IoT applications?",
+          "options": [
+              "Large physical footprint",
+              "High power consumption in idle state",
+              "Inflexible bootloader",
+              "Poorly documented schematics",
+              "Exposed I/O lines and debug interfaces"
+          ],
+          "correct_options": [
+              0,
+              1,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What are valid applications of capacitive sensors?",
+          "options": [
+              "Moisture detection",
+              "Gas concentration monitoring",
+              "Touch interfaces",
+              "Object proximity detection",
+              "Metal detection in landmines"
+          ],
+          "correct_options": [
+              0,
+              2,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What are benefits of embedded processing in a smart object?",
+          "options": [
+              "Reduces raw data transmission load",
+              "Allows local actuation decisions",
+              "Removes the need for communication interfaces",
+              "Enables sensor fusion",
+              "Ensures that the device can operate with AC power only"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are designing a vibration sensor for bridge health monitoring. It must sample high-frequency signals and transmit summaries daily. Which approach is best?",
+          "options": [
+              "Stream all raw data to the cloud continuously",
+              "Perform FFT analysis onboard and send frequency-domain summaries",
+              "Use a PIR sensor to detect bridge traffic",
+              "Only measure once a month and transmit immediately"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which sensors can detect the presence or absence of a nearby object?",
+          "options": [
+              "Optocoupler (slotted configuration)",
+              "PIR Motion Sensor",
+              "Hall Effect Sensor",
+              "Photoresistor",
+              "IMU (Inertial Measurement Unit)"
+          ],
+          "correct_options": [
+              0,
+              1,
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are building a battery-powered wildlife tracking collar for small animals. It must report GPS location, temperature, and activity level periodically. Which sensor components or features are best?",
+          "options": [
+              "GNSS chipset with NMEA serial output",
+              "MEMS 9DoF IMU with low sample rate",
+              "Thermocouple with Type S wiring",
+              "Thermistor with voltage divider",
+              "RTC with battery backup"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which feature distinguishes a servo motor from a basic DC motor in microcontroller applications?",
+          "options": [
+              "It requires alternating current instead of direct current.",
+              "It incorporates an internal mechanism for position feedback and control.",
+              "It operates without any external power supply.",
+              "It requires four-wire connections for full operation."
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You are building a battery-powered portable environmental sensing device. It includes a small display for minimal status output (icons or numbers). Which actuator option would best balance power consumption, visibility, and simplicity?",
+          "options": [
+              "7-segment LED display with charlieplexing",
+              "RGB matrix LED display with SPI driver",
+              "Low-power monochrome LCD with integrated backlight",
+              "E-Ink display module"
+          ],
+          "correct_options": [
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which are limitations of polling in embedded control logic?",
+          "options": [
+              "CPU remains active during the entire polling cycle",
+              "Polling introduces unpredictable delays during high computation loads",
+              "Polling provides faster response than interrupts in all cases",
+              "It is difficult to guarantee real-time response with polling",
+              "Polling is only possible in RTOS-managed systems"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "A remote industrial plant wants to monitor vibration-based machine degradation and power usage using a non-invasive system. Which sensors are relevant?",
+          "options": [
+              "MEMS accelerometer",
+              "Laser vibrometer",
+              "Inductive current clamp",
+              "Hall effect sensor",
+              "LDR (Light Dependent Resistor)"
+          ],
+          "correct_options": [
+              0,
+              2,
+              3
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "A smart door lock system must remain off most of the time and instantly respond to a button press. Power draw must be minimized. Which strategy should be implemented?",
+          "options": [
+              "Keep CPU in a fast loop checking the button state",
+              "Set the GPIO pin for button input with a rising-edge interrupt and deep sleep",
+              "Periodically wake up using a timer and poll the button",
+              "Disable all GPIOs and only rely on internal oscillators"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which statement best describes the role of a transducer in IoT?",
+          "options": [
+              "It translates TCP/IP packets to sensor-readable formats",
+              "It stores physical world events in flash memory",
+              "It converts energy from one form to another",
+              "It provides analog-to-digital conversion only"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "You need to build a low-cost intrusion detection system for a school hallway. Which sensor should be used?",
+          "options": [
+              "Ultrasonic sensor",
+              "Gyroscope",
+              "PIR sensor",
+              "Capacitive sensor"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "What are key design principles for real-time embedded systems?",
+          "options": [
+              "Ensure predictable timing of task execution",
+              "Minimize shared resource access during ISRs",
+              "Prefer cooperative multitasking over preemption for responsiveness",
+              "Use static memory allocation when possible",
+              "Prioritize event-driven logic over polling where timing matters"
+          ],
+          "correct_options": [
+              0,
+              1,
+              3,
+              4
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which sensor would be most appropriate for measuring soil moisture in a low-cost agricultural IoT system with a basic microcontroller?",
+          "options": [
+              "Thermal conductivity hygrometer",
+              "Time domain reflectometry (TDR) sensor",
+              "Capacitive soil humidity sensor",
+              "Tensiometer with barometric pressure transducer"
+          ],
+          "correct_options": [
+              2
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which of the following describes sensor drift?",
+          "options": [
+              "Loss of signal caused by vibration",
+              "Gradual deviation of the output from the true value over time",
+              "Rapid fluctuation in sensor output due to noise",
+              "Delay between input stimulus and output signal"
+          ],
+          "correct_options": [
+              1
+          ],
+          "questionType": "multipleChoice"
+      },
+      {
+          "question": "Which method provides absolute pressure readings regardless of environment?",
+          "options": [
+              "Gauge pressure sensor",
+              "Barometric sensor",
+              "Sealed gauge pressure sensor",
+              "Absolute pressure sensor"
+          ],
+          "correct_options": [
+              3
+          ],
+          "questionType": "multipleChoice"
+      }
+  ]
+}
