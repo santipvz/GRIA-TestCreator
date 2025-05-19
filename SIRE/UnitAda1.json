@@ -1,0 +1,26 @@
+{
+  "questions": [
+    {
+      "question": "Una tarea tiene una entrada que nunca se llama desde el programa principal. ¿Qué puede pasar?",
+      "options": [
+        "La tarea lanza una excepción automáticamente.",
+        "La tarea queda esperando indefinidamente en esa entrada.",
+        "La tarea termina normalmente sin ejecutar la entrada.",
+        "La tarea se ejecuta igual, sin bloqueo."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si olvidas compilar el cuerpo de un paquete antes de usarlo?",
+      "options": [
+        "Se generan advertencias pero no errores.",
+        "El programa no compila porque falta parte del paquete.",
+        "El compilador crea el cuerpo automáticamente.",
+        "El programa funciona pero solo usa las declaraciones."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    }
+  ]
+}

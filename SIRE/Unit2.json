@@ -1,0 +1,237 @@
+{
+  "questions": [
+    {
+      "question": "En el código Lustre TrafficLight2, si Fase es 0 y el botón no se presiona, ¿qué estado muestra el semáforo?",
+      "options": ["GREEN", "WALK", "YELLOW", "RED", "DONTWALK"],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el sistema de dos semáforos, si el semáforo 1 está en rojo y el semáforo 2 está en verde, ¿qué ocurre después de 4 segundos?",
+      "options": [
+        "El semáforo 2 permanece en verde.",
+        "Ambos semáforos se apagan.",
+        "El semáforo 1 pasa directamente a verde.",
+        "El semáforo 2 pasa a ámbar durante 1 segundo y luego a rojo."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el nodo TrafficLight, si el botón (BOTON) se presiona en la fase 0 (verde), ¿qué efecto tiene?",
+      "options": [
+        "El semáforo pasa a la fase 1 (amarillo).",
+        "El semáforo pasa directamente a la fase 3 (rojo y peatones pueden caminar).",
+        "El semáforo permanece en verde.",
+        "El semáforo se apaga."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Analizando el código Lustre TrafficLight, ¿cuándo estará activa la señal WALK?",
+      "options": [
+        "Cuando BOTON se presiona.",
+        "Cuando Fase es 1.",
+        "Cuando Fase es 3.",
+        "Cuando Fase es 4."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cómo se actualiza Fase en el código Lustre TrafficLight cuando BOTON no es presionado?",
+      "options": [
+        "Si Fase está entre 0 y 4, se incrementa en 1 en cada ciclo.",
+        "Fase solo cambia cuando BOTON se presiona.",
+        "Fase siempre aumenta en 1 en cada iteración.",
+        "Fase disminuye en cada ciclo si BOTON no es presionado."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Analizando el código Lustre TrafficLight, ¿qué sucede cuando el botón BOTON no se presiona y Fase es 0?",
+      "options": [
+        "El semáforo permanece en verde.",
+        "El semáforo cambia a amarillo.",
+        "La señal WALK se activa.",
+        "El semáforo cambia a rojo."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuándo se activará la señal WALK en el código Lustre TrafficLight2?",
+      "options": [
+        "Cuando Fase es 3.",
+        "Cuando Fase es 4.",
+        "Cuando Fase toma el valor 1.",
+        "Cuando BOTON es presionado."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el código Lustre TrafficLight, ¿qué función cumple la expresión `pre(Fase)`?",
+      "options": [
+        "Reinicia Fase a 0 en cada ciclo.",
+        "Indica la fase previa del semáforo de forma constante.",
+        "Inicializa Fase con un valor predefinido.",
+        "Almacena el valor anterior de Fase para utilizarlo en el siguiente ciclo."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cómo se relaciona el formato RIF con el lenguaje Lustre?",
+      "options": [
+        "RIF se usa como un formato de intercambio de datos entre Lustre y simulaciones.",
+        "RIF transforma código Lustre en un modelo gráfico de simulación.",
+        "RIF es un lenguaje de programación alternativo a Lustre.",
+        "RIF es un compilador de Lustre para ejecución en hardware."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Pregunta 33:\nEn el nodo TrafficLight, ¿cuál es la fase en la que los peatones pueden cruzar?",
+      "options": [
+        "Fase 0 (verde para vehículos).",
+        "Fase 1 (amarillo para vehículos).",
+        "Fase 4 (rojo para vehículos y peatones deben prepararse para detenerse).",
+        "Fase 3 (rojo para vehículos y peatones pueden caminar)."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "3. Near-miss multiple choice\nPregunta 5:\nEn el nodo TrafficLight, si el botón (BOTON) se presiona en la fase 4 (rojo y peatones deben prepararse para detenerse), ¿qué ocurre?",
+      "options": [
+        "El semáforo se apaga.",
+        "El semáforo avanza a la fase 5.",
+        "El semáforo permanece en la fase 4.",
+        "El semáforo regresa a la fase 0 (verde)."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Según el código Lustre TrafficLight, ¿qué ocurre si BOTON no es presionado y Fase es igual a 0?",
+      "options": [
+        "El semáforo pasa a amarillo.",
+        "El semáforo sigue en verde.",
+        "El semáforo pasa a rojo.",
+        "La señal WALK se enciende."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es el propósito de `pre(Fase)` en el código Lustre TrafficLight?",
+      "options": [
+        "Guardar el valor anterior de Fase para usarlo en el siguiente ciclo.",
+        "Mantener un registro constante de la fase previa del semáforo.",
+        "Reiniciar Fase a 0 en cada iteración.",
+        "Inicializar Fase con un valor predefinido."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la condición en el código Lustre TrafficLight para que la señal WALK se active?",
+      "options": [
+        "Cuando Fase toma el valor 3.",
+        "Cuando Fase es igual a 1.",
+        "Cuando BOTON se mantiene presionado.",
+        "Cuando Fase alcanza 4."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el código Lustre TrafficLight2, ¿cuál es la condición para que Fase tome el valor 1?",
+      "options": [
+        "BOTON es verdadero y la señal DONTWALK era verdadera en el ciclo anterior.",
+        "Fase es mayor que 2.",
+        "BOTON es verdadero en cualquier momento.",
+        "Fase es igual a 4."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Analizando el código Lustre TrafficLight2, si el botón BOTON se presiona y DONTWALK era falso en el ciclo anterior, ¿a qué valor cambiará Fase en el siguiente ciclo?",
+      "options": ["1", "2", "3", "0"],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Pregunta 16:\nEn el nodo TrafficLight, si el botón (BOTON) se presiona en la fase 4 (rojo y peatones deben prepararse para detenerse), ¿qué efecto tiene?Pregunta 5Respuesta",
+      "options": [
+        "El semáforo regresa a la fase 0 (verde).",
+        "El semáforo avanza a la fase 5.",
+        "El semáforo permanece en la fase 4.",
+        "El semáforo se apaga."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Pregunta 13:\nEn el sistema de dos semáforos, si el semáforo 1 está en verde y el semáforo 2 está en rojo, ¿qué ocurre si se detecta un coche en el semáforo 2 (carSensor = true)?",
+      "options": [
+        "El semáforo 1 permanece en verde.",
+        "El semáforo 1 pasa a ámbar durante 1 segundo y luego a rojo.",
+        "El semáforo 2 pasa directamente a verde sin esperar.",
+        "Ambos semáforos se apagan."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el código Lustre TrafficLight2, si BOTON se presiona y la señal DONTWALK era falsa en el ciclo anterior, ¿qué valor tomará Fase en el siguiente ciclo?",
+      "options": ["2", "1", "0", "3"],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Cause-effect multiple choice\nPregunta 3:\nSi en el nodo TrafficLight el botón (BOTON) se presiona mientras el semáforo está en la fase 2 (rojo para vehículos), ¿qué efecto tiene?",
+      "options": [
+        "El semáforo pasa a la fase 3 inmediatamente.",
+        "El semáforo vuelve a la fase 0 (verde).",
+        "El semáforo continúa su ciclo normal y avanza a la fase 3 después de completar la fase 2.",
+        "El semáforo se bloquea."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Por qué se usa el formato RIF en la simulación de sistemas reactivos?",
+      "options": [
+        "Para gestionar la comunicación entre las entradas y salidas del sistema.",
+        "Para visualizar los estados del sistema en tiempo real.",
+        "Para optimizar el rendimiento del código en hardware específico.",
+        "Para compilar código Lustre más eficientemente."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Cuál es la función principal del formato RIF en la simulación de sistemas reactivos?",
+      "options": [
+        "Ejecutar directamente programas Lustre sin necesidad de compilación.",
+        "Traducir código Lustre a un lenguaje gráfico.",
+        "Proporcionar un entorno interactivo para escribir código Lustre.",
+        "Servir como un puente para la lectura de entradas y escritura de salidas en simulaciones."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el nodo TrafficLight, ¿cuál es la fase en la que el semáforo para vehículos está en amarillo?",
+      "options": ["Fase 0.", "Fase 3.", "Fase 2.", "Fase 1."],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    }
+  ]
+}

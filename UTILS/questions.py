@@ -59,7 +59,7 @@ def questionGenerator(
             questionsData = json.load(file)
         numOfQuestionsInUnit = len(questionsData["questions"])
 
-        if questionsOfEachUnit[filePath] < numOfQuestionsInUnit:
+        if questionsOfEachUnit[filePath] <= numOfQuestionsInUnit:
             choosenQuestions = random.sample(
                 questionsData["questions"], questionsOfEachUnit[filePath]
             )

@@ -1,0 +1,191 @@
+{
+  "questions": [
+    {
+      "question": "En el nodo activar_alarma, ¿para qué sirven clock_lento y clock_rapido?",
+      "options": [
+        "No son necesarios.",
+        "clock_lento es el flujo con agujeros del reloj clk_lento.",
+        "clock_rapido el flujo con agujeros del reloj clk_rapido.",
+        "Ambos son flujos que funcionan sobre el reloj de base y sobre él se crea clock."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Por qué podría generar el siguiente código un error de reloj? \n`temp_filtrada = temp when clk_rapido;`",
+      "options": [
+        "Porque `when` no se puede aplicar a variables reales",
+        "Porque `temp` podría no tener una restricción de reloj definida",
+        "Porque `se debería usar `current` en vez de `when`",
+        "Porque falta la función `merge` para combinar valores"
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué significa que en una variable de entrada de un nodo aparezca X:Y when clk_lento?",
+      "options": [
+        "clk_lento controla cuándo se ejecuta el nodo, no cuándo se actualiza X.",
+        "El semáforo 2 pasa a verde inmediatamente.",
+        "La variable X está definida con tipo Y y solo toma valores cuando clk_lento está activo.",
+        "La variable X se actualiza en cada ciclo del sistema, sin depender de clk_lento."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el nodo activar_alarma, ¿qué contiene clock= merge cond (true->true) (false->false);?",
+      "options": [
+        "Un flujo que funciona sobre el reloj clk_lento y que estará activado cuando se cumpla que ambos relojes estén activados y que la temperatura filtrada sobre clk_lento es mayor de 28.0.",
+        "Un flujo que funciona sobre el reloj de base y que estará activado cuando se cumpla que ambos relojes estén activados y que la temperatura filtrada sobre clk_lento es mayor de 28.0.",
+        "Un flujo que funciona sobre el reloj de base y que estará siempre activado.",
+        "Un flujo que funciona sobre el reloj clk_rapido y que estará activado cuando se cumpla que ambos relojes estén activados y que la temperatura filtrada sobre clk_lento es mayor de 28.0."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué sucede si intentas acceder a un índice fuera del rango en un array en Lustre?",
+      "options": [
+        "Se accederá a una posición de memoria no definida, causando un comportamiento inesperado.",
+        "El programa devolverá un valor nulo por defecto.",
+        "El código no compilará y generará un error de índice fuera de rango.",
+        "El compilador ajustará el índice automáticamente para evitar errores."
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Si quisieras acceder al primer sensor de un array llamado `array_sensores`, ¿cuál de estas opciones es la correcta?",
+      "options": [
+        "first(array_sensores);",
+        "array_sensores.0;",
+        "array_sensores(1);",
+        "array_sensores[0];"
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Imagina que estás diseñando un sistema en Lustre para gestionar sensores de temperatura. Has definido la siguiente estructura:\ntype sensorTemp = struct{id: int; temperatura: real};  \n¿Qué tipo de dato es `sensorTemp` en Lustre? ",
+      "options": [
+        "Una estructura que almacena un identificador y una temperatura",
+        "Un array de enteros y reales",
+        "Una función que calcula temperaturas",
+        "Un tipo enumerado para clasificar sensores"
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Tienes el siguiente array en Lustre:\narray = [sensor(1, 25.0), sensor(2, 30.5), sensor(3, 28.3)];\nSi aplicamos la función map<<extraer_temperatura,3>>(array);, ¿qué sucederá?",
+      "options": [
+        "Se generará un nuevo array con solo los valores de temperatura de los sensores.",
+        "El programa generará un error porque `map` solo funciona con números enteros.",
+        "El programa fallará porque `map` no puede usarse con estructuras.",
+        "El array original se modificará, eliminando los identificadores de los sensores."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Si queremos incrementar en 2 la temperatura de los sensores con identificador par, ¿cuál es la mejor solución?",
+      "options": [
+        "Usar `fold` para recorrer el array y modificarlo en cada paso",
+        "Aplicar `when` para seleccionar solo los valores impares y luego sumarle 2",
+        "Usar `map` con una función que modifique solo los elementos con `id mod 2 =0`",
+        "Reemplazar todos los valores del array con una nueva versión"
+      ],
+      "correct_option": 2,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el nodo activar_alarma, ¿qué devuelve alarma=if clock then ACTIVADO else NOACTIVADO;?",
+      "options": [
+        "Un 0 cuando alarma sea ACTIVADO y 1 cuando sea NOACTIVADO.",
+        "Un mensaje por pantalla de ACTIVADO o NOACTIVADO según sea.",
+        "Un string de ACTIVADO o NOACTIVADO según sea.",
+        "Un 1 cuando alarma sea ACTIVADO y 0 cuando sea NOACTIVADO."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si aplicamos `map` sobre un array de sensores con una función que devuelve un booleano?",
+      "options": [
+        "El programa no compilará porque `map` solo funciona con números.",
+        "La función fallará si el booleano no está dentro de una estructura.",
+        "El resultado será un único valor booleano en vez de un array.",
+        "Se generará un array de booleanos del mismo tamaño que el array original."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué sucede si se usa `current(temp) when clk_lento` en un sistema de control de temperatura?",
+      "options": [
+        "Se eliminan valores de temperatura previos al ciclo actual.",
+        "Se mantiene la última temperatura registrada cuando clk_lento está activo.",
+        "La temperatura solo se actualiza cuando clk_rapido está activo.",
+        "Se fusionan los valores de temp con dos señales de reloj."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "En el nodo activar_alarma, ¿qué significa el true en clock_lento = merge clk_lento (true->temp_sincronizada>28.0) (false->false);?",
+      "options": [
+        "Es el caso afirmativo que se tiene que ejecutar cuando se cumple la condición clk_lento.",
+        "Se está inicializando el valor de temp_sincronizada.",
+        "Es un parámetro más dentro del nodo merge.",
+        "Se está inicializando el valor de temp_sincronizada>28.0."
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué ocurre si usamos `merge clk_rapido (true->true) (false->false)`?",
+      "options": [
+        "El código generará un error de tipo.",
+        "El resultado será true solo cuando clk_rapido esté activo.",
+        "Se sincronizarán dos variables de diferente reloj.",
+        "Se fusionarán dos señales de reloj en una sola."
+      ],
+      "correct_option": 1,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Qué error podría ocurrir si sincronizamos una variable con `current(temp) when clk_lento`?",
+      "options": [
+        "El código no compilará porque `current` solo funciona con booleanos.",
+        "La sincronización ocurrirá correctamente sin restricciones.",
+        "Se pierde información porque `current` descarta valores previos.",
+        "Si `temp` tiene una restricción de reloj distinta, habrá un error de compatibilidad."
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "Imagina que estás implementando un sistema en Lustre que almacena las temperaturas de cinco sensores en un array.\n¿Cuál de las siguientes opciones representa correctamente la definición de un array de estructuras en Lustre?",
+      "options": [
+        "type array_sensores = sensorTemp^5;",
+        "type array_sensores = (sensorTemp, sensorTemp, sensorTemp, sensorTemp, sensorTemp);",
+        "type array_sensores = real^5;",
+        "type array_sensores = [sensorTemp; 5];"
+      ],
+      "correct_option": 0,
+      "questionType": "singleChoice"
+    },
+    {
+      "question": "¿Quieres calcular la temperatura media de un conjunto de sensores. ¿Qué combinación de iteradores en Lustre es más eficiente para este cálculo?\n\nPregunta 10Respuesta",
+      "options": [
+        "fillred para extraer las temperaturas y red para sumarlas",
+        "red para extraer las temperaturas y map para sumarlas",
+        "red para extraer las temperaturas y fillred para sumarlas",
+        "map para extraer las temperaturas y red para sumarlas"
+      ],
+      "correct_option": 3,
+      "questionType": "singleChoice"
+    }
+  ]
+}
